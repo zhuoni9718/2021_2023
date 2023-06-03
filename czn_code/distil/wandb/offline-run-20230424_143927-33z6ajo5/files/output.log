@@ -1,0 +1,10 @@
+Fine-tuning facebook/bart-large...
+Testing facebook/bart-large...
+Traceback (most recent call last):
+  File "/users5/znchen/distil/ft_frame.py", line 287, in <module>
+    main()
+  File "/users5/znchen/distil/ft_frame.py", line 280, in main
+    test(args.dataset_class,model_epochnum,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/ft_frame.py", line 203, in test
+    model_path = f'./tmp/{modelname}/{dataLoader_key}'
+NameError: name 'modelname' is not defined

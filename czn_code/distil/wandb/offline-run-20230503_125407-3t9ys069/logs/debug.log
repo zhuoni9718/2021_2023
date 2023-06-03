@@ -1,0 +1,31 @@
+2023-05-03 12:54:07,025 INFO    MainThread:111343 [wandb_setup.py:_flush():75] Loading settings from //users5/znchen/.config/wandb/settings
+2023-05-03 12:54:07,025 INFO    MainThread:111343 [wandb_setup.py:_flush():75] Loading settings from /users5/znchen/distil/wandb/settings
+2023-05-03 12:54:07,025 INFO    MainThread:111343 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'offline'}
+2023-05-03 12:54:07,025 INFO    MainThread:111343 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'gen_model_frame.py', 'program': '/users5/znchen/distil/gen_model_frame.py'}
+2023-05-03 12:54:07,025 INFO    MainThread:111343 [wandb_init.py:_log_setup():437] Logging user logs to /users5/znchen/distil/wandb/offline-run-20230503_125407-3t9ys069/logs/debug.log
+2023-05-03 12:54:07,025 INFO    MainThread:111343 [wandb_init.py:_log_setup():438] Logging internal logs to /users5/znchen/distil/wandb/offline-run-20230503_125407-3t9ys069/logs/debug-internal.log
+2023-05-03 12:54:07,026 INFO    MainThread:111343 [wandb_init.py:init():471] calling init triggers
+2023-05-03 12:54:07,026 INFO    MainThread:111343 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {}
+2023-05-03 12:54:07,026 INFO    MainThread:111343 [wandb_init.py:init():524] starting backend
+2023-05-03 12:54:07,026 INFO    MainThread:111343 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-05-03 12:54:07,033 INFO    MainThread:111343 [backend.py:ensure_launched():217] starting backend process...
+2023-05-03 12:54:07,037 INFO    MainThread:111343 [backend.py:ensure_launched():222] started backend process with pid: 111444
+2023-05-03 12:54:07,038 INFO    MainThread:111343 [wandb_init.py:init():533] backend started and connected
+2023-05-03 12:54:07,040 INFO    MainThread:111343 [wandb_init.py:init():597] updated telemetry
+2023-05-03 12:54:07,042 INFO    MainThread:111343 [wandb_init.py:init():659] starting run threads in backend
+2023-05-03 12:54:12,053 INFO    MainThread:111343 [wandb_run.py:_console_start():1897] atexit reg
+2023-05-03 12:54:12,054 INFO    MainThread:111343 [wandb_run.py:_redirect():1770] redirect: SettingsConsole.REDIRECT
+2023-05-03 12:54:12,055 INFO    MainThread:111343 [wandb_run.py:_redirect():1775] Redirecting console.
+2023-05-03 12:54:12,059 INFO    MainThread:111343 [wandb_run.py:_redirect():1831] Redirects installed.
+2023-05-03 12:54:12,059 INFO    MainThread:111343 [wandb_init.py:init():684] run started, returning control to user process
+2023-05-03 12:54:12,082 INFO    MainThread:111343 [wandb_setup.py:_flush():75] Loading settings from //users5/znchen/.config/wandb/settings
+2023-05-03 12:54:12,082 INFO    MainThread:111343 [wandb_setup.py:_flush():75] Loading settings from /users5/znchen/distil/wandb/settings
+2023-05-03 12:54:12,083 INFO    MainThread:111343 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'offline'}
+2023-05-03 12:54:12,083 INFO    MainThread:111343 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'gen_model_frame.py', 'program': '/users5/znchen/distil/gen_model_frame.py'}
+2023-05-03 12:54:12,083 INFO    MainThread:111343 [wandb_init.py:_log_setup():437] Logging user logs to /users5/znchen/distil/wandb/offline-run-20230503_125412-22ld7aj3/logs/debug.log
+2023-05-03 12:54:12,083 INFO    MainThread:111343 [wandb_init.py:_log_setup():438] Logging internal logs to /users5/znchen/distil/wandb/offline-run-20230503_125412-22ld7aj3/logs/debug-internal.log
+2023-05-03 12:54:12,083 INFO    MainThread:111343 [wandb_init.py:init():471] calling init triggers
+2023-05-03 12:54:12,083 INFO    MainThread:111343 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {}
+2023-05-03 12:54:12,083 INFO    MainThread:111343 [wandb_init.py:init():519] wandb.init() called when a run is still active

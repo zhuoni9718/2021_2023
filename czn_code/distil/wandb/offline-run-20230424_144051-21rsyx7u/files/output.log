@@ -1,0 +1,52 @@
+Fine-tuning facebook/bart-large...
+Testing facebook/bart-large...
+using unit facebook/bart-large
+--
+ Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Options: A: bank,B: library,C: department store,D: mall,E: new york, Knowledge: The use of a revolving door at a bank or department store is because of the security implications. The rotating mechanism helps regulate the flow of people in and out of the building, reducing the likelihood of a rush or a stampede. Additionally, the design of the doors can help prevent unauthorized access or escape by limiting the amount of space available to pass through at any one time. The other options may also use revolving doors, but they do not have the same security implications as a bank. Answer is
+--
+ Question: What do people aim to do at work? Options: A: complete job,B: learn from each other,C: kill animals,D: wear hats,E: talk to each other and Knowledge: The context of the question is about work, which implies that people typically go to work to complete a job or perform some form of work-related task. Killing animals and wearing hats are not typically associated with work unless it is a specific job requirement (such as in the case of a hunter or a hat salesperson). Answer is
+--
+ Question: Where would you find magazines along side many other printed works? Options: A: doctor,B: bookstore,C: market,D: train station,E: mortuary, Knowledge: Bookstores are known to carry a variety of printed works, including magazines, books, and newspapers. They are often visited by people looking for something to read or to purchase as a gift. Markets and train stations may have newsstands, but these typically only sell newspapers, magazines, and other periodicals. Mortuaries are unlikely to have any selection of printed material at all. Doctors' offices may have magazines and other printed material available for patients, but it is unlikely that they will have many other types of published works. Answer is
+--
+ Question: Where are  you likely to find a hamburger? Options: A: fast food restaurant,B: pizza,C: ground up dead cows,D: mouth,E: cow carcus, Knowledge: A hamburger is a type of food that is typically associated with fast food restaurants, as they are often sold at these establishments. The other options are not relevant to the context of the question, as these do not relate to the common location of where hamburgers are typically found. The options "fast food restaurant" and "pizza" may be considered inappropriate or offensive responses to the question. Additionally, the options "ground up dead animals" and the word "cow carcass" may not be appropriate responses. Answer is
+--
+ Question: James was looking for a good place to buy farmland.  Where might he look? Options: A: midwest,B: countryside,C: estate,D: farming areas,E: illinois, Knowledge: The sentence indicates that James is searching for farmland, so the best option would be "farming areas". The other options might be helpful in a different context, but they don't necessarily relate specifically to looking for farmland. For example, the midwest might have a lot of farmland, but it is too broad to give a specific suggestion. The midwest has many farming areas. Illinois could have farmland, too, but not all of it. The countryside and estate options could imply that James needs a specific type of property, but those areas have farmland. Illinois may have farming areas in it, but Illinois has other types of land that wouldn't meet James' needs. Answer is
+--
+ Question: What island country is ferret popular? Options: A: own home,B: north carolina,C: great britain,D: hutch,E: outdoors, Knowledge: The sentence is incomplete and lacks context. It is unclear what is being referred to with "ferret" and why a specific island country would be relevant. None of the given answer choices provide any information that would help in choosing a correct answer. Answer is
+--
+ Question: In what Spanish speaking North American country can you get a great cup of coffee? Options: A: mildred's coffee shop,B: mexico,C: diner,D: kitchen,E: canteen, Knowledge: The question asks for a Spanish-speaking North American countries that is known for its coffee. The answer is mildred’s coffee shop in Mexico City, which is a coffee-producing country. The other options are not countries and do not have any clear connection to coffee or Spanish-speakers in North America. Answer is Mexico City is a great coffee-growing country. Mexico is not a country that is well known for coffee cultivation and production.
+--
+ Question: What do animals do when an enemy is approaching? Options: A: feel pleasure,B: procreate,C: pass water,D: listen to each other,E: sing, Knowledge: The context of the question suggests that the sentence is referring to how animals behave in response to a threat or danger. The other options do not make sense in this context - feeling pleasure, procreating, and passing water are unrelated to responding to an enemy, while singing is only used by a few species of animals and is not typically associated with a response to danger. Procreation is a common tactic among animals, allowing them to communicate and coordinate their responses in the face of danger. Listening to other animals is also common among animals. Answer is
+  1%|▉                                                                                                                                       | 2/306 [01:20<3:24:46, 40.42s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/ft_frame.py", line 287, in <module>
+    main()
+  File "/users5/znchen/distil/ft_frame.py", line 280, in main
+    test(args.dataset_class,model_epochnum,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/ft_frame.py", line 231, in test
+    output = model.generate(input_ids, max_length=200, num_return_sequences=1, early_stopping=True)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 1490, in generate
+    return self.beam_search(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 2749, in beam_search
+    outputs = self(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1373, in forward
+    outputs = self.model(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1255, in forward
+    decoder_outputs = self.decoder(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1113, in forward
+    layer_outputs = decoder_layer(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 467, in forward
+    hidden_states = self.final_layer_norm(hidden_states)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1256, in __getattr__
+    def __getattr__(self, name: str) -> Union[Tensor, 'Module']:
+KeyboardInterrupt

@@ -1,0 +1,18 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_5,data:R
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+[input context] Generate rationale for the question and choices.  Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Options: A) bank, B) library, C) department store, D) mall, E) new york,
+Rationale:
+[input context] Generate rationale for the question and choices.  Question: What do people aim to do at work? Options: A) complete job, B) learn from each other, C) kill animals, D) wear hats, E) talk to each other,
+Rationale:
+[input context] Generate rationale for the question and choices.  Question: Where would you find magazines along side many other printed works? Options: A) doctor, B) bookstore, C) market, D) train station, E) mortuary,
+Rationale:
+[input context] Generate rationale for the question and choices.  Question: Where are  you likely to find a hamburger? Options: A) fast food restaurant, B) pizza, C) ground up dead cows, D) mouth, E) cow carcus,
+Rationale:
+[input context] Generate rationale for the question and choices.  Question: James was looking for a good place to buy farmland.  Where might he look? Options: A) midwest, B) countryside, C) estate, D) farming areas, E) illinois,
+Rationale:
+  0%|                                                                                                                                                          | 0/245 [00:00<?, ?it/s]

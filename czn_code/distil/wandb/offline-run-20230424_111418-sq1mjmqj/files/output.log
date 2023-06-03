@@ -1,0 +1,101 @@
+Fine-tuning facebook/bart-large...
+<class 'dataloader.DistlCSQADataset'>
+{'input_ids': tensor([[    0, 45641,    35,  9567,    16,  2671,    23,    10, 19464,   790,
+           147,   116, 18736,    35,    83,    35,    92,  1423,  9657,     6,
+           387,    35, 45968,   281,     6,   347,    35,  1236, 20948,     6,
+           495,    35,  1139,     6,   717,    35, 27121,  1113,     6, 31652,
+            16,  1437,     2,     2, 25401,   281,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1]]), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0, 0, 0, 0, 0, 0, 0, 0]])}
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                                 | 0/7750 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/users5/znchen/distil/ft_frame.py", line 164, in <module>
+    main()
+  File "/users5/znchen/distil/ft_frame.py", line 150, in main
+    finetune_model(args.model_name, args.train_data, args.dev_data, Dataloader_classes[args.dataset_class], args.epochs)
+  File "/users5/znchen/distil/ft_frame.py", line 80, in finetune_model
+    trainer.train()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/trainer.py", line 1631, in train
+    return inner_training_loop(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/trainer.py", line 1869, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/users5/znchen/distil/dataloader.py", line 53, in __getitem__
+    "labels": inputs["labels"].squeeze(),
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/tokenization_utils_base.py", line 237, in __getitem__
+    return self.data[item]
+KeyError: 'labels'

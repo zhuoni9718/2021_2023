@@ -1,0 +1,15 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_5,data:R
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+  0%|                                                                                                                                                          | 0/306 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 326, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 320, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 254, in test
+    input_context.append(input_context)
+AttributeError: 'str' object has no attribute 'append'

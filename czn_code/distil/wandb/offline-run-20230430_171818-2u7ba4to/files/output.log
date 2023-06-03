@@ -1,0 +1,210 @@
+Fine-tuning t5-large...
+Using 2 GPUs
+Step: 100, Loss: 13.8519
+Step: 200, Loss: 8.0162
+Step: 300, Loss: 5.5317
+Step: 400, Loss: 4.2661
+Step: 500, Loss: 3.4968
+Step: 600, Loss: 2.9784
+Step: 700, Loss: 2.6040
+Step: 800, Loss: 2.3215
+Step: 900, Loss: 2.1002
+Step: 1000, Loss: 1.9215
+Step: 1100, Loss: 1.7748
+Step: 1200, Loss: 1.6521
+Step: 1300, Loss: 1.5476
+Step: 1400, Loss: 1.4578
+Step: 1500, Loss: 1.3799
+Epoch 1/10, Train Loss: 1.3452
+Epoch 1/10, Validation Loss: 0.2415
+saving to  ./tmp/generate_model/t5large/R/t5large_0
+Step: 100, Loss: 0.2671
+Step: 200, Loss: 0.2697
+Step: 300, Loss: 0.2689
+Step: 400, Loss: 0.2694
+Step: 500, Loss: 0.2693
+Step: 600, Loss: 0.2682
+Step: 700, Loss: 0.2656
+Step: 800, Loss: 0.2643
+Step: 900, Loss: 0.2629
+Step: 1000, Loss: 0.2618
+Step: 1100, Loss: 0.2608
+Step: 1200, Loss: 0.2596
+Step: 1300, Loss: 0.2594
+Step: 1400, Loss: 0.2592
+Step: 1500, Loss: 0.2585
+Epoch 2/10, Train Loss: 0.2580
+Epoch 2/10, Validation Loss: 0.2161
+saving to  ./tmp/generate_model/t5large/R/t5large_1
+Step: 100, Loss: 0.2430
+Step: 200, Loss: 0.2421
+Step: 300, Loss: 0.2380
+Step: 400, Loss: 0.2385
+Step: 500, Loss: 0.2384
+Step: 600, Loss: 0.2375
+Step: 700, Loss: 0.2365
+Step: 800, Loss: 0.2363
+Step: 900, Loss: 0.2361
+Step: 1000, Loss: 0.2359
+Step: 1100, Loss: 0.2352
+Step: 1200, Loss: 0.2344
+Step: 1300, Loss: 0.2339
+Step: 1400, Loss: 0.2335
+Step: 1500, Loss: 0.2335
+Epoch 3/10, Train Loss: 0.2337
+Epoch 3/10, Validation Loss: 0.2057
+saving to  ./tmp/generate_model/t5large/R/t5large_2
+Step: 100, Loss: 0.2226
+Step: 200, Loss: 0.2220
+Step: 300, Loss: 0.2229
+Step: 400, Loss: 0.2219
+Step: 500, Loss: 0.2217
+Step: 600, Loss: 0.2214
+Step: 700, Loss: 0.2211
+Step: 800, Loss: 0.2213
+Step: 900, Loss: 0.2213
+Step: 1000, Loss: 0.2208
+Step: 1100, Loss: 0.2201
+Step: 1200, Loss: 0.2201
+Step: 1300, Loss: 0.2199
+Step: 1400, Loss: 0.2200
+Step: 1500, Loss: 0.2196
+Epoch 4/10, Train Loss: 0.2192
+Epoch 4/10, Validation Loss: 0.2002
+saving to  ./tmp/generate_model/t5large/R/t5large_3
+Step: 100, Loss: 0.2153
+Step: 200, Loss: 0.2137
+Step: 300, Loss: 0.2092
+Step: 400, Loss: 0.2094
+Step: 500, Loss: 0.2089
+Step: 600, Loss: 0.2084
+Step: 700, Loss: 0.2080
+Step: 800, Loss: 0.2080
+Step: 900, Loss: 0.2074
+Step: 1000, Loss: 0.2078
+Step: 1100, Loss: 0.2082
+Step: 1200, Loss: 0.2078
+Step: 1300, Loss: 0.2080
+Step: 1400, Loss: 0.2083
+Step: 1500, Loss: 0.2080
+Epoch 5/10, Train Loss: 0.2086
+Epoch 5/10, Validation Loss: 0.1959
+saving to  ./tmp/generate_model/t5large/R/t5large_4
+Step: 100, Loss: 0.2015
+Step: 200, Loss: 0.1973
+Step: 300, Loss: 0.2014
+Step: 400, Loss: 0.1989
+Step: 500, Loss: 0.1986
+Step: 600, Loss: 0.2004
+Step: 700, Loss: 0.1989
+Step: 800, Loss: 0.1997
+Step: 900, Loss: 0.1999
+Step: 1000, Loss: 0.1996
+Step: 1100, Loss: 0.1993
+Step: 1200, Loss: 0.1990
+Step: 1300, Loss: 0.1989
+Step: 1400, Loss: 0.1989
+Step: 1500, Loss: 0.1993
+Epoch 6/10, Train Loss: 0.1989
+Epoch 6/10, Validation Loss: 0.1937
+saving to  ./tmp/generate_model/t5large/R/t5large_5
+Step: 100, Loss: 0.1941
+Step: 200, Loss: 0.1958
+Step: 300, Loss: 0.1940
+Step: 400, Loss: 0.1935
+Step: 500, Loss: 0.1918
+Step: 600, Loss: 0.1919
+Step: 700, Loss: 0.1914
+Step: 800, Loss: 0.1922
+Step: 900, Loss: 0.1916
+Step: 1000, Loss: 0.1922
+Step: 1100, Loss: 0.1919
+Step: 1200, Loss: 0.1918
+Step: 1300, Loss: 0.1913
+Step: 1400, Loss: 0.1910
+Step: 1500, Loss: 0.1912
+Epoch 7/10, Train Loss: 0.1908
+Epoch 7/10, Validation Loss: 0.1926
+saving to  ./tmp/generate_model/t5large/R/t5large_6
+Step: 100, Loss: 0.1835
+Step: 200, Loss: 0.1788
+Step: 300, Loss: 0.1804
+Step: 400, Loss: 0.1826
+Step: 500, Loss: 0.1834
+Step: 600, Loss: 0.1836
+Step: 700, Loss: 0.1838
+Step: 800, Loss: 0.1840
+Step: 900, Loss: 0.1843
+Step: 1000, Loss: 0.1846
+Step: 1100, Loss: 0.1842
+Step: 1200, Loss: 0.1845
+Step: 1300, Loss: 0.1847
+Step: 1400, Loss: 0.1850
+Step: 1500, Loss: 0.1848
+Epoch 8/10, Train Loss: 0.1849
+Epoch 8/10, Validation Loss: 0.1919
+saving to  ./tmp/generate_model/t5large/R/t5large_7
+Step: 100, Loss: 0.1753
+Step: 200, Loss: 0.1741
+Step: 300, Loss: 0.1758
+Step: 400, Loss: 0.1774
+Step: 500, Loss: 0.1766
+Step: 600, Loss: 0.1764
+Step: 700, Loss: 0.1768
+Step: 800, Loss: 0.1776
+Step: 900, Loss: 0.1783
+Step: 1000, Loss: 0.1790
+Step: 1100, Loss: 0.1794
+Step: 1200, Loss: 0.1791
+Step: 1300, Loss: 0.1797
+Step: 1400, Loss: 0.1798
+Step: 1500, Loss: 0.1799
+Epoch 9/10, Train Loss: 0.1803
+Epoch 9/10, Validation Loss: 0.1917
+saving to  ./tmp/generate_model/t5large/R/t5large_8
+Step: 100, Loss: 0.1752
+Step: 200, Loss: 0.1771
+Step: 300, Loss: 0.1777
+Step: 400, Loss: 0.1767
+Step: 500, Loss: 0.1774
+Step: 600, Loss: 0.1776
+Step: 700, Loss: 0.1778
+Step: 800, Loss: 0.1779
+Step: 900, Loss: 0.1779
+Step: 1000, Loss: 0.1782
+Step: 1100, Loss: 0.1780
+Step: 1200, Loss: 0.1777
+Step: 1300, Loss: 0.1778
+Step: 1400, Loss: 0.1778
+Step: 1500, Loss: 0.1774
+Epoch 10/10, Train Loss: 0.1775
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/t5/tokenization_t5_fast.py:155: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-large automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0% 0/1549 [00:00<?, ?it/s]//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+100% 1549/1549 [26:29<00:00,  1.03s/it]
+100% 233/233 [01:38<00:00,  2.37it/s]
+100% 1549/1549 [21:38<00:00,  1.19it/s]
+100% 233/233 [01:00<00:00,  3.87it/s]
+100% 1549/1549 [21:38<00:00,  1.19it/s]
+100% 233/233 [01:00<00:00,  3.87it/s]
+100% 1549/1549 [21:47<00:00,  1.18it/s]
+100% 233/233 [01:00<00:00,  3.86it/s]
+100% 1549/1549 [21:40<00:00,  1.19it/s]
+100% 233/233 [01:00<00:00,  3.87it/s]
+100% 1549/1549 [21:38<00:00,  1.19it/s]
+100% 233/233 [01:00<00:00,  3.87it/s]
+100% 1549/1549 [21:39<00:00,  1.19it/s]
+100% 233/233 [01:03<00:00,  3.68it/s]
+100% 1549/1549 [21:36<00:00,  1.20it/s]
+100% 233/233 [01:00<00:00,  3.87it/s]
+100% 1549/1549 [21:35<00:00,  1.20it/s]
+100% 233/233 [01:00<00:00,  3.88it/s]
+100% 1549/1549 [21:41<00:00,  1.19it/s]
+100% 233/233 [01:00<00:00,  3.87it/s]

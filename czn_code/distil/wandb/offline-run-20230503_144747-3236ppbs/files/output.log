@@ -1,0 +1,263 @@
+training roberta-large
+dataset:<class 'dataloader.MultipleChoiceDatasetCommonGen'>
+training epoch0
+[CLS] Q: If you are in a bar in a glove shaped state where are you? [SEP] A: in my pocket [SEP] glove in the shape of a city and state
+[CLS] Q: If you are in a bar in a glove shaped state where are you? [SEP] A: michigan [SEP] glove in the shape of a city and state
+[CLS] Q: If you are in a bar in a glove shaped state where are you? [SEP] A: new york city [SEP] glove in the shape of a city and state
+[CLS] Q: If you are in a bar in a glove shaped state where are you? [SEP] A: restaurant [SEP] glove in the shape of a city and state
+[CLS] Q: If you are in a bar in a glove shaped state where are you? [SEP] A: public house [SEP] glove in the shape of a city and state
+[CLS] Q: Where would you expect to find white mice? [SEP] A: bell cat [SEP] cat and mouse waiting for the bell
+[CLS] Q: Where would you expect to find white mice? [SEP] A: bush [SEP] cat and mouse waiting for the bell
+[CLS] Q: Where would you expect to find white mice? [SEP] A: attic [SEP] cat and mouse waiting for the bell
+[CLS] Q: Where would you expect to find white mice? [SEP] A: countryside [SEP] cat and mouse waiting for the bell
+[CLS] Q: Where would you expect to find white mice? [SEP] A: laboratory [SEP] cat and mouse waiting for the bell
+[CLS] Q: If I want to watch a movie without leaving my home what might I use? [SEP] A: drive in movie [SEP] a man watches his wife drive away from home after leaving the movie
+[CLS] Q: If I want to watch a movie without leaving my home what might I use? [SEP] A: drive in movie [SEP] a man watches his wife drive away from home after leaving the movie
+[CLS] Q: If I want to watch a movie without leaving my home what might I use? [SEP] A: television [SEP] a man watches his wife drive away from home after leaving the movie
+[CLS] Q: If I want to watch a movie without leaving my home what might I use? [SEP] A: video store [SEP] a man watches his wife drive away from home after leaving the movie
+[CLS] Q: If I want to watch a movie without leaving my home what might I use? [SEP] A: show [SEP] a man watches his wife drive away from home after leaving the movie
+[CLS] Q: Jan tested the current, and noticed that it was high.  He thought that the wires might have too much what? [SEP] A: later [SEP] a notice of test and current thinking
+[CLS] Q: Jan tested the current, and noticed that it was high.  He thought that the wires might have too much what? [SEP] A: updated [SEP] a notice of test and current thinking
+[CLS] Q: Jan tested the current, and noticed that it was high.  He thought that the wires might have too much what? [SEP] A: still [SEP] a notice of test and current thinking
+[CLS] Q: Jan tested the current, and noticed that it was high.  He thought that the wires might have too much what? [SEP] A: resistance [SEP] a notice of test and current thinking
+[CLS] Q: Jan tested the current, and noticed that it was high.  He thought that the wires might have too much what? [SEP] A: now [SEP] a notice of test and current thinking
+[CLS] Q: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad? [SEP] A: lose money [SEP] beer is a drink that can be bought and consumed in the form of alcohol or relaxation
+[CLS] Q: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad? [SEP] A: fun [SEP] beer is a drink that can be bought and consumed in the form of alcohol or relaxation
+[CLS] Q: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad? [SEP] A: have no money [SEP] beer is a drink that can be bought and consumed in the form of alcohol or relaxation
+[CLS] Q: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad? [SEP] A: broken law [SEP] beer is a drink that can be bought and consumed in the form of alcohol or relaxation
+[CLS] Q: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad? [SEP] A: relaxation [SEP] beer is a drink that can be bought and consumed in the form of alcohol or relaxation
+[CLS] Q: Obstructing justice is sometimes an excuse used for police brutality which causes what in people? [SEP] A: committing perjury [SEP] police obstructing the justice of the peace in protest against
+[CLS] Q: Obstructing justice is sometimes an excuse used for police brutality which causes what in people? [SEP] A: prosecution [SEP] police obstructing the justice of the peace in protest against
+[CLS] Q: Obstructing justice is sometimes an excuse used for police brutality which causes what in people? [SEP] A: attack [SEP] police obstructing the justice of the peace in protest against
+[CLS] Q: Obstructing justice is sometimes an excuse used for police brutality which causes what in people? [SEP] A: getting hurt [SEP] police obstructing the justice of the peace in protest against
+[CLS] Q: Obstructing justice is sometimes an excuse used for police brutality which causes what in people? [SEP] A: riot [SEP] police obstructing the justice of the peace in protest against
+[CLS] Q: Where would a person be doing when having to wait their turn? [SEP] A: have patience [SEP] The man is waiting for the turn to go left.
+[CLS] Q: Where would a person be doing when having to wait their turn? [SEP] A: get in line [SEP] The man is waiting for the turn to go left.
+[CLS] Q: Where would a person be doing when having to wait their turn? [SEP] A: sing [SEP] The man is waiting for the turn to go left.
+[CLS] Q: Where would a person be doing when having to wait their turn? [SEP] A: stand in line [SEP] The man is waiting for the turn to go left.
+[CLS] Q: Where would a person be doing when having to wait their turn? [SEP] A: turn left [SEP] The man is waiting for the turn to go left.
+[CLS] Q: Bob the lizard lives in a warm place with lots of water.  Where does he probably live? [SEP] A: rock [SEP] a lot of live lizards in the new mexico
+[CLS] Q: Bob the lizard lives in a warm place with lots of water.  Where does he probably live? [SEP] A: tropical rainforest [SEP] a lot of live lizards in the new mexico
+[CLS] Q: Bob the lizard lives in a warm place with lots of water.  Where does he probably live? [SEP] A: jazz club [SEP] a lot of live lizards in the new mexico
+[CLS] Q: Bob the lizard lives in a warm place with lots of water.  Where does he probably live? [SEP] A: new mexico [SEP] a lot of live lizards in the new mexico
+[CLS] Q: Bob the lizard lives in a warm place with lots of water.  Where does he probably live? [SEP] A: rocky places [SEP] a lot of live lizards in the new mexico
+[CLS] Q: He was at the gym trying to build muscle, what is it called that he is trying to build muscle on? [SEP] A: body of animal [SEP] a man trying to build muscle in his arms at the gym
+[CLS] Q: He was at the gym trying to build muscle, what is it called that he is trying to build muscle on? [SEP] A: arm [SEP] a man trying to build muscle in his arms at the gym
+[CLS] Q: He was at the gym trying to build muscle, what is it called that he is trying to build muscle on? [SEP] A: bodybuilder [SEP] a man trying to build muscle in his arms at the gym
+[CLS] Q: He was at the gym trying to build muscle, what is it called that he is trying to build muscle on? [SEP] A: body of dog [SEP] a man trying to build muscle in his arms at the gym
+[CLS] Q: He was at the gym trying to build muscle, what is it called that he is trying to build muscle on? [SEP] A: human body [SEP] a man trying to build muscle in his arms at the gym
+[CLS] Q: To play sports professionally you must do what very often? [SEP] A: wash your clothes [SEP] A boy plays sports and practices sport.
+[CLS] Q: To play sports professionally you must do what very often? [SEP] A: get in shape [SEP] A boy plays sports and practices sport.
+[CLS] Q: To play sports professionally you must do what very often? [SEP] A: practice [SEP] A boy plays sports and practices sport.
+[CLS] Q: To play sports professionally you must do what very often? [SEP] A: take off uniform [SEP] A boy plays sports and practices sport.
+[CLS] Q: To play sports professionally you must do what very often? [SEP] A: stretch [SEP] A boy plays sports and practices sport.
+[CLS] Q: You'll find a landing at the top of what? [SEP] A: ocean [SEP] a flat found in the old building with an open plan living space
+[CLS] Q: You'll find a landing at the top of what? [SEP] A: apartment building [SEP] a flat found in the old building with an open plan living space
+[CLS] Q: You'll find a landing at the top of what? [SEP] A: stairwell [SEP] a flat found in the old building with an open plan living space
+[CLS] Q: You'll find a landing at the top of what? [SEP] A: airport [SEP] a flat found in the old building with an open plan living space
+[CLS] Q: You'll find a landing at the top of what? [SEP] A: room [SEP] a flat found in the old building with an open plan living space
+[CLS] Q: John felt that his actions were fate.   Harry said that he could have always made a different what? [SEP] A: free will [SEP] ays he feels like the only thing that can change his fate is alcohol
+[CLS] Q: John felt that his actions were fate.   Harry said that he could have always made a different what? [SEP] A: choice [SEP] ays he feels like the only thing that can change his fate is alcohol
+[CLS] Q: John felt that his actions were fate.   Harry said that he could have always made a different what? [SEP] A: will [SEP] ays he feels like the only thing that can change his fate is alcohol
+[CLS] Q: John felt that his actions were fate.   Harry said that he could have always made a different what? [SEP] A: alcohol [SEP] ays he feels like the only thing that can change his fate is alcohol
+[CLS] Q: John felt that his actions were fate.   Harry said that he could have always made a different what? [SEP] A: freedom [SEP] ays he feels like the only thing that can change his fate is alcohol
+[CLS] Q: Janet was watching the film because she liked what? [SEP] A: erection [SEP] watching a film like fear
+[CLS] Q: Janet was watching the film because she liked what? [SEP] A: laughter [SEP] watching a film like fear
+[CLS] Q: Janet was watching the film because she liked what? [SEP] A: being entertained [SEP] watching a film like fear
+[CLS] Q: Janet was watching the film because she liked what? [SEP] A: fear [SEP] watching a film like fear
+[CLS] Q: Janet was watching the film because she liked what? [SEP] A: bordem [SEP] watching a film like fear
+[CLS] Q: The hikers stopped to have a drink, simply put they what? [SEP] A: had a party [SEP] hikers stop to drink from a water bottle
+[CLS] Q: The hikers stopped to have a drink, simply put they what? [SEP] A: were thirsty [SEP] hikers stop to drink from a water bottle
+[CLS] Q: The hikers stopped to have a drink, simply put they what? [SEP] A: refreshment [SEP] hikers stop to drink from a water bottle
+[CLS] Q: The hikers stopped to have a drink, simply put they what? [SEP] A: getting drunk [SEP] hikers stop to drink from a water bottle
+[CLS] Q: The hikers stopped to have a drink, simply put they what? [SEP] A: celebrating [SEP] hikers stop to drink from a water bottle
+[CLS] Q: Why would you be watching tv instead of doing something else? [SEP] A: headache [SEP] a man watches TV while watching his time go by
+[CLS] Q: Why would you be watching tv instead of doing something else? [SEP] A: laughter [SEP] a man watches TV while watching his time go by
+[CLS] Q: Why would you be watching tv instead of doing something else? [SEP] A: laziness [SEP] a man watches TV while watching his time go by
+[CLS] Q: Why would you be watching tv instead of doing something else? [SEP] A: erections [SEP] a man watches TV while watching his time go by
+[CLS] Q: Why would you be watching tv instead of doing something else? [SEP] A: wasting time [SEP] a man watches TV while watching his time go by
+[CLS] Q: Though a mouse might prefer your house, you might also see him where? [SEP] A: tin [SEP] a mouse prefers to live in the garden
+[CLS] Q: Though a mouse might prefer your house, you might also see him where? [SEP] A: department store [SEP] a mouse prefers to live in the garden
+[CLS] Q: Though a mouse might prefer your house, you might also see him where? [SEP] A: garden [SEP] a mouse prefers to live in the garden
+[CLS] Q: Though a mouse might prefer your house, you might also see him where? [SEP] A: small hole [SEP] a mouse prefers to live in the garden
+[CLS] Q: Though a mouse might prefer your house, you might also see him where? [SEP] A: cupboard [SEP] a mouse prefers to live in the garden
+[CLS] Q: The tourist entered Mammoth cave, what state were they in? [SEP] A: west virginia [SEP] tourists entering a cave in the state
+[CLS] Q: The tourist entered Mammoth cave, what state were they in? [SEP] A: kentucky [SEP] tourists entering a cave in the state
+[CLS] Q: The tourist entered Mammoth cave, what state were they in? [SEP] A: rocky hills [SEP] tourists entering a cave in the state
+[CLS] Q: The tourist entered Mammoth cave, what state were they in? [SEP] A: scotland [SEP] tourists entering a cave in the state
+[CLS] Q: The tourist entered Mammoth cave, what state were they in? [SEP] A: canyon [SEP] tourists entering a cave in the state
+[CLS] Q: What is a place that has a bench nestled in trees? [SEP] A: state park [SEP] A bus stopped at a bench nestled in the trees.
+[CLS] Q: What is a place that has a bench nestled in trees? [SEP] A: bus stop [SEP] A bus stopped at a bench nestled in the trees.
+[CLS] Q: What is a place that has a bench nestled in trees? [SEP] A: bus depot [SEP] A bus stopped at a bench nestled in the trees.
+[CLS] Q: What is a place that has a bench nestled in trees? [SEP] A: statue [SEP] A bus stopped at a bench nestled in the trees.
+[CLS] Q: What is a place that has a bench nestled in trees? [SEP] A: train station [SEP] A bus stopped at a bench nestled in the trees.
+[CLS] Q: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what? [SEP] A: indestructible [SEP] a film intended to be indestructible but is rather fragile
+[CLS] Q: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what? [SEP] A: durable [SEP] a film intended to be indestructible but is rather fragile
+[CLS] Q: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what? [SEP] A: undestroyable [SEP] a film intended to be indestructible but is rather fragile
+[CLS] Q: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what? [SEP] A: indestructible [SEP] a film intended to be indestructible but is rather fragile
+[CLS] Q: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what? [SEP] A: unbreakable [SEP] a film intended to be indestructible but is rather fragile
+[CLS] Q: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away? [SEP] A: health [SEP] A teen is trying to hide his drink from the police.
+[CLS] Q: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away? [SEP] A: fall down [SEP] A teen is trying to hide his drink from the police.
+[CLS] Q: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away? [SEP] A: stagger [SEP] A teen is trying to hide his drink from the police.
+[CLS] Q: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away? [SEP] A: get arrested [SEP] A teen is trying to hide his drink from the police.
+[CLS] Q: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away? [SEP] A: vomit [SEP] A teen is trying to hide his drink from the police.
+[CLS] Q: What is a treat that you dog will enjoy? [SEP] A: salad [SEP] A dog is enjoying lots of attention.
+[CLS] Q: What is a treat that you dog will enjoy? [SEP] A: petted [SEP] A dog is enjoying lots of attention.
+[CLS] Q: What is a treat that you dog will enjoy? [SEP] A: affection [SEP] A dog is enjoying lots of attention.
+[CLS] Q: What is a treat that you dog will enjoy? [SEP] A: bone [SEP] A dog is enjoying lots of attention.
+[CLS] Q: What is a treat that you dog will enjoy? [SEP] A: lots of attention [SEP] A dog is enjoying lots of attention.
+[CLS] Q: When is the worst time for having food? [SEP] A: digesting [SEP] a man having food and gas at the same time
+[CLS] Q: When is the worst time for having food? [SEP] A: not hungry [SEP] a man having food and gas at the same time
+[CLS] Q: When is the worst time for having food? [SEP] A: gas [SEP] a man having food and gas at the same time
+[CLS] Q: When is the worst time for having food? [SEP] A: weight gain [SEP] a man having food and gas at the same time
+[CLS] Q: When is the worst time for having food? [SEP] A: feeling of fullness [SEP] a man having food and gas at the same time
+[CLS] Q: What kind of status is the bald eagle given? [SEP] A: outside [SEP] bald eagles are kind of like the protection that we give them
+[CLS] Q: What kind of status is the bald eagle given? [SEP] A: world [SEP] bald eagles are kind of like the protection that we give them
+[CLS] Q: What kind of status is the bald eagle given? [SEP] A: protection [SEP] bald eagles are kind of like the protection that we give them
+[CLS] Q: What kind of status is the bald eagle given? [SEP] A: colorado [SEP] bald eagles are kind of like the protection that we give them
+[CLS] Q: What kind of status is the bald eagle given? [SEP] A: america [SEP] bald eagles are kind of like the protection that we give them
+[CLS] Q: Where can you put a picture frame when it's not hung vertically? [SEP] A: art show [SEP] A frame of a picture hanging from the wall.
+[CLS] Q: Where can you put a picture frame when it's not hung vertically? [SEP] A: wall [SEP] A frame of a picture hanging from the wall.
+[CLS] Q: Where can you put a picture frame when it's not hung vertically? [SEP] A: newspaper [SEP] A frame of a picture hanging from the wall.
+[CLS] Q: Where can you put a picture frame when it's not hung vertically? [SEP] A: car [SEP] A frame of a picture hanging from the wall.
+[CLS] Q: Where can you put a picture frame when it's not hung vertically? [SEP] A: table [SEP] A frame of a picture hanging from the wall.
+[CLS] Q: Where would you put uncooked crab meat? [SEP] A: wharf [SEP] crab meat in a pot with sauce
+[CLS] Q: Where would you put uncooked crab meat? [SEP] A: red lobster [SEP] crab meat in a pot with sauce
+[CLS] Q: Where would you put uncooked crab meat? [SEP] A: tidepools [SEP] crab meat in a pot with sauce
+[CLS] Q: Where would you put uncooked crab meat? [SEP] A: boss's office [SEP] crab meat in a pot with sauce
+[CLS] Q: Where would you put uncooked crab meat? [SEP] A: stew pot [SEP] crab meat in a pot with sauce
+[CLS] Q: The computer was difficult for he to understand at the store, so what did she sign up for to learn more? [SEP] A: classroom [SEP] A man is explaining how to understand a sign at the computer store.
+[CLS] Q: The computer was difficult for he to understand at the store, so what did she sign up for to learn more? [SEP] A: facebook [SEP] A man is explaining how to understand a sign at the computer store.
+[CLS] Q: The computer was difficult for he to understand at the store, so what did she sign up for to learn more? [SEP] A: school [SEP] A man is explaining how to understand a sign at the computer store.
+[CLS] Q: The computer was difficult for he to understand at the store, so what did she sign up for to learn more? [SEP] A: apartment [SEP] A man is explaining how to understand a sign at the computer store.
+[CLS] Q: The computer was difficult for he to understand at the store, so what did she sign up for to learn more? [SEP] A: demonstration [SEP] A man is explaining how to understand a sign at the computer store.
+[CLS] Q: Where would a computer user be using their own computer? [SEP] A: hell [SEP] computer user in cafe with internet
+[CLS] Q: Where would a computer user be using their own computer? [SEP] A: school [SEP] computer user in cafe with internet
+[CLS] Q: Where would a computer user be using their own computer? [SEP] A: indoors [SEP] computer user in cafe with internet
+[CLS] Q: Where would a computer user be using their own computer? [SEP] A: internet cafe [SEP] computer user in cafe with internet
+[CLS] Q: Where would a computer user be using their own computer? [SEP] A: house [SEP] computer user in cafe with internet
+[CLS] Q: What part of plants is pretty? [SEP] A: dirt [SEP] a plant is the largest of all living cells and has millions of root
+[CLS] Q: What part of plants is pretty? [SEP] A: no neurons in [SEP] a plant is the largest of all living cells and has millions of root
+[CLS] Q: What part of plants is pretty? [SEP] A: millions of cells [SEP] a plant is the largest of all living cells and has millions of root
+[CLS] Q: What part of plants is pretty? [SEP] A: flowers on [SEP] a plant is the largest of all living cells and has millions of root
+[CLS] Q: What part of plants is pretty? [SEP] A: roots [SEP] a plant is the largest of all living cells and has millions of root
+[CLS] Q: What kind of status is the bald eagle given? [SEP] A: outside [SEP] bald eagles are the kind of bird that gives us all kinds of status in this world
+[CLS] Q: What kind of status is the bald eagle given? [SEP] A: world [SEP] bald eagles are the kind of bird that gives us all kinds of status in this world
+[CLS] Q: What kind of status is the bald eagle given? [SEP] A: protection [SEP] bald eagles are the kind of bird that gives us all kinds of status in this world
+[CLS] Q: What kind of status is the bald eagle given? [SEP] A: colorado [SEP] bald eagles are the kind of bird that gives us all kinds of status in this world
+[CLS] Q: What kind of status is the bald eagle given? [SEP] A: america [SEP] bald eagles are the kind of bird that gives us all kinds of status in this world
+[CLS] Q: In what Spanish speaking North American country can you get a great cup of coffee? [SEP] A: mildred's coffee shop [SEP] cup of coffee and country speak to each other
+[CLS] Q: In what Spanish speaking North American country can you get a great cup of coffee? [SEP] A: mexico [SEP] cup of coffee and country speak to each other
+[CLS] Q: In what Spanish speaking North American country can you get a great cup of coffee? [SEP] A: diner [SEP] cup of coffee and country speak to each other
+[CLS] Q: In what Spanish speaking North American country can you get a great cup of coffee? [SEP] A: kitchen [SEP] cup of coffee and country speak to each other
+[CLS] Q: In what Spanish speaking North American country can you get a great cup of coffee? [SEP] A: canteen [SEP] cup of coffee and country speak to each other
+[CLS] Q: Where can you find a number of wind instruments together in public? [SEP] A: music store [SEP] a number of instruments in the zoo are winding
+[CLS] Q: Where can you find a number of wind instruments together in public? [SEP] A: create music [SEP] a number of instruments in the zoo are winding
+[CLS] Q: Where can you find a number of wind instruments together in public? [SEP] A: zoo [SEP] a number of instruments in the zoo are winding
+[CLS] Q: Where can you find a number of wind instruments together in public? [SEP] A: music room [SEP] a number of instruments in the zoo are winding
+[CLS] Q: Where can you find a number of wind instruments together in public? [SEP] A: symphony [SEP] a number of instruments in the zoo are winding
+[CLS] Q: What is the main purpose of farmers? [SEP] A: raise cattle [SEP] farmers use land to grow crops on their farm.
+[CLS] Q: What is the main purpose of farmers? [SEP] A: grow corn [SEP] farmers use land to grow crops on their farm.
+[CLS] Q: What is the main purpose of farmers? [SEP] A: farm land [SEP] farmers use land to grow crops on their farm.
+[CLS] Q: What is the main purpose of farmers? [SEP] A: drive tractors [SEP] farmers use land to grow crops on their farm.
+[CLS] Q: What is the main purpose of farmers? [SEP] A: supply food [SEP] farmers use land to grow crops on their farm.
+[CLS] Q: If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause? [SEP] A: irritability [SEP] a lot of sleep time in the night with depression
+[CLS] Q: If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause? [SEP] A: depression [SEP] a lot of sleep time in the night with depression
+[CLS] Q: If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause? [SEP] A: getting out of bed [SEP] a lot of sleep time in the night with depression
+[CLS] Q: If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause? [SEP] A: happiness [SEP] a lot of sleep time in the night with depression
+[CLS] Q: If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause? [SEP] A: discomfort [SEP] a lot of sleep time in the night with depression
+[CLS] Q: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? [SEP] A: bank [SEP] revolving doors serve as the main entrance to new york city
+[CLS] Q: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? [SEP] A: library [SEP] revolving doors serve as the main entrance to new york city
+[CLS] Q: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? [SEP] A: department store [SEP] revolving doors serve as the main entrance to new york city
+[CLS] Q: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? [SEP] A: mall [SEP] revolving doors serve as the main entrance to new york city
+[CLS] Q: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? [SEP] A: new york [SEP] revolving doors serve as the main entrance to new york city
+[CLS] Q: james told his son to settle down and be careful.  There were many frogs mating in the area, and James didn't want his son to do what to them? [SEP] A: wander [SEP] a young boy tells his mother how to sit on the ground and set up her son with an inflatable frog
+[CLS] Q: james told his son to settle down and be careful.  There were many frogs mating in the area, and James didn't want his son to do what to them? [SEP] A: migrate [SEP] a young boy tells his mother how to sit on the ground and set up her son with an inflatable frog
+[CLS] Q: james told his son to settle down and be careful.  There were many frogs mating in the area, and James didn't want his son to do what to them? [SEP] A: scare [SEP] a young boy tells his mother how to sit on the ground and set up her son with an inflatable frog
+[CLS] Q: james told his son to settle down and be careful.  There were many frogs mating in the area, and James didn't want his son to do what to them? [SEP] A: disturb [SEP] a young boy tells his mother how to sit on the ground and set up her son with an inflatable frog
+[CLS] Q: james told his son to settle down and be careful.  There were many frogs mating in the area, and James didn't want his son to do what to them? [SEP] A: agitate [SEP] a young boy tells his mother how to sit on the ground and set up her son with an inflatable frog
+[CLS] Q: Where are  you likely to find a hamburger? [SEP] A: fast food restaurant [SEP] A woman is finding a hamburger in her mouth.
+[CLS] Q: Where are  you likely to find a hamburger? [SEP] A: pizza [SEP] A woman is finding a hamburger in her mouth.
+[CLS] Q: Where are  you likely to find a hamburger? [SEP] A: ground up dead cows [SEP] A woman is finding a hamburger in her mouth.
+[CLS] Q: Where are  you likely to find a hamburger? [SEP] A: mouth [SEP] A woman is finding a hamburger in her mouth.
+[CLS] Q: Where are  you likely to find a hamburger? [SEP] A: cow carcus [SEP] A woman is finding a hamburger in her mouth.
+[CLS] Q: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what? [SEP] A: rest [SEP] texting to my wife about going out for a romantic dinner and spending the anniversary in bed
+[CLS] Q: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what? [SEP] A: insomnia [SEP] texting to my wife about going out for a romantic dinner and spending the anniversary in bed
+[CLS] Q: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what? [SEP] A: making love [SEP] texting to my wife about going out for a romantic dinner and spending the anniversary in bed
+[CLS] Q: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what? [SEP] A: sleeping in [SEP] texting to my wife about going out for a romantic dinner and spending the anniversary in bed
+[CLS] Q: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what? [SEP] A: texting [SEP] texting to my wife about going out for a romantic dinner and spending the anniversary in bed
+[CLS] Q: Where can a human find clothes that aren't pants? [SEP] A: pants shop [SEP] A human in a red pant is found wrecked on the tracks.
+[CLS] Q: Where can a human find clothes that aren't pants? [SEP] A: on planet earth [SEP] A human in a red pant is found wrecked on the tracks.
+[CLS] Q: Where can a human find clothes that aren't pants? [SEP] A: dress shop [SEP] A human in a red pant is found wrecked on the tracks.
+[CLS] Q: Where can a human find clothes that aren't pants? [SEP] A: school [SEP] A human in a red pant is found wrecked on the tracks.
+[CLS] Q: Where can a human find clothes that aren't pants? [SEP] A: train wreck [SEP] A human in a red pant is found wrecked on the tracks.
+[CLS] Q: A loud machine is irritating, but many are expected where? [SEP] A: museum [SEP] a machine that is expected to be installed in the house
+[CLS] Q: A loud machine is irritating, but many are expected where? [SEP] A: house [SEP] a machine that is expected to be installed in the house
+[CLS] Q: A loud machine is irritating, but many are expected where? [SEP] A: laboratory [SEP] a machine that is expected to be installed in the house
+[CLS] Q: A loud machine is irritating, but many are expected where? [SEP] A: library [SEP] a machine that is expected to be installed in the house
+[CLS] Q: A loud machine is irritating, but many are expected where? [SEP] A: industrial area [SEP] a machine that is expected to be installed in the house
+[CLS] Q: What regions of a town would you have found a dime store? [SEP] A: commercial building [SEP] dime store in the mall of town
+[CLS] Q: What regions of a town would you have found a dime store? [SEP] A: old movie [SEP] dime store in the mall of town
+[CLS] Q: What regions of a town would you have found a dime store? [SEP] A: small neighborhood [SEP] dime store in the mall of town
+[CLS] Q: What regions of a town would you have found a dime store? [SEP] A: past [SEP] dime store in the mall of town
+[CLS] Q: What regions of a town would you have found a dime store? [SEP] A: mall [SEP] dime store in the mall of town
+[CLS] Q: With the card slot lit up he knew how to get started finding his balance with what? [SEP] A: slot machine [SEP] a slot machine with cards and tickets known as light
+[CLS] Q: With the card slot lit up he knew how to get started finding his balance with what? [SEP] A: ticket machine [SEP] a slot machine with cards and tickets known as light
+[CLS] Q: With the card slot lit up he knew how to get started finding his balance with what? [SEP] A: bank machine [SEP] a slot machine with cards and tickets known as light
+[CLS] Q: With the card slot lit up he knew how to get started finding his balance with what? [SEP] A: telephone [SEP] a slot machine with cards and tickets known as light
+[CLS] Q: With the card slot lit up he knew how to get started finding his balance with what? [SEP] A: automated teller [SEP] a slot machine with cards and tickets known as light
+[CLS] Q: It was a long trip from the farm, so he stayed in a hotel when he arrived at the what? [SEP] A: bed away from home [SEP] tay at a farm or resort
+[CLS] Q: It was a long trip from the farm, so he stayed in a hotel when he arrived at the what? [SEP] A: wwii bunker [SEP] tay at a farm or resort
+[CLS] Q: It was a long trip from the farm, so he stayed in a hotel when he arrived at the what? [SEP] A: resort [SEP] tay at a farm or resort
+[CLS] Q: It was a long trip from the farm, so he stayed in a hotel when he arrived at the what? [SEP] A: las vegas [SEP] tay at a farm or resort
+[CLS] Q: It was a long trip from the farm, so he stayed in a hotel when he arrived at the what? [SEP] A: city [SEP] tay at a farm or resort
+[CLS] Q: What is a place that has a bench nestled in trees? [SEP] A: state park [SEP] a bench nestled in the trees at bus depot
+[CLS] Q: What is a place that has a bench nestled in trees? [SEP] A: bus stop [SEP] a bench nestled in the trees at bus depot
+[CLS] Q: What is a place that has a bench nestled in trees? [SEP] A: bus depot [SEP] a bench nestled in the trees at bus depot
+[CLS] Q: What is a place that has a bench nestled in trees? [SEP] A: statue [SEP] a bench nestled in the trees at bus depot
+[CLS] Q: What is a place that has a bench nestled in trees? [SEP] A: train station [SEP] a bench nestled in the trees at bus depot
+[CLS] Q: Immediately after peeing, a person's bladder is what? [SEP] A: collapsed [SEP] A man is emptying his bladder.
+[CLS] Q: Immediately after peeing, a person's bladder is what? [SEP] A: empty [SEP] A man is emptying his bladder.
+[CLS] Q: Immediately after peeing, a person's bladder is what? [SEP] A: full [SEP] A man is emptying his bladder.
+[CLS] Q: Immediately after peeing, a person's bladder is what? [SEP] A: filled [SEP] A man is emptying his bladder.
+[CLS] Q: Immediately after peeing, a person's bladder is what? [SEP] A: stretchable [SEP] A man is emptying his bladder.
+[CLS] Q: If a person with mental illness stops treatment what will likely happen? [SEP] A: managed [SEP] dancing is a great way to stop illness and depression from occurring
+[CLS] Q: If a person with mental illness stops treatment what will likely happen? [SEP] A: dancing [SEP] dancing is a great way to stop illness and depression from occurring
+[CLS] Q: If a person with mental illness stops treatment what will likely happen? [SEP] A: recur [SEP] dancing is a great way to stop illness and depression from occurring
+[CLS] Q: If a person with mental illness stops treatment what will likely happen? [SEP] A: effectively treated [SEP] dancing is a great way to stop illness and depression from occurring
+[CLS] Q: If a person with mental illness stops treatment what will likely happen? [SEP] A: cause suffering [SEP] dancing is a great way to stop illness and depression from occurring
+[CLS] Q: When you get up in the morning before you begin work you should do what? [SEP] A: apply for job [SEP] leep and begin work in the morning
+[CLS] Q: When you get up in the morning before you begin work you should do what? [SEP] A: sleep [SEP] leep and begin work in the morning
+[CLS] Q: When you get up in the morning before you begin work you should do what? [SEP] A: concentrate [SEP] leep and begin work in the morning
+[CLS] Q: When you get up in the morning before you begin work you should do what? [SEP] A: shower [SEP] leep and begin work in the morning
+[CLS] Q: When you get up in the morning before you begin work you should do what? [SEP] A: just do [SEP] leep and begin work in the morning
+[CLS] Q: What could suddenly stop someone when he or she is running? [SEP] A: mushroom [SEP] The boy runs down the street to stop falling.
+[CLS] Q: What could suddenly stop someone when he or she is running? [SEP] A: falling down [SEP] The boy runs down the street to stop falling.
+[CLS] Q: What could suddenly stop someone when he or she is running? [SEP] A: sweating [SEP] The boy runs down the street to stop falling.
+[CLS] Q: What could suddenly stop someone when he or she is running? [SEP] A: exhaustion [SEP] The boy runs down the street to stop falling.
+[CLS] Q: What could suddenly stop someone when he or she is running? [SEP] A: getting tired [SEP] The boy runs down the street to stop falling.
+[CLS] Q: Reading newspaper one of many ways to practice your what? [SEP] A: literacy [SEP] a woman reading newspaper in the morning and buying newspapers at night
+[CLS] Q: Reading newspaper one of many ways to practice your what? [SEP] A: knowing how to read [SEP] a woman reading newspaper in the morning and buying newspapers at night
+[CLS] Q: Reading newspaper one of many ways to practice your what? [SEP] A: money [SEP] a woman reading newspaper in the morning and buying newspapers at night
+[CLS] Q: Reading newspaper one of many ways to practice your what? [SEP] A: buying [SEP] a woman reading newspaper in the morning and buying newspapers at night
+[CLS] Q: Reading newspaper one of many ways to practice your what? [SEP] A: money bank [SEP] a woman reading newspaper in the morning and buying newspapers at night
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.bias', 'lm_head.dense.bias', 'lm_head.layer_norm.weight', 'lm_head.layer_norm.bias', 'lm_head.decoder.weight', 'lm_head.dense.weight']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  3%|███▎                                                                                                                            | 2/77 [00:05<03:36,  2.89s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 201, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 192, in main
+    train(args.model_name,args.epochs,args.train_data,args.dev_data,args.batch_size,args.learning_rate,args.model_path,args.dataloader)
+  File "/users5/znchen/distil/predict_frame.py", line 72, in train
+    loss.backward()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

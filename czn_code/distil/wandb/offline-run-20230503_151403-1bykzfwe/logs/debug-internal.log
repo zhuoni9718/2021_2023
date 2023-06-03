@@ -1,0 +1,12 @@
+2023-05-03 15:14:05,050 INFO    MainThread:54679 [internal.py:wandb_internal():90] W&B internal server running at pid: 54679, started at: 2023-05-03 15:14:05.050231
+2023-05-03 15:14:05,054 DEBUG   HandlerThread:54679 [handler.py:handle_request():141] handle_request: run_start
+2023-05-03 15:14:05,055 INFO    WriterThread:54679 [datastore.py:open_for_write():75] open: /users5/znchen/distil/wandb/offline-run-20230503_151403-1bykzfwe/run-1bykzfwe.wandb
+2023-05-03 15:14:06,571 DEBUG   HandlerThread:54679 [meta.py:__init__():35] meta init
+2023-05-03 15:14:06,571 DEBUG   HandlerThread:54679 [meta.py:__init__():49] meta init done
+2023-05-03 15:14:06,571 DEBUG   HandlerThread:54679 [meta.py:probe():209] probe
+2023-05-03 15:14:06,577 DEBUG   HandlerThread:54679 [git.py:repo():29] git repository is invalid
+2023-05-03 15:14:06,578 DEBUG   HandlerThread:54679 [meta.py:_save_pip():53] save pip
+2023-05-03 15:14:06,580 DEBUG   HandlerThread:54679 [meta.py:_save_pip():67] save pip done
+2023-05-03 15:14:06,580 DEBUG   HandlerThread:54679 [meta.py:_save_conda():74] save conda
+2023-05-03 15:14:14,007 DEBUG   HandlerThread:54679 [meta.py:_save_conda():84] save conda done
+2023-05-03 15:14:14,007 DEBUG   HandlerThread:54679 [meta.py:probe():247] probe done

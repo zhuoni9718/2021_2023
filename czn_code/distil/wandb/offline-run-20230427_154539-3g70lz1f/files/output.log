@@ -1,0 +1,5 @@
+Testing facebook/bart-large...
+using unit facebook/bart-large
+[INPUT] Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Options: A) bank, B) library, C) department store, D) mall, E) new york,
+Rationale:
+[out]: The use of a revolving door as a security measure is commonly associated with banksThe rotating mechanism helps regulate the flow of people in and out of the building, reducing the likelihood of a rush or a stampedeAdditionally, the design of the doors can help prevent unauthorized access or escape by limiting the amount of space available to pass through at any one time

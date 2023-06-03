@@ -1,0 +1,516 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_2,data:R
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 126])
+[output] tensor([[    2,     0,     0,     0,   133,   133,     0,   864,  3649,    14,
+             5,   864,    16,  1996,    13,     5,  5377,     9,     5,   864,
+             6,    61,    16,    10,   864,    14,    16,  3700,  3059,    19,
+             5,  3645,     9,     5,  3645,     6,    61,  3649,     5,  3645,
+            16,     5,  3645,    14,    16,  5056,     7,     5, 11054,    22,
+           627,  3645,     9,    10,  3645,     6,     5,  3645,  3649,    14,
+            24,    16,    10,  3645,    14,    64,    28,   303,    11,     5,
+          3645,    18,  5377,     6,     8,     5,  3645,  3700, 12859,     7,
+             5,  3645,    25,    10,    22,   119,  4526,  4450,   459,   113,
+             8,    10,    22, 38428,   113,    16,     5,   144,  1537,  1385,
+            13,     5,  3645,    22, 38428,    60,    61,    16,   747,  3059,
+            19,  4133,     6,    61,    32,    10,  1537,  1905,     9,    10,
+          1569,     6,   217,     5,  3645,     2],
+        [    2,     0,     0,     0,   133,   133,     0,   864,  3649,    14,
+             5,   864,    16,  1996,    13,    10,   864,    14,    16,  1330,
+             7,     5,  5377,     9,     5,   864,     6,    61,    16,    10,
+           864,  1996,    13,     5,   864,    18,  2259,     6,    61,  3649,
+            14,    24,    16,    10,  2259,    14,    16,  2034,    11,     5,
+           343,     9,     5,   315,   532,     6,     8,     5,  3645,  3649,
+            14,    42,   864,    16,     5,   144,  3901,  1948,     7,     5,
+           864,     4,     2,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,   133,  3645,  3649,    14,     5,  3645,    16,  5056,
+             7,     5,  5377,     9,     5,  3645,     6,    61,    16,     5,
+          3645,     9,     5,   864,     6,    61,  3649,    14,    24,    16,
+             5,   144, 16437,  1973,    13,     5,  3645,     7,    28,     5,
+           144,  1202,     7,   109,    98,     6,    25,    24,    16,    10,
+          3645,    14,    64,    28,  9820,    31,     5,  3645,     4,     2,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   133,     0,   864,    16,    10,
+         11054,    14,  3649,    14,     5,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,    16,    10,   864,    14,
+            16, 10266,  3059,    19,     5,  3645,     9,     5,  3645,     6,
+             8,     5,  3645,    16,    10,  1537, 11054,    14,    16,   747,
+           341,     7,  6190,     5,  3645,    14,    16,     5,  3645,    18,
+          5377,     9,    10,  3645,     6,    61,  3649,    14,    24,    16,
+            10,  3645,    14,    64,    28,  9820,    31,     5,  3645,     4,
+             2,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Options: A) bank, B) library, C) department store, D) mall, E) new york,
+Rationale:
+[output]TheThe question suggests that the question is asking for the context of the question, which is a question that is typically associated with the sentence of the sentence, which suggests the sentence is the sentence that is referring to the phrase "the sentence of a sentence, the sentence suggests that it is a sentence that can be found in the sentence's context, and the sentence typically refers to the sentence as a "marmacele" and a "movie" is the most common term for the sentence "movie," which is often associated with movies, which are a common feature of a movie, including the sentence
+第1个
+[input]Generate rationale for the question and choices.  Question: What do people aim to do at work? Options: A) complete job, B) learn from each other, C) kill animals, D) wear hats, E) talk to each other,
+Rationale:
+[output]TheThe question suggests that the question is asking for a question that is related to the context of the question, which is a question asking for the question's location, which suggests that it is a location that is located in the city of the United States, and the sentence suggests that this question is the most appropriate answer to the question.
+第2个
+[input]Generate rationale for the question and choices.  Question: Where would you find magazines along side many other printed works? Options: A) doctor, B) bookstore, C) market, D) train station, E) mortuary,
+Rationale:
+[output]The sentence suggests that the sentence is referring to the context of the sentence, which is the sentence of the question, which suggests that it is the most logical option for the sentence to be the most difficult to do so, as it is a sentence that can be eliminated from the sentence.
+第3个
+[input]Generate rationale for the question and choices.  Question: Where are  you likely to find a hamburger? Options: A) fast food restaurant, B) pizza, C) ground up dead cows, D) mouth, E) cow carcus,
+Rationale:
+[output]TheThe question is a phrase that suggests that the question is asking for the context of the question, which is a question that is commonly associated with the sentence of the sentence, and the sentence is a common phrase that is often used to describe the sentence that is the sentence's context of a sentence, which suggests that it is a sentence that can be eliminated from the sentence.
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 118])
+[output] tensor([[    2,     0,     0,     0,   133,   133,     0,   864,    16,    10,
+         11054,    14,  3649,    14,     5,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,    16,    10,   864,    14,
+            16, 10266,  3059,    19,     5,  3645,     9,     5,  3645,     6,
+             8,     5,  3645,    16,    10,  1537, 11054,    14,    16,   341,
+             7,  6190,     5,  3645,    25,     5,  3645,    14,    16,     5,
+           144, 10266,   341,     7,  9115,     7,     5,  3645,    18,  3645,
+             6,    61,  3649,    14,    24,    16,    10,  3645,    14,    64,
+            28,  9820,    31,     5,  3645,     4,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,   133,  3645,  3649,    14,     5,  3645,    16,  5056,
+             7,     5,   304,     9,     5,  2136,    22,   119,  4526,  4526,
+          4526,  4450,   113,    25,     5,  3645,  3649,    10,  1762,     9,
+          2655,     9,     5,  5377,     9,     5,  3645,     6,    61,    16,
+            10, 26293, 10266,  3059,    19,     5,  3645,     2,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   133,     0,   864,  3649,    14,
+             5,   864,    16,  1996,    13,     5,  5377,     9,     5,   864,
+             6,    61,    16,    10,   864,    14,  3649,    14,    24,    16,
+            10,  2259,   147,     5,   621,    16,  1686,    59,     5,   864,
+            18,  2259,     6,    61,  3649,    14,    51,    32,  1686,    59,
+            10,  2259,    14,    16,  2034,    11,     5,   343,     9,     5,
+           315,   532,     6,     8,     5,  3645,  3649,    14,    42,    16,
+             5,   144,   533,     7,    28,    10,   317,   147,    10,   621,
+            64,   213,     7,    10,  2391,     6,    25,    51,    32,    10,
+          2391,    14,    16,  3700,  2034,    11,    10,   343,     6,     8,
+            10,  2391,    16,    10,  1537,  2259,    13,  4329,     6,   217,
+             5,   864,     9,     5,  2391,    18,  2259,     2],
+        [    2,     0,     0,     0,   133,   133,     0,   864,    16,    10,
+         11054,    14,  3649,    14,     5,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,    16,    10,   864,    14,
+            16, 10266,  3059,    19,     5,  3645,     9,     5,  3645,     6,
+             8,     5,  3645,    16,    10,  1537, 11054,    14,    16,   341,
+             7,  6190,     5,  3645,    25,     5,  3645,    18,  5377,     9,
+            10,  3645,     6,    61,  3649,    14,    24,    16,    10,  3645,
+            14,    64,    28,  9820,    31,     5,  3645,     4,     2,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: James was looking for a good place to buy farmland.  Where might he look? Options: A) midwest, B) countryside, C) estate, D) farming areas, E) illinois,
+Rationale:
+[output]TheThe question is a phrase that suggests that the question is asking for the context of the question, which is a question that is commonly associated with the sentence of the sentence, and the sentence is a common phrase that is used to describe the sentence as the sentence that is the most commonly used to refer to the sentence's sentence, which suggests that it is a sentence that can be eliminated from the sentence.
+第1个
+[input]Generate rationale for the question and choices.  Question: What island country is ferret popular? Options: A) own home, B) north carolina, C) great britain, D) hutch, E) outdoors,
+Rationale:
+[output]The sentence suggests that the sentence is referring to the use of the word "marmarmarmace" as the sentence suggests a lack of knowledge of the context of the sentence, which is a characteristic commonly associated with the sentence
+第2个
+[input]Generate rationale for the question and choices.  Question: In what Spanish speaking North American country can you get a great cup of coffee? Options: A) mildred's coffee shop, B) mexico, C) diner, D) kitchen, E) canteen,
+Rationale:
+[output]TheThe question suggests that the question is asking for the context of the question, which is a question that suggests that it is a location where the person is talking about the question's location, which suggests that they are talking about a location that is located in the city of the United States, and the sentence suggests that this is the most likely to be a place where a person can go to a restaurant, as they are a restaurant that is typically located in a city, and a restaurant is a common location for restaurants, including the question of the restaurant's location
+第3个
+[input]Generate rationale for the question and choices.  Question: What do animals do when an enemy is approaching? Options: A) feel pleasure, B) procreate, C) pass water, D) listen to each other, E) sing,
+Rationale:
+[output]TheThe question is a phrase that suggests that the question is asking for the context of the question, which is a question that is commonly associated with the sentence of the sentence, and the sentence is a common phrase that is used to describe the sentence as the sentence's context of a sentence, which suggests that it is a sentence that can be eliminated from the sentence.
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 93])
+[output] tensor([[    2,     0,   133,  3645,  3649,    14,     5,  3645,    16,  5056,
+             7,     5,  5377,     9,     5,  3645,     6,    61,    16,     5,
+          3645,     9,     5,   864,     6,    61,  3649,    14,    24,    16,
+             5,   144,   505,   233,     9,    10,  3645,     6,    25,    24,
+            16,    10,  3645,    14,    16,  3700,  4997,     7,    25,    22,
+           627,  3645,   113,    16,    10,  1537, 11054,   341,     7,  9115,
+             7,     5,  3645,    25,    22,   102,  3645,   113,   133,  3645,
+            16,    67,    10, 11054,    14, 12859,     7,     5,   304,     9,
+             5,  2136,    22,   119,  4526,  4526,  4526,  4450,   113,    11,
+             5,  3645,     2],
+        [    2,     0,   133,  3645,  3649,    14,     5,  3645,    16,  5056,
+             7,     5,  5377,     9,     5,  3645,     6,    61,  3649,    14,
+            24,    16,    10,  2259,    14,    16,  2034,    11,    10,   343,
+             6,    61,    16, 10266,  3059,    19,     5,   343,     9,     5,
+           315,   532,     2,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1],
+        [    2,     0,   133,  3645,  3649,    14,     5,  3645,    16,  5056,
+             7,     5,  5377,     9,     5,  3645,     6,    61,  3649,    14,
+            24,    16,    10,  2259,    14,    16,  2034,    11,    10,   343,
+             6,    61,    16, 10266,  3059,    19,     5,   343,     9,     5,
+           315,   532,     2,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1],
+        [    2,     0,     0,     0,   133,   133,     0,   864,  3649,    14,
+             5,   864,    16,  1996,    13,    10,   864,    14,    16,  1330,
+             7,     5,  5377,     9,     5,  3645,     6,    61,    16,     5,
+          3645,     9,     5,   864,     6,    61,  3649,     5,  3645,    16,
+             5,   144, 16437,  2031,    13,     5,   864,    18,  5377,     9,
+            10,   864,     6,    25,    24,    16,    10,  3645,    14,  3649,
+            14,    10,   864,    16,     5,   275,   233,     9,    10,  3645,
+             2,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: Reading newspaper one of many ways to practice your what? Options: A) literacy, B) knowing how to read, C) money, D) buying, E) money bank,
+Rationale:
+[output]The sentence suggests that the sentence is referring to the context of the sentence, which is the sentence of the question, which suggests that it is the most important part of a sentence, as it is a sentence that is typically referred to as "the sentence" is a common phrase used to refer to the sentence as "a sentence"The sentence is also a phrase that refers to the use of the word "marmarmarmace" in the sentence
+第1个
+[input]Generate rationale for the question and choices.  Question: What do people typically do while playing guitar? Options: A) cry, B) hear sounds, C) singing, D) arthritis, E) making music,
+Rationale:
+[output]The sentence suggests that the sentence is referring to the context of the sentence, which suggests that it is a location that is located in a city, which is commonly associated with the city of the United States
+第2个
+[input]Generate rationale for the question and choices.  Question: What would vinyl be an odd thing to replace? Options: A) pants, B) record albums, C) record store, D) cheese, E) wallpaper,
+Rationale:
+[output]The sentence suggests that the sentence is referring to the context of the sentence, which suggests that it is a location that is located in a city, which is commonly associated with the city of the United States
+第3个
+[input]Generate rationale for the question and choices.  Question: If you want harmony, what is something you should try to do with the world? Options: A) take time, B) make noise, C) make war, D) make peace, E) make haste,
+Rationale:
+[output]TheThe question suggests that the question is asking for a question that is related to the context of the sentence, which is the sentence of the question, which suggests the sentence is the most logical choice for the question's context of a question, as it is a sentence that suggests that a question is the best part of a sentence
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 76])
+[output] tensor([[    2,     0,   133,  3645,  3649,    14,     5,  3645,    16,  5056,
+             7,     5,  5377,     9,     5,  3645,     6,    61,  3649,    14,
+            24,    16,    10,  2259,    14,    16,  2034,    11,    10,   343,
+             6,    61,    16, 10266,  3059,    19,     5,   343,     9,     5,
+           315,   532,     2,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   133,     0,   864,    16,    10,
+         11054,    14,  3649,    14,     5,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,    16,    10,   864,    14,
+            16, 10266,  3059,    19,     5,  3645,     9,     5,  3645,     6,
+             8,     5,  3645,  3649,    14,    24,    16,     5,  3645,    14,
+             5,  3645,    16,     5,   144,  3901,  1948,     7,     5,   864,
+            18,   864,     6,    25,    24,    16,    10,  3645,    14,    64,
+            28,  9820,    31,     5,  3645,     2],
+        [    2,     0,   133,  3645,  3649,    14,     5,  3645,    16,  5056,
+             7,     5,  5377,     9,     5,  3645,     6,    61,  3649,    14,
+            24,    16,    10,  2259,    14,    16,  2034,    11,    10,   343,
+             6,    61,    16, 10266,  3059,    19,     5,   343,     9,     5,
+           315,   532,     2,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,   133,  3645,  3649,    14,     5,  3645,    16,  5056,
+             7,     5,  5377,     9,     5,  3645,     6,    61,    16,     5,
+          3645,     9,     5,   864,     6,    61,  3649,    14,    24,    16,
+             5,   144,   505,   233,     9,    10,  3645,     6,    25,    24,
+            16,    10,  3645,    14,    16,  3700,  4997,     7,    25,    22,
+           627,  3645,   113,    16,    10,  1537, 11054,   341,     7,  9115,
+             7,     5,  3645,    25,    22,   102,  3645,   113,     2,     1,
+             1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: Where does a heifer's master live? Options: A) farm house, B) barnyard, C) stockyard, D) slaughter house, E) eat cake,
+Rationale:
+[output]The sentence suggests that the sentence is referring to the context of the sentence, which suggests that it is a location that is located in a city, which is commonly associated with the city of the United States
+第1个
+[input]Generate rationale for the question and choices.  Question: Aside from water and nourishment what does your dog need? Options: A) bone, B) charm, C) petted, D) lots of attention, E) walked,
+Rationale:
+[output]TheThe question is a phrase that suggests that the question is asking for the context of the question, which is a question that is commonly associated with the sentence of the sentence, and the sentence suggests that it is the sentence that the sentence is the most appropriate answer to the question's question, as it is a sentence that can be eliminated from the sentence
+第2个
+[input]Generate rationale for the question and choices.  Question: Janet was watching the film because she liked what? Options: A) erection, B) laughter, C) being entertained, D) fear, E) bordem,
+Rationale:
+[output]The sentence suggests that the sentence is referring to the context of the sentence, which suggests that it is a location that is located in a city, which is commonly associated with the city of the United States
+第3个
+[input]Generate rationale for the question and choices.  Question: What are you waiting alongside with when you're in a reception area? Options: A) motel, B) chair, C) hospital, D) people, E) hotels,
+Rationale:
+[output]The sentence suggests that the sentence is referring to the context of the sentence, which is the sentence of the question, which suggests that it is the most important part of a sentence, as it is a sentence that is typically referred to as "the sentence" is a common phrase used to refer to the sentence as "a sentence"
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 126])
+[output] tensor([[    2,     0,     0,     0,   133,   133,     0,   864,  3649,    14,
+             5,   864,    16,  1996,    13,     5,  5377,     9,     5,   864,
+             6,    61,    16,    10,   864,    14,  3649,    14,    24,    16,
+            10,   317,   147,    10,   621,    64,   213,     7,    10,  2391,
+             6,     8,     5,  3645,  3649,    14,    10,  2391,    16,    10,
+          2391,    14,    16,  2034,    11,     5,   343,     9,    10,   343,
+             6,    61,  3649,    14,    51,    32,    10,  2391,    11,    10,
+           343,    14,    16,   684,     7,    33,    10,  3143,     9,  4329,
+             6,   215,    25,    10,  2391,    50,  2391,     6,    61,    32,
+          3700,  3059,    19,  4329,     6,   217,     5,   304,     9,     5,
+          2136,    22,  2871,  4468,   113,    25,     5,  3645,    16,     5,
+           129,  1973,    14,  3649,    10,  2391,    25,    10,  2259,   147,
+            10,  2391,    64,    28,   303,     2],
+        [    2,     0,     0,     0,   133,   133,     0,   864,    16,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  1996,    13,    10,   864,    14,    16,  1330,     7,     5,
+           304,     9,     5,  2136,    22,   119,  4526,  4450,   890,   459,
+           113,     7,     5,  3645,     9,     5,  3645,     6,    61,    16,
+            10, 11054,    14,  3649,    14,    24,    16,     5,  3645,    14,
+             5,  3645,    16,  5056,     7,     5, 11054,    22,   627,  3645,
+           113,    16,     5,   144, 16437,  1973,    13,     5,  3645,     7,
+            28,     5,  3645,    18,  5377,     9,    10,  3645,     6,    25,
+            24,    16,    10,  3645,    14,    16, 10266,  3059,    19,     5,
+          3645,    22,   448,  4526,  4450,   459,   113,    16,    10,  1537,
+         11054,   341,     7,  6190,     5,  3645,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,   133,  3645,  3649,    14,     5,  3645,    16,  5056,
+             7,     5,  5377,     9,     5,  3645,     6,    61,    16,     5,
+          3645,     9,     5,   864,     6,    61,  3649,    14,    24,    16,
+             5,   144, 16437,  1973,    13,     5,  3645,     7,    28,     5,
+           144,  1202,     7,   109,    98,     6,    25,    24,    16,    10,
+          3645,    14,    64,    28,  9820,    31,     5,  3645,    25,    24,
+           473,    45,    33,   143,  5377,  1330,     7,     5,  3645,     2,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,     0,   133,   133,   864,    16,
+          1996,    13,     5,  5377,     9,     5,   864,     6,    61,  3649,
+            14,     5,   864,    16,  5056,     7,     5,   304,     9,     5,
+          2136,    22,   119,  2463,   242,  2158,   459, 17673,  2463,   242,
+           113,     8,     5,  3645,  3649,    14,    24,    16,     5,  3645,
+             9,     5,  3645,     6,    61,    16,    10,  1537, 11054,   341,
+             7,  9115,     7,     5,  3645,    25,    22,   627,  3645,    16,
+            10, 11054,    14, 12859,     7,    10,  3645,    14,    16,     5,
+           144,  1537,  1385,   341,     7,  6190,    10,   621,    18,  2163,
+             6,    61,    32,  3700,  3059,    19,     5,  3645,     2,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: When drinking booze what can you do to stay busy? Options: A) reach tentative agreement, B) stay in bed, C) stop bicycle, D) examine thing, E) suicide,
+Rationale:
+[output]TheThe question suggests that the question is asking for the context of the question, which is a question that suggests that it is a place where a person can go to a restaurant, and the sentence suggests that a restaurant is a restaurant that is located in the city of a city, which suggests that they are a restaurant in a city that is known to have a variety of restaurants, such as a restaurant or restaurant, which are typically associated with restaurants, including the use of the word "cheese" as the sentence is the only option that suggests a restaurant as a location where a restaurant can be found
+第1个
+[input]Generate rationale for the question and choices.  Question: A fencing thrust with a sharp sword towards a person would result in what? Options: A) injury, B) small cuts, C) fever, D) competition, E) puncture wound,
+Rationale:
+[output]TheThe question is the context of the question, which suggests that the question is asking for a question that is related to the use of the word "marmacellle" to the sentence of the sentence, which is a phrase that suggests that it is the sentence that the sentence is referring to the phrase "the sentence" is the most logical option for the sentence to be the sentence's context of a sentence, as it is a sentence that is commonly associated with the sentence "Marmacele" is a common phrase used to describe the sentence
+第2个
+[input]Generate rationale for the question and choices.  Question: Unlike a spider and his many sight seers, people only have what? Options: A) tongues, B) names, C) brains, D) feelings, E) two eyes,
+Rationale:
+[output]The sentence suggests that the sentence is referring to the context of the sentence, which is the sentence of the question, which suggests that it is the most logical option for the sentence to be the most difficult to do so, as it is a sentence that can be eliminated from the sentence as it does not have any context related to the sentence
+第3个
+[input]Generate rationale for the question and choices.  Question: Where do adults use glue sticks? Options: A) classroom, B) desk drawer, C) at school, D) office, E) kitchen drawer,
+Rationale:
+[output]TheTheThe question is asking for the context of the question, which suggests that the question is referring to the use of the word "miceezelemnicee" and the sentence suggests that it is the sentence of the sentence, which is a common phrase used to refer to the sentence as "the sentence is a phrase that refers to a sentence that is the most common term used to describe a person's actions, which are typically associated with the sentence
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 95])
+[output] tensor([[    2,     0,   133,  3645,  3649,    14,     5,   864,    16,  1996,
+            13,    10,   864,    14,    16,  1330,     7,     5,  5377,     9,
+             5,  3645,     6,    61,  3649,    14,    10,   864,    16,   145,
+           553,    13,    10,  2259,    14,    16,  2034,    11,    10,   343,
+             6,   215,    25,    10, 15604,  1992,     6,    61,    16,    10,
+          1537,  2259,    13, 15604,  4492,     7,    28,  2034,    11,     5,
+           343,     4,     2,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   133,     0,   864,  3649,    14,
+             5,   864,    16,  1996,    13,     5,  5377,     9,     5,   864,
+             6,    61,    16,    10,   864,    14,  3649,    14,    24,    16,
+             5,   864,     9,     5,  3645,    14,    16,  5056,     7,     5,
+          3645,     6,    61,  3649,     5,  3645,    16,     5,  3645,     9,
+            10,  3645,    14,     5,  3645,    64,    28,   303,    11,    10,
+          2391,     6,     8,     5,  3645,  3649,    14,    10,  2391,    16,
+            10,   317,   147,   689,    16,  1665,    25,    10,  5820,     6,
+             8,    10,  2391,  3700, 12859,     7,    10,  5820,    14,    16,
+          1665,    23,    10,  2391,     2],
+        [    2,     0,     0,     0,   133,   133,     0,   864,  3649,    14,
+             5,   864,    16,  1996,    13,     5,  5377,     9,     5,   864,
+             6,    61,    16,    10,   864,    14,    16,  3700,  3059,    19,
+             5,  3645,     9,     5,  3645,     6,     8,     5,  3645,    16,
+            10,  1537, 11054,    14,  3649,     5,  3645,    14,     5,  3645,
+            22,   627,  3645,   113,    16,     5,  3645,    18,  5377,     9,
+            10,  3645,     6,    61,  3649,    14,    24,    16,    10,  3645,
+            14,    64,    28,  9820,    31,     5,  3645,     2,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1],
+        [    2,     0,   133,  3645,  3649,    14,     5,  3645,    16,  5056,
+             7,     5,  5377,     9,     5,  3645,     6,    61,    16,     5,
+          3645,     9,     5,   864,     6,    61,  3649,    14,    24,    16,
+             5,   144,   505,   233,     9,    10,  3645,     6,    25,    24,
+            16,    10,  3645,    14,    16,  3700,  4997,     7,    25,    22,
+           627,  3645,   113,    16,    10,  1537, 11054,   341,     7,  9115,
+             7,     5,  3645,    25,    22,   102,  3645,   113,     2,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: What could go on top of wood? Options: A) lumberyard, B) synagogue, C) floor, D) carpet, E) hardware store,
+Rationale:
+[output]The sentence suggests that the question is asking for a question that is related to the context of the sentence, which suggests that a question is being asked for a location that is located in a city, such as a subway station, which is a common location for subway stations to be located in the city.
+第1个
+[input]Generate rationale for the question and choices.  Question: The artist was sitting quietly pondering, then suddenly he began to paint when what struck him? Options: A) sadness, B) anxiety, C) inspiration, D) discomfort, E) insights,
+Rationale:
+[output]TheThe question suggests that the question is asking for the context of the question, which is a question that suggests that it is the question of the sentence that is referring to the sentence, which suggests the sentence is the sentence of a sentence that the sentence can be found in a restaurant, and the sentence suggests that a restaurant is a place where food is served as a meal, and a restaurant typically refers to a meal that is served at a restaurant
+第2个
+[input]Generate rationale for the question and choices.  Question: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what? Options: A) indestructible, B) durable, C) undestroyable, D) indestructible, E) unbreakable,
+Rationale:
+[output]TheThe question suggests that the question is asking for the context of the question, which is a question that is typically associated with the sentence of the sentence, and the sentence is a common phrase that suggests the sentence that the sentence "the sentence" is the sentence's context of a sentence, which suggests that it is a sentence that can be eliminated from the sentence
+第3个
+[input]Generate rationale for the question and choices.  Question: Where could you find a toilet that only friends can use? Options: A) rest area, B) school, C) stadium, D) apartment, E) hospital,
+Rationale:
+[output]The sentence suggests that the sentence is referring to the context of the sentence, which is the sentence of the question, which suggests that it is the most important part of a sentence, as it is a sentence that is typically referred to as "the sentence" is a common phrase used to refer to the sentence as "a sentence"
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 159])
+[output] tensor([[    2,     0,   133,  3645,  3649,    14,     5,  3645,    16,  5056,
+             7,     5,  5377,     9,     5,  3645,     6,    61,    16,     5,
+          3645,     9,     5,   864,     6,    61,  8711,    14,     5,   864,
+            16,  1996,    13,    10,   864,    14,    16,    45,  1330,     7,
+             5,  3645,    18,  5377,     6,    61,  3649,    10,  1762,     9,
+           335,    59,     5,  3645,     4,     2,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   133,     0,   864,    16,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  1996,    13,    10,   864,    14,    16,  1330,     7,     5,
+           304,     9,     5,  2136,    22,   119,  4526,  4450,   890,   459,
+           113,     7,     5,  3645,     9,     5,  3645,     6,    61,    16,
+            10, 11054,    14,  3649,     5,  3645,    16,     5,  3645,    14,
+            16,  5056,     7,     5, 11054,    22,   627,  3645,   113,     8,
+             5,  3645,  3649,    14,    24,    16,    10,  3645,    14,    64,
+            28,  9820,    31,     5,  3645,     4,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   133,     0,   864,  3649,    14,
+             5,   864,    16,  1996,    13,     5,  5377,     9,     5,   864,
+             6,    61,    16,    10,   864,    14,  3649,    14,    24,    16,
+            10,  2259,     9,     5,  3645,     6,     8,     5,  3645,    16,
+             5,   144, 16437,  2031,    13,     5,   864,    18,  5377,     9,
+            10,  3645,     6,    25,    24,    16,     5,  3645,    14,    16,
+             5,   129,  1973,    14,    16,    10,  3645,    14,    64,    28,
+           303,    11,     5,  3645,     9,    10,   621,    18,  3645,     6,
+            61,  3649,    14,    51,    33,    10,  4724,    13,     5,  3645,
+            51,    32,  5056,     7,     5,  3645,    25,    10,    22,   119,
+          3698,  8014,   113,    50,    22,   119, 31093,   113,   133,  3645,
+            16,    10,  1537, 11054,   341,     7,  6190,     5,  3645,    11,
+            10,   169,    14,  3649,     5,  3645,    18,  5377,     6,    61,
+             5,  3645,  3649,     5, 11054,    22,   448, 31093,   113,    16,
+            10, 11054,    14,    16, 10266,  3059,    19,     5,  1385,    22,
+           119,  4526,  4526,  4526,  4450,   890, 11599,   113,     2],
+        [    2,     0,     0,     0,   133,   133,     0,   864,    16,    10,
+         11054,    14,  3649,    14,     5,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,    16,    10,   864,    14,
+            16, 10266,  3059,    19,     5,  3645,     9,     5,  3645,     6,
+             8,     5,  3645,    16,    10,  1537, 11054,    14,    16,   341,
+             7,  6190,     5,  3645,    25,     5,  3645,    18,  5377,     9,
+            10,  3645,     6,    61,  3649,    14,    24,    16,    10,  3645,
+            14,    64,    28,  9820,    31,     5,  3645,     4,     2,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: What is someone who isn't clever, bright, or competent called? Options: A) clumsy, B) ineffectual, C) dull, D) clumsy, E) stupid,
+Rationale:
+[output]The sentence suggests that the sentence is referring to the context of the sentence, which is the sentence of the question, which indicates that the question is asking for a question that is not related to the sentence's context, which suggests a lack of information about the sentence.
+第1个
+[input]Generate rationale for the question and choices.  Question: When wildlife reproduce we often refer to what comes out as what? Options: A) raise children, B) have children, C) photo copy, D) offspring, E) accidently got pregnant somehow,
+Rationale:
+[output]TheThe question is the context of the question, which suggests that the question is asking for a question that is related to the use of the word "marmacellle" to the sentence of the sentence, which is a phrase that suggests the sentence is the sentence that is referring to the phrase "the sentence" and the sentence suggests that it is a sentence that can be eliminated from the sentence.
+第2个
+[input]Generate rationale for the question and choices.  Question: The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what? Options: A) forrest, B) barn, C) public office, D) out of doors, E) freezer,
+Rationale:
+[output]TheThe question suggests that the question is asking for the context of the question, which is a question that suggests that it is a location of the sentence, and the sentence is the most logical choice for the question's context of a sentence, as it is the sentence that is the only option that is a sentence that can be found in the sentence of a person's sentence, which suggests that they have a desire for the sentence they are referring to the sentence as a "museums" or "museum"The sentence is a common phrase used to describe the sentence in a way that suggests the sentence's context, which the sentence suggests the phrase "Museum" is a phrase that is commonly associated with the term "marmarmarmacellastic"
+第3个
+[input]Generate rationale for the question and choices.  Question: Blue read material outside of his comfort zone because he wanted to gain what? Options: A) new perspective, B) entertained, C) understanding, D) hunger, E) tired eyes,
+Rationale:
+[output]TheThe question is a phrase that suggests that the question is asking for the context of the question, which is a question that is commonly associated with the sentence of the sentence, and the sentence is a common phrase that is used to describe the sentence as the sentence's context of a sentence, which suggests that it is a sentence that can be eliminated from the sentence.
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+  2%|███▎                                                                                                                                            | 7/306 [02:34<1:50:11, 22.11s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 326, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 320, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 256, in test
+    output = model.generate(input_ids, max_length=200, num_return_sequences=1, early_stopping=True)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 1490, in generate
+    return self.beam_search(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 2749, in beam_search
+    outputs = self(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1373, in forward
+    outputs = self.model(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1255, in forward
+    decoder_outputs = self.decoder(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1113, in forward
+    layer_outputs = decoder_layer(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 464, in forward
+    hidden_states = self.fc2(hidden_states)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

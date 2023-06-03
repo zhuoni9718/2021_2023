@@ -1,0 +1,43 @@
+training roberta-large
+dataset:<class 'dataloader.MultipleChoiceDatasetCommonGen'>
+training epoch0
+[CLS] Q: If there is gum on your shoe where did it likely come from? [SEP] A: shelf [SEP] A man is coming out of a movie with gum shoes.</s
+[CLS] Q: If there is gum on your shoe where did it likely come from? [SEP] A: movies [SEP] a man comes out of his gum shoe and talks to the camera during filming</s
+[CLS] Q: If there is gum on your shoe where did it likely come from? [SEP] A: sidewalk [SEP] a movie comes to life with gum shoes</s
+[CLS] Q: If there is gum on your shoe where did it likely come from? [SEP] A: water fountain [SEP] A man is wearing a gum shoe and comes out of the movie.</s
+[CLS] Q: If there is gum on your shoe where did it likely come from? [SEP] A: table [SEP] a man comes out of his gum shoe to see the movie</s
+[CLS] Q: How could you have fun by yourself with no one around you? [SEP] A: fairgrounds [SEP] the fun of a good time is endless with this engaging video game</s
+[CLS] Q: How could you have fun by yourself with no one around you? [SEP] A: watching television [SEP] the fun of a holiday is always enjoyable</s
+[CLS] Q: How could you have fun by yourself with no one around you? [SEP] A: tired [SEP] the fun of playing a game is what makes it so enjoyable</s
+[CLS] Q: How could you have fun by yourself with no one around you? [SEP] A: enjoyable [SEP] a fun way to spend your summer vacation is by having some enjoyable time with friends</s
+[CLS] Q: How could you have fun by yourself with no one around you? [SEP] A: friend's house [SEP] a fun and enjoyable day out</s
+[CLS] Q: Where did you meet your best friend since Kindergarten? [SEP] A: friend's house [SEP] friends meeting on an airplane</s
+[CLS] Q: Where did you meet your best friend since Kindergarten? [SEP] A: school [SEP] a group of friends meet on an airplane</s
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.layer_norm.bias', 'lm_head.dense.bias', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.layer_norm.weight', 'lm_head.dense.weight']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                       | 0/382 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 201, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 192, in main
+    train(args.model_name,args.epochs,args.train_data,args.dev_data,args.batch_size,args.learning_rate,args.model_path,args.dataloader)
+  File "/users5/znchen/distil/predict_frame.py", line 63, in train
+    for batch in tqdm(train_loader, mininterval=180):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/users5/znchen/distil/dataloader.py", line 307, in __getitem__
+    text = '[CLS] Q: '+question + ' [SEP] A: ' + choice["text"] +' [SEP] '+rationale[j]
+IndexError: list index out of range

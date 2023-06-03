@@ -1,0 +1,53 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_1,data:WOCOT
+第0个
+[input]Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Options: A: bank,B: library,C: department store,D: mall,E: new york, Answer is
+[output]<pad><pad>
+第1个
+[input]Question: What do people aim to do at work? Options: A: complete job,B: learn from each other,C: kill animals,D: wear hats,E: talk to each other, Answer is
+[output]
+第2个
+[input]Question: Where would you find magazines along side many other printed works? Options: A: doctor,B: bookstore,C: market,D: train station,E: mortuary, Answer is
+[output]<pad><pad>
+第3个
+[input]Question: Where are  you likely to find a hamburger? Options: A: fast food restaurant,B: pizza,C: ground up dead cows,D: mouth,E: cow carcus, Answer is
+[output]<pad><pad>
+第0个
+[input]Question: James was looking for a good place to buy farmland.  Where might he look? Options: A: midwest,B: countryside,C: estate,D: farming areas,E: illinois, Answer is
+[output]
+第1个
+[input]Question: What island country is ferret popular? Options: A: own home,B: north carolina,C: great britain,D: hutch,E: outdoors, Answer is
+[output]
+第2个
+[input]Question: In what Spanish speaking North American country can you get a great cup of coffee? Options: A: mildred's coffee shop,B: mexico,C: diner,D: kitchen,E: canteen, Answer is
+[output]<pad><pad>
+第3个
+[input]Question: What do animals do when an enemy is approaching? Options: A: feel pleasure,B: procreate,C: pass water,D: listen to each other,E: sing, Answer is
+[output]<pad><pad>
+  1%|▉                                                                                                                                      | 2/306 [00:17<45:20,  8.95s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 271, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 265, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 193, in test
+    output = model.generate(input_ids,attention_mask = attention_id, max_length=200, num_return_sequences=1, early_stopping=True)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 1268, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 634, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(**encoder_kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 856, in forward
+    layer_outputs = encoder_layer(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 331, in forward
+    hidden_states, attn_weights, _ = self.self_attn(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 275, in forward
+    attn_output = torch.bmm(attn_probs, value_states)
+KeyboardInterrupt

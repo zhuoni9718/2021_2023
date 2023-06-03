@@ -1,0 +1,56 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_6,data:R
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 110])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,  5377,
+            16,  1330,     7,     5,  5377,     9,     5,  3645,     6,    61,
+          3649,    14,    24,    16,    59,     5,  2259,     9,     5,  5385,
+            18,   184,     6,    61,    16,   533,     7,    28,    10,   317,
+           147,    51,    32,  4959,    11,    10,  2303,   133,  1973,    22,
+         26407,  4294,   113,    16,     5,   144, 16437,  2031,    25,    24,
+            16,    10,  1537,  2259,    13,    10,  2303,   929,     7,    28,
+          2034,     6,     8,     5,    97,  1735,   109,    45,   146,  1472,
+            11,    42,  5377,   113, 44391,  4294,   113,     8,    22, 23199,
+          8224,   113,    32,   350,   937,     8,   109,    45,   694,   143,
+          2167,   335,    59,   147,     5,  5385,    16,  4959,     4,     2]])
+第0个
+[input]Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Options: A) bank, B) library, C) department store, D) mall, E) new york,
+[output]The sentence suggests that the context is related to the context of the sentence, which suggests that it is about the location of the speaker's home, which is likely to be a place where they are staying in a hotelThe option "bathroom" is the most logical choice as it is a common location for a hotel room to be located, and the other options do not make sense in this context"Bedroom" and "kitchen" are too general and do not provide any specific information about where the speaker is staying.
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+  0%|                                                                                                                                               | 1/1221 [00:13<4:24:41, 13.02s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 329, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 323, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 259, in test
+    output = model.generate(input_ids, max_length=200, num_return_sequences=1, early_stopping=True)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 1490, in generate
+    return self.beam_search(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 2749, in beam_search
+    outputs = self(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1373, in forward
+    outputs = self.model(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1255, in forward
+    decoder_outputs = self.decoder(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1113, in forward
+    layer_outputs = decoder_layer(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 435, in forward
+    hidden_states = self.self_attn_layer_norm(hidden_states)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/normalization.py", line 190, in forward
+    return F.layer_norm(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/functional.py", line 2515, in layer_norm
+    return torch.layer_norm(input, normalized_shape, weight, bias, eps, torch.backends.cudnn.enabled)
+KeyboardInterrupt

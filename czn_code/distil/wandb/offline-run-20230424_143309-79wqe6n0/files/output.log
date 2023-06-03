@@ -1,0 +1,29 @@
+
+Fine-tuning facebook/bart-large...
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                                 | 0/1549 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/ft_frame.py", line 285, in <module>
+    main()
+  File "/users5/znchen/distil/ft_frame.py", line 270, in main
+    finetune_frame(args.dataset_class,args.train_data, args.dev_data, model_name=args.model_name, batch_size=args.batch_size, num_epochs=args.epochs, learning_rate=args.learning_rate)
+  File "/users5/znchen/distil/ft_frame.py", line 167, in finetune_frame
+    outputs = model(**batch)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1373, in forward
+    outputs = self.model(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1255, in forward
+    decoder_outputs = self.decoder(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1043, in forward
+    attention_mask = self._prepare_decoder_attention_mask(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 922, in _prepare_decoder_attention_mask
+    combined_attention_mask = _make_causal_mask(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 94, in _make_causal_mask
+    bsz, tgt_len = input_ids_shape
+ValueError: too many values to unpack (expected 2)

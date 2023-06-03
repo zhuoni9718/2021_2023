@@ -1,0 +1,10 @@
+
+training roberta-Large
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 146, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 137, in main
+    train(args.model_name,args.epochs,args.train_data,args.dev_data)
+  File "/users5/znchen/distil/predict_frame.py", line 22, in train
+    model_class, tokenizer_class = MODEL_CLASSES[model_name]
+KeyError: 'roberta-Large'

@@ -1,0 +1,101 @@
+training roberta-large
+dataset:<class 'dataloader.MultipleChoiceDataset'>
+training epoch0
+1.6169472229480744
+1.5911806780099869
+1.4626777430375417
+1.3589925380051135
+1.30592589700222
+Epoch 1/8, Train Loss: 1.2884
+Epoch: 1, Validation Accuracy: 0.6912366912366913,valid loss: 0.8374953629908624
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_0
+training epoch1
+0.8747084707021713
+0.8585416619479657
+0.8689012759923935
+0.8598886778950692
+0.8545018784701824
+Epoch 2/8, Train Loss: 0.8520
+Epoch: 2, Validation Accuracy: 0.7092547092547092,valid loss: 0.7836114849363055
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_1
+training epoch2
+0.459028068035841
+0.44227508060634135
+0.4534963189065456
+0.45499810883775355
+0.4542417163848877
+Epoch 3/8, Train Loss: 0.4542
+Epoch: 3, Validation Accuracy: 0.723996723996724,valid loss: 0.8927910643351542
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_2
+training epoch3
+0.21824774327047636
+0.22713842195604228
+0.2302140370859221
+0.23657280085215462
+0.23857916183455383
+Epoch 4/8, Train Loss: 0.2388
+Epoch: 4, Validation Accuracy: 0.714987714987715,valid loss: 1.2679852458176675
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_3
+training epoch4
+0.15024408263270744
+0.14207146973945783
+0.1465641892537436
+0.14619734549189162
+0.15082381352590163
+Epoch 5/8, Train Loss: 0.1523
+Epoch: 5, Validation Accuracy: 0.7174447174447175,valid loss: 1.4356907758039315
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_4
+training epoch5
+0.08349824269604142
+0.08345968244544565
+0.0816759755988096
+0.08106343617367201
+0.08042556552829774
+Epoch 6/8, Train Loss: 0.0816
+Epoch: 6, Validation Accuracy: 0.7108927108927109,valid loss: 1.9721663048515072
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_5
+training epoch6
+0.03943732464297227
+0.04541569681287228
+0.04546978406613107
+0.048505879970535945
+0.04694093755697122
+Epoch 7/8, Train Loss: 0.0456
+Epoch: 7, Validation Accuracy: 0.7100737100737101,valid loss: 2.152616074042661
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_6
+training epoch7
+0.023031874691491795
+0.023402295011953244
+0.027891168562310897
+0.03428131748913828
+0.03329804016443234
+Epoch 8/8, Train Loss: 0.0320
+Epoch: 8, Validation Accuracy: 0.7092547092547092,valid loss: 2.182720198961241
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_7
+testing roberta-large
+testing with ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_1
+test Accuracy: 0.7092547092547092
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.bias', 'lm_head.dense.bias', 'lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight', 'lm_head.decoder.weight']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 533/533 [12:00<00:00,  1.35s/it]
+100% 77/77 [00:33<00:00,  2.31it/s]
+100% 533/533 [12:02<00:00,  1.36s/it]
+100% 77/77 [00:33<00:00,  2.28it/s]
+100% 533/533 [11:57<00:00,  1.35s/it]
+100% 77/77 [00:33<00:00,  2.30it/s]
+100% 533/533 [12:01<00:00,  1.35s/it]
+100% 77/77 [00:33<00:00,  2.30it/s]
+100% 533/533 [11:56<00:00,  1.34s/it]
+100% 77/77 [00:34<00:00,  2.26it/s]
+100% 533/533 [11:55<00:00,  1.34s/it]
+100% 77/77 [00:33<00:00,  2.30it/s]
+100% 533/533 [11:56<00:00,  1.34s/it]
+100% 77/77 [00:33<00:00,  2.28it/s]
+100% 533/533 [12:03<00:00,  1.36s/it]
+100% 77/77 [00:33<00:00,  2.31it/s]
+100% 77/77 [00:33<00:00,  2.30it/s]

@@ -1,0 +1,159 @@
+training roberta-large
+dataset:<class 'dataloader.MultipleChoiceDataset'>
+training epoch0
+testing
+step: 100, Validation Accuracy: 0.19901719901719903,valid loss: 1.6128644587157608
+testing
+step: 200, Validation Accuracy: 0.22358722358722358,valid loss: 1.6080561582144204
+testing
+step: 300, Validation Accuracy: 0.3194103194103194,valid loss: 1.542943194315031
+testing
+step: 400, Validation Accuracy: 0.4881244881244881,valid loss: 1.2940263330162345
+testing
+step: 500, Validation Accuracy: 0.552006552006552,valid loss: 1.120388192789895
+Epoch 1/10, Train Loss: 1.4881
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_0
+training epoch1
+testing
+step: 100, Validation Accuracy: 0.601965601965602,valid loss: 1.0257016428105243
+testing
+step: 200, Validation Accuracy: 0.665028665028665,valid loss: 0.8977900209364953
+testing
+step: 300, Validation Accuracy: 0.6642096642096642,valid loss: 0.8702929674030898
+testing
+step: 400, Validation Accuracy: 0.6748566748566749,valid loss: 0.811083338864438
+testing
+step: 500, Validation Accuracy: 0.6945126945126945,valid loss: 0.802759888884309
+Epoch 2/10, Train Loss: 0.9393
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_1
+training epoch2
+testing
+step: 100, Validation Accuracy: 0.687960687960688,valid loss: 0.856015203448085
+testing
+step: 200, Validation Accuracy: 0.687960687960688,valid loss: 0.805908491085102
+testing
+step: 300, Validation Accuracy: 0.6871416871416871,valid loss: 0.8097823614423926
+testing
+step: 400, Validation Accuracy: 0.678951678951679,valid loss: 0.8323620894512573
+testing
+step: 500, Validation Accuracy: 0.7059787059787059,valid loss: 0.7796482695387555
+Epoch 3/10, Train Loss: 0.6836
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_2
+training epoch3
+testing
+step: 100, Validation Accuracy: 0.6945126945126945,valid loss: 0.8240318871163702
+testing
+step: 200, Validation Accuracy: 0.7002457002457002,valid loss: 0.8708218045822986
+testing
+step: 300, Validation Accuracy: 0.7108927108927109,valid loss: 0.8085177076327337
+testing
+step: 400, Validation Accuracy: 0.7010647010647011,valid loss: 0.8216329867189581
+testing
+step: 500, Validation Accuracy: 0.7166257166257166,valid loss: 0.7825983710490264
+Epoch 4/10, Train Loss: 0.5370
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_3
+training epoch4
+testing
+step: 100, Validation Accuracy: 0.7117117117117117,valid loss: 0.8849619857289575
+testing
+step: 200, Validation Accuracy: 0.7100737100737101,valid loss: 0.8567581385761113
+testing
+step: 300, Validation Accuracy: 0.7076167076167076,valid loss: 0.8837905293935305
+testing
+step: 400, Validation Accuracy: 0.7027027027027027,valid loss: 0.8151985818108956
+testing
+step: 500, Validation Accuracy: 0.7059787059787059,valid loss: 0.8749985182053083
+Epoch 5/10, Train Loss: 0.4186
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_4
+training epoch5
+testing
+step: 100, Validation Accuracy: 0.6928746928746928,valid loss: 1.0119555708166066
+testing
+step: 200, Validation Accuracy: 0.719082719082719,valid loss: 0.8661444502604472
+testing
+step: 300, Validation Accuracy: 0.7010647010647011,valid loss: 0.9924111099212201
+testing
+step: 400, Validation Accuracy: 0.7280917280917281,valid loss: 0.9687683800985287
+testing
+step: 500, Validation Accuracy: 0.719082719082719,valid loss: 0.9358188227399603
+Epoch 6/10, Train Loss: 0.3284
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_5
+training epoch6
+testing
+step: 100, Validation Accuracy: 0.696969696969697,valid loss: 1.0388155165430788
+testing
+step: 200, Validation Accuracy: 0.6994266994266994,valid loss: 1.0355021454297102
+testing
+step: 300, Validation Accuracy: 0.7133497133497133,valid loss: 1.0054868515822795
+testing
+step: 400, Validation Accuracy: 0.7174447174447175,valid loss: 1.0343312103930231
+testing
+step: 500, Validation Accuracy: 0.7035217035217035,valid loss: 0.9998540026317169
+Epoch 7/10, Train Loss: 0.2613
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_6
+training epoch7
+testing
+step: 100, Validation Accuracy: 0.6977886977886978,valid loss: 1.0470657197685984
+testing
+step: 200, Validation Accuracy: 0.7002457002457002,valid loss: 1.1425204954364083
+testing
+step: 300, Validation Accuracy: 0.714987714987715,valid loss: 1.0630777180194855
+testing
+step: 400, Validation Accuracy: 0.7141687141687142,valid loss: 1.039469363046931
+testing
+step: 500, Validation Accuracy: 0.7207207207207207,valid loss: 1.028534685055931
+Epoch 8/10, Train Loss: 0.2229
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_7
+training epoch8
+testing
+step: 100, Validation Accuracy: 0.7174447174447175,valid loss: 1.1337189695664815
+testing
+step: 200, Validation Accuracy: 0.7362817362817363,valid loss: 1.0844852934023002
+testing
+step: 300, Validation Accuracy: 0.7280917280917281,valid loss: 1.0786643447233486
+testing
+step: 400, Validation Accuracy: 0.7272727272727273,valid loss: 1.044850305351731
+testing
+step: 500, Validation Accuracy: 0.714987714987715,valid loss: 1.1520714651454578
+Epoch 9/10, Train Loss: 0.1862
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_8
+training epoch9
+testing
+step: 100, Validation Accuracy: 0.7059787059787059,valid loss: 1.145808077284268
+testing
+step: 200, Validation Accuracy: 0.7297297297297297,valid loss: 1.1152018167368778
+testing
+step: 300, Validation Accuracy: 0.719082719082719,valid loss: 1.1689855005446967
+testing
+step: 400, Validation Accuracy: 0.7289107289107289,valid loss: 1.1842220102424745
+testing
+step: 500, Validation Accuracy: 0.7289107289107289,valid loss: 1.1312632105954281
+Epoch 10/10, Train Loss: 0.1719
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_9
+[draw data]
+{'100': 0.7059787059787059, '200': 0.7297297297297297, '300': 0.719082719082719, '400': 0.7289107289107289, '500': 0.7289107289107289}
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.bias', 'lm_head.decoder.weight', 'lm_head.layer_norm.bias', 'lm_head.dense.bias', 'lm_head.dense.weight', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 533/533 [15:00<00:00,  1.69s/it]
+100% 533/533 [14:58<00:00,  1.69s/it]
+100% 533/533 [14:57<00:00,  1.68s/it]
+100% 533/533 [14:57<00:00,  1.68s/it]
+100% 533/533 [14:57<00:00,  1.68s/it]
+100% 533/533 [14:58<00:00,  1.69s/it]
+100% 533/533 [14:58<00:00,  1.69s/it]
+100% 533/533 [15:00<00:00,  1.69s/it]
+100% 533/533 [14:57<00:00,  1.68s/it]
+100% 533/533 [14:57<00:00,  1.68s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 309, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 299, in main
+    train_step_test(args.model_name,args.epochs,args.train_data,args.dev_data,args.batch_size,args.learning_rate,args.model_path,args.dataloader)
+  File "/users5/znchen/distil/predict_frame.py", line 218, in train_step_test
+    wandb.log({'accuracy_plot': wandb.plot.line_series(
+TypeError: line_series() got an unexpected keyword argument 'x_axis'

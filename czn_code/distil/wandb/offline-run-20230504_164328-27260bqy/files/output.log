@@ -1,0 +1,101 @@
+training roberta-large
+dataset:<class 'dataloader.MultipleChoiceDataset'>
+training epoch0
+1.6168255472183228
+1.6188177090883256
+1.6177403708299
+1.616808612048626
+1.616172328710556
+Epoch 1/8, Train Loss: 1.6154
+Epoch: 1, Validation Accuracy: 0.36036036036036034,valid loss: 1.5980679865007277
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_0
+training epoch1
+1.589756519794464
+1.5610791856050492
+1.5315341039498647
+1.4990648573637009
+1.4658926745653154
+Epoch 2/8, Train Loss: 1.4557
+Epoch: 2, Validation Accuracy: 0.5888615888615889,valid loss: 1.0630021497800752
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_1
+training epoch2
+1.2721436077356338
+1.239158561527729
+1.2271415849526723
+1.2127627305686475
+1.1968859362602233
+Epoch 3/8, Train Loss: 1.1940
+Epoch: 3, Validation Accuracy: 0.6617526617526618,valid loss: 0.9042707557802077
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_2
+training epoch3
+1.1209874027967452
+1.0803403887152672
+1.0738519366582235
+1.0742995727062226
+1.0697400069236755
+Epoch 4/8, Train Loss: 1.0650
+Epoch: 4, Validation Accuracy: 0.6855036855036855,valid loss: 0.8359746758813982
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_3
+training epoch4
+1.0061789405345918
+1.0021542873978615
+0.9985893202821413
+0.9982919136434794
+0.9941027212738991
+Epoch 5/8, Train Loss: 0.9912
+Epoch: 5, Validation Accuracy: 0.6986076986076986,valid loss: 0.785560528953354
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_4
+training epoch5
+0.9657927411794662
+0.9584845745563507
+0.9485636121034622
+0.9425226956605911
+0.9429447817802429
+Epoch 6/8, Train Loss: 0.9412
+Epoch: 6, Validation Accuracy: 0.7051597051597052,valid loss: 0.7670264921405099
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_5
+training epoch6
+0.8947960954904556
+0.9160707934200764
+0.9030920024712881
+0.9043327067047358
+0.9089033498167992
+Epoch 7/8, Train Loss: 0.9079
+Epoch: 7, Validation Accuracy: 0.7117117117117117,valid loss: 0.7579086302936852
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_6
+training epoch7
+0.8886766156554222
+0.8769490580260754
+0.8789626106619834
+0.883580733910203
+0.8849211370348931
+Epoch 8/8, Train Loss: 0.8862
+Epoch: 8, Validation Accuracy: 0.7141687141687142,valid loss: 0.7548325479804695
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_7
+testing roberta-large
+testing with ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_1
+test Accuracy: 0.5888615888615889
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.dense.bias', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 533/533 [12:00<00:00,  1.35s/it]
+100% 77/77 [00:33<00:00,  2.32it/s]
+100% 533/533 [11:59<00:00,  1.35s/it]
+100% 77/77 [00:33<00:00,  2.30it/s]
+100% 533/533 [11:59<00:00,  1.35s/it]
+100% 77/77 [00:32<00:00,  2.34it/s]
+100% 533/533 [11:59<00:00,  1.35s/it]
+100% 77/77 [00:33<00:00,  2.33it/s]
+100% 533/533 [11:59<00:00,  1.35s/it]
+100% 77/77 [00:33<00:00,  2.32it/s]
+100% 533/533 [11:58<00:00,  1.35s/it]
+100% 77/77 [00:33<00:00,  2.32it/s]
+100% 533/533 [11:58<00:00,  1.35s/it]
+100% 77/77 [00:33<00:00,  2.32it/s]
+100% 533/533 [11:59<00:00,  1.35s/it]
+100% 77/77 [00:33<00:00,  2.32it/s]
+100% 77/77 [00:33<00:00,  2.32it/s]

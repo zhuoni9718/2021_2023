@@ -1,0 +1,26 @@
+testing roberta-large
+testing with ./tmp/predict/promptk_QCK/roberta-large_4
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+data without k
+test Accuracy: 0.7271089271089272
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 764/764 [02:54<00:00,  4.38it/s]

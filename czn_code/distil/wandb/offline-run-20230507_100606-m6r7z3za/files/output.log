@@ -1,0 +1,27 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_3,data:WOCOT
+[input] Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? <s> Options: A) bank, B) library, C) department store, D) mall, E) new york,  <s>
+[target] bank
+[input] Question: What do people aim to do at work? <s> Options: A) complete job, B) learn from each other, C) kill animals, D) wear hats, E) talk to each other,  <s>
+[target] complete job
+[input] Question: Where would you find magazines along side many other printed works? <s> Options: A) doctor, B) bookstore, C) market, D) train station, E) mortuary,  <s>
+[target] bookstore
+  0% 0/306 [00:00<?, ?it/s]//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py:1288: UserWarning: Using `max_length`'s default (20) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+  0% 0/306 [00:06<?, ?it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 271, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 265, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 193, in test
+    output = model.generate(input_ids,attention_mask = attention_id, min_length=1, num_return_sequences=1, early_stopping=True,eos_token_id=['<pad>'])
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 1385, in generate
+    logits_processor = self._get_logits_processor(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 852, in _get_logits_processor
+    processors.append(MinLengthLogitsProcessor(generation_config.min_length, generation_config.eos_token_id))
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/logits_process.py", line 114, in __init__
+    raise ValueError(f"`eos_token_id` has to be a list of positive integers, but is {eos_token_id}")
+ValueError: `eos_token_id` has to be a list of positive integers, but is ['<pad>']

@@ -1,0 +1,21 @@
+2023-04-30 20:11:01,488 INFO    MainThread:98347 [wandb_setup.py:_flush():75] Loading settings from //users5/znchen/.config/wandb/settings
+2023-04-30 20:11:01,488 INFO    MainThread:98347 [wandb_setup.py:_flush():75] Loading settings from /users5/znchen/distil/wandb/settings
+2023-04-30 20:11:01,488 INFO    MainThread:98347 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'offline'}
+2023-04-30 20:11:01,489 INFO    MainThread:98347 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'gen_model_frame.py', 'program': '/users5/znchen/distil/gen_model_frame.py'}
+2023-04-30 20:11:01,489 INFO    MainThread:98347 [wandb_init.py:_log_setup():437] Logging user logs to /users5/znchen/distil/wandb/offline-run-20230430_201101-3gu1rlfx/logs/debug.log
+2023-04-30 20:11:01,489 INFO    MainThread:98347 [wandb_init.py:_log_setup():438] Logging internal logs to /users5/znchen/distil/wandb/offline-run-20230430_201101-3gu1rlfx/logs/debug-internal.log
+2023-04-30 20:11:01,489 INFO    MainThread:98347 [wandb_init.py:init():471] calling init triggers
+2023-04-30 20:11:01,489 INFO    MainThread:98347 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {}
+2023-04-30 20:11:01,489 INFO    MainThread:98347 [wandb_init.py:init():519] wandb.init() called when a run is still active
+2023-04-30 20:12:40,576 INFO    MainThread:98347 [wandb_run.py:_atexit_cleanup():1866] got exitcode: 1
+2023-04-30 20:12:40,585 INFO    MainThread:98347 [wandb_run.py:_restore():1838] restore
+2023-04-30 20:12:43,121 INFO    MainThread:98347 [wandb_run.py:_on_finish():1995] got exit ret: 
+2023-04-30 20:12:43,224 INFO    MainThread:98347 [wandb_run.py:_on_finish():1995] got exit ret: done: true
+exit_result {
+}
+local_info {
+}
+
+2023-04-30 20:12:44,467 INFO    MainThread:98347 [wandb_run.py:_footer_history_summary_info():3102] rendering history
+2023-04-30 20:12:44,467 INFO    MainThread:98347 [wandb_run.py:_footer_history_summary_info():3134] rendering summary

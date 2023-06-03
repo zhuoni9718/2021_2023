@@ -1,0 +1,10 @@
+
+Testing t5-large...
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 270, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 264, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 159, in test
+    init_flag==True
+NameError: name 'init_flag' is not defined

@@ -1,0 +1,21 @@
+2023-05-10 14:37:08,134 INFO    MainThread:127558 [wandb_setup.py:_flush():75] Loading settings from //users5/znchen/.config/wandb/settings
+2023-05-10 14:37:08,134 INFO    MainThread:127558 [wandb_setup.py:_flush():75] Loading settings from /users5/znchen/distil/wandb/settings
+2023-05-10 14:37:08,134 INFO    MainThread:127558 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'offline'}
+2023-05-10 14:37:08,134 INFO    MainThread:127558 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'gen_model_frame.py', 'program': '/users5/znchen/distil/gen_model_frame.py'}
+2023-05-10 14:37:08,134 INFO    MainThread:127558 [wandb_init.py:_log_setup():437] Logging user logs to /users5/znchen/distil/wandb/offline-run-20230510_143708-2hvhty69/logs/debug.log
+2023-05-10 14:37:08,134 INFO    MainThread:127558 [wandb_init.py:_log_setup():438] Logging internal logs to /users5/znchen/distil/wandb/offline-run-20230510_143708-2hvhty69/logs/debug-internal.log
+2023-05-10 14:37:08,134 INFO    MainThread:127558 [wandb_init.py:init():471] calling init triggers
+2023-05-10 14:37:08,134 INFO    MainThread:127558 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {}
+2023-05-10 14:37:08,134 INFO    MainThread:127558 [wandb_init.py:init():524] starting backend
+2023-05-10 14:37:08,135 INFO    MainThread:127558 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-05-10 14:37:08,162 INFO    MainThread:127558 [backend.py:ensure_launched():217] starting backend process...
+2023-05-10 14:37:08,187 INFO    MainThread:127558 [backend.py:ensure_launched():222] started backend process with pid: 127900
+2023-05-10 14:37:08,195 INFO    MainThread:127558 [wandb_init.py:init():533] backend started and connected
+2023-05-10 14:37:08,197 INFO    MainThread:127558 [wandb_init.py:init():597] updated telemetry
+2023-05-10 14:37:08,201 INFO    MainThread:127558 [wandb_init.py:init():659] starting run threads in backend
+2023-05-10 14:37:13,210 INFO    MainThread:127558 [wandb_run.py:_console_start():1897] atexit reg
+2023-05-10 14:37:13,211 INFO    MainThread:127558 [wandb_run.py:_redirect():1770] redirect: SettingsConsole.REDIRECT
+2023-05-10 14:37:13,211 INFO    MainThread:127558 [wandb_run.py:_redirect():1775] Redirecting console.
+2023-05-10 14:37:13,219 INFO    MainThread:127558 [wandb_run.py:_redirect():1831] Redirects installed.
+2023-05-10 14:37:13,220 INFO    MainThread:127558 [wandb_init.py:init():684] run started, returning control to user process

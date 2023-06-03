@@ -1,0 +1,20 @@
+Testing t5-large...
+using./tmp/generate_model/t5large/R/t5large_8,data:R
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/t5/tokenization_t5_fast.py:155: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-large automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 271, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 265, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 175, in test
+    test_dataset = dataloader_set(test_dir, tokenizer)
+  File "/users5/znchen/distil/dataloader.py", line 50, in __init__
+    with jsonlines.open(data_file) as f:
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/jsonlines/jsonlines.py", line 623, in open
+    fp = builtins.open(file, mode=mode + "t", encoding=encoding)
+FileNotFoundError: [Errno 2] No such file or directory: './users5/znchen/distil/input/csqa/train.tmmp'

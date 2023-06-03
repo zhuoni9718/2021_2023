@@ -1,0 +1,85 @@
+Testing t5-large...
+using./tmp/generate_model/t5large/R/t5large_0,data:R
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+第0个
+[input]Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Options: A) bank, B) library, C) department store, D) mall, E) new york, s>
+[output]The sentence suggests that a revolving door is a security measure, which is a common feature of many stores
+第1个
+[input]Question: What do people aim to do at work? Options: A) complete job, B) learn from each other, C) kill animals, D) wear hats, E) talk to each other, s>
+[output]
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+第0个
+[input]Question: Where would you find magazines along side many other printed works? Options: A) doctor, B) bookstore, C) market, D) train station, E) mortuary, s>
+[output]The sentence suggests that magazines are commonly found in a bookstore, which is a common place for people to find magazines
+第1个
+[input]Question: Where are you likely to find a hamburger? Options: A) fast food restaurant, B) pizza, C) ground up dead cows, D) mouth, E) cow carcus, s>
+[output]The sentence suggests that the hamburger is commonly found in fast food restaurants, which is a common place to find hamburgers
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+第0个
+[input]Question: James was looking for a good place to buy farmland. Where might he look? Options: A) midwest, B) countryside, C) estate, D) farming areas, E) illinois, s>
+[output]The sentence suggests that James is looking for a good place to buy farmlandThe options "midwest", "countryside", "estate," and "illinois" do not fit the context of the sentence.
+第1个
+[input]Question: What island country is ferret popular? Options: A) own home, B) north carolina, C) great britain, D) hutch, E) outdoors, s>
+[output]
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+第0个
+[input]Question: In what Spanish speaking North American country can you get a great cup of coffee? Options: A) mildred's coffee shop, B) mexico, C) diner, D) kitchen, E) canteen, s>
+[output]The sentence suggests that the country where you can get a great cup of coffee is a Spanish speaking country, which suggests that the country is a Spanish speaking countryThe other options do not have any direct connection to the context of the sentence.
+第1个
+[input]Question: What do animals do when an enemy is approaching? Options: A) feel pleasure, B) procreate, C) pass water, D) listen to each other, E) sing, s>
+[output]The sentence suggests that animals do something when an enemy is approaching, which is a common response to an enemy's approach
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+第0个
+[input]Question: Reading newspaper one of many ways to practice your what? Options: A) literacy, B) knowing how to read, C) money, D) buying, E) money bank, s>
+[output]The sentence suggests that reading newspaper is a way to practice your literacy, which is a skill that is often associated with reading newspapers, which is a common practice for people who are interested in reading, and it is a common practice for people who are interested in reading, which is a common skill for people who are interested in reading, and it is a common practice for people who are interested in reading, which is a common skill for people who are interested in reading, and it is a common practice for people who are interested in literacy, and it is a way to read, and to practice your literacy, and a way of course, and is a way of course, and it is a way of course, and it is a way to read, which is to read, and to practiced'''''''''''''''''''''''''',
+第1个
+[input]Question: What do people typically do while playing guitar? Options: A) cry, B) hear sounds, C) singing, D) arthritis, E) making music, s>
+[output]
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+第0个
+[input]Question: What would vinyl be an odd thing to replace? Options: A) pants, B) record albums, C) record store, D) cheese, E) wallpaper, s>
+[output]The sentence suggests that vinyl is a common item that is often used to decorate a room, which is a common use of vinyl
+第1个
+[input]Question: If you want harmony, what is something you should try to do with the world? Options: A) take time, B) make noise, C) make war, D) make peace, E) make haste, s>
+[output]The sentence suggests that the person is trying to create harmony in the world, which suggests that they are trying to do something to create harmonyThe other options do not make sense in the context of the sentence, and are not related to the context of the sentence.
+[length](torch.Size([128]), torch.Size([128]), torch.Size([128]))
+[length](torch.Size([128]), torch.Size([128]), torch.Size([138]))
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/t5/tokenization_t5_fast.py:155: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-large automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+  1% 6/611 [01:07<1:53:19, 11.24s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 270, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 264, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 181, in test
+    for batch in tqdm(test_dataloader, mininterval=60):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 61, in fetch
+    return self.collate_fn(data)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 265, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 128, in collate
+    return elem_type({key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map) for key in elem})
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 128, in <dictcomp>
+    return elem_type({key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map) for key in elem})
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 120, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 163, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+RuntimeError: stack expects each tensor to be equal size, but got [128] at entry 0 and [138] at entry 1

@@ -1,0 +1,85 @@
+2023-04-23 23:13:54,039 INFO    MainThread:141288 [internal.py:wandb_internal():90] W&B internal server running at pid: 141288, started at: 2023-04-23 23:13:54.039048
+2023-04-23 23:13:54,082 INFO    WriterThread:141288 [datastore.py:open_for_write():75] open: /users5/znchen/distil/wandb/offline-run-20230423_231352-18gtaesw/run-18gtaesw.wandb
+2023-04-23 23:13:54,083 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: run_start
+2023-04-23 23:13:59,313 DEBUG   HandlerThread:141288 [meta.py:__init__():35] meta init
+2023-04-23 23:13:59,313 DEBUG   HandlerThread:141288 [meta.py:__init__():49] meta init done
+2023-04-23 23:13:59,314 DEBUG   HandlerThread:141288 [meta.py:probe():209] probe
+2023-04-23 23:13:59,321 DEBUG   HandlerThread:141288 [git.py:repo():29] git repository is invalid
+2023-04-23 23:13:59,321 DEBUG   HandlerThread:141288 [meta.py:_save_pip():53] save pip
+2023-04-23 23:13:59,323 DEBUG   HandlerThread:141288 [meta.py:_save_pip():67] save pip done
+2023-04-23 23:13:59,324 DEBUG   HandlerThread:141288 [meta.py:_save_conda():74] save conda
+2023-04-23 23:14:09,125 DEBUG   HandlerThread:141288 [meta.py:_save_conda():84] save conda done
+2023-04-23 23:14:09,125 DEBUG   HandlerThread:141288 [meta.py:probe():247] probe done
+2023-04-23 23:15:46,839 DEBUG   SenderThread:141288 [sender.py:send():232] send: exit
+2023-04-23 23:15:46,840 INFO    SenderThread:141288 [sender.py:send_exit():368] handling exit code: 1
+2023-04-23 23:15:46,841 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-23 23:15:46,841 INFO    SenderThread:141288 [sender.py:send_exit():370] handling runtime: 112
+2023-04-23 23:15:46,844 INFO    SenderThread:141288 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2023-04-23 23:15:46,844 INFO    SenderThread:141288 [sender.py:send_exit():376] send defer
+2023-04-23 23:15:46,844 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: poll_exit
+2023-04-23 23:15:46,845 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: defer
+2023-04-23 23:15:46,845 INFO    HandlerThread:141288 [handler.py:handle_request_defer():164] handle defer: 0
+2023-04-23 23:15:46,845 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: defer
+2023-04-23 23:15:46,845 INFO    SenderThread:141288 [sender.py:send_request_defer():385] handle sender defer: 0
+2023-04-23 23:15:46,845 INFO    SenderThread:141288 [sender.py:transition_state():389] send defer: 1
+2023-04-23 23:15:46,846 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: defer
+2023-04-23 23:15:46,846 INFO    HandlerThread:141288 [handler.py:handle_request_defer():164] handle defer: 1
+2023-04-23 23:15:46,978 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: defer
+2023-04-23 23:15:46,978 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-23 23:15:46,978 INFO    SenderThread:141288 [sender.py:send_request_defer():385] handle sender defer: 1
+2023-04-23 23:15:46,979 INFO    SenderThread:141288 [sender.py:transition_state():389] send defer: 2
+2023-04-23 23:15:46,979 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: poll_exit
+2023-04-23 23:15:46,979 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: defer
+2023-04-23 23:15:46,979 INFO    HandlerThread:141288 [handler.py:handle_request_defer():164] handle defer: 2
+2023-04-23 23:15:46,980 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: defer
+2023-04-23 23:15:46,980 INFO    SenderThread:141288 [sender.py:send_request_defer():385] handle sender defer: 2
+2023-04-23 23:15:46,980 INFO    SenderThread:141288 [sender.py:transition_state():389] send defer: 3
+2023-04-23 23:15:46,980 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: defer
+2023-04-23 23:15:46,980 INFO    HandlerThread:141288 [handler.py:handle_request_defer():164] handle defer: 3
+2023-04-23 23:15:46,980 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: defer
+2023-04-23 23:15:46,980 INFO    SenderThread:141288 [sender.py:send_request_defer():385] handle sender defer: 3
+2023-04-23 23:15:46,980 INFO    SenderThread:141288 [sender.py:transition_state():389] send defer: 4
+2023-04-23 23:15:46,981 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: defer
+2023-04-23 23:15:46,981 INFO    HandlerThread:141288 [handler.py:handle_request_defer():164] handle defer: 4
+2023-04-23 23:15:46,981 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: defer
+2023-04-23 23:15:46,981 INFO    SenderThread:141288 [sender.py:send_request_defer():385] handle sender defer: 4
+2023-04-23 23:15:46,981 INFO    SenderThread:141288 [sender.py:transition_state():389] send defer: 5
+2023-04-23 23:15:46,981 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: defer
+2023-04-23 23:15:46,982 INFO    HandlerThread:141288 [handler.py:handle_request_defer():164] handle defer: 5
+2023-04-23 23:15:46,982 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: defer
+2023-04-23 23:15:46,982 INFO    SenderThread:141288 [sender.py:send_request_defer():385] handle sender defer: 5
+2023-04-23 23:15:46,982 INFO    SenderThread:141288 [sender.py:transition_state():389] send defer: 6
+2023-04-23 23:15:46,982 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: defer
+2023-04-23 23:15:46,982 INFO    HandlerThread:141288 [handler.py:handle_request_defer():164] handle defer: 6
+2023-04-23 23:15:46,982 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: defer
+2023-04-23 23:15:46,982 INFO    SenderThread:141288 [sender.py:send_request_defer():385] handle sender defer: 6
+2023-04-23 23:15:46,982 INFO    SenderThread:141288 [sender.py:transition_state():389] send defer: 7
+2023-04-23 23:15:46,983 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: defer
+2023-04-23 23:15:46,983 INFO    HandlerThread:141288 [handler.py:handle_request_defer():164] handle defer: 7
+2023-04-23 23:15:46,983 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: defer
+2023-04-23 23:15:46,983 INFO    SenderThread:141288 [sender.py:send_request_defer():385] handle sender defer: 7
+2023-04-23 23:15:46,983 INFO    SenderThread:141288 [sender.py:transition_state():389] send defer: 8
+2023-04-23 23:15:46,983 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: defer
+2023-04-23 23:15:46,983 INFO    HandlerThread:141288 [handler.py:handle_request_defer():164] handle defer: 8
+2023-04-23 23:15:46,983 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: defer
+2023-04-23 23:15:46,983 INFO    SenderThread:141288 [sender.py:send_request_defer():385] handle sender defer: 8
+2023-04-23 23:15:46,983 INFO    SenderThread:141288 [sender.py:transition_state():389] send defer: 9
+2023-04-23 23:15:46,984 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: defer
+2023-04-23 23:15:46,984 INFO    HandlerThread:141288 [handler.py:handle_request_defer():164] handle defer: 9
+2023-04-23 23:15:46,984 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: defer
+2023-04-23 23:15:46,984 INFO    SenderThread:141288 [sender.py:send_request_defer():385] handle sender defer: 9
+2023-04-23 23:15:46,984 INFO    SenderThread:141288 [sender.py:transition_state():389] send defer: 10
+2023-04-23 23:15:46,984 DEBUG   SenderThread:141288 [sender.py:send():232] send: final
+2023-04-23 23:15:46,985 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: defer
+2023-04-23 23:15:46,985 INFO    HandlerThread:141288 [handler.py:handle_request_defer():164] handle defer: 10
+2023-04-23 23:15:46,985 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: defer
+2023-04-23 23:15:46,985 INFO    SenderThread:141288 [sender.py:send_request_defer():385] handle sender defer: 10
+2023-04-23 23:15:47,081 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: poll_exit
+2023-04-23 23:15:47,081 DEBUG   SenderThread:141288 [sender.py:send_request():246] send_request: poll_exit
+2023-04-23 23:15:47,184 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: sampled_history
+2023-04-23 23:15:47,185 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: get_summary
+2023-04-23 23:15:47,186 DEBUG   HandlerThread:141288 [handler.py:handle_request():141] handle_request: shutdown
+2023-04-23 23:15:47,186 INFO    HandlerThread:141288 [handler.py:finish():806] shutting down handler
+2023-04-23 23:15:47,985 INFO    WriterThread:141288 [datastore.py:close():279] close: /users5/znchen/distil/wandb/offline-run-20230423_231352-18gtaesw/run-18gtaesw.wandb
+2023-04-23 23:15:48,082 INFO    SenderThread:141288 [sender.py:finish():1106] shutting down sender
+2023-04-23 23:15:48,083 INFO    MainThread:141288 [internal.py:handle_exit():80] Internal process exited

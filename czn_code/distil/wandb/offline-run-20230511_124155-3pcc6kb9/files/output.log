@@ -1,0 +1,141 @@
+training roberta-large
+dataset:<class 'dataloader.MultipleChoiceDataset'>
+training epoch0
+testing
+step: 50, Validation Accuracy: 0.19574119574119575,valid loss: 1.616828593340787
+testing
+step: 100, Validation Accuracy: 0.2153972153972154,valid loss: 1.6077024301925262
+testing
+step: 150, Validation Accuracy: 0.21703521703521703,valid loss: 1.6138174827996787
+testing
+step: 200, Validation Accuracy: 0.19656019656019655,valid loss: 1.6101506932989342
+testing
+step: 250, Validation Accuracy: 0.21048321048321048,valid loss: 1.6042073670919839
+testing
+step: 300, Validation Accuracy: 0.30057330057330056,valid loss: 1.5722931530568507
+testing
+step: 350, Validation Accuracy: 0.3906633906633907,valid loss: 1.3839157014698178
+testing
+step: 400, Validation Accuracy: 0.48157248157248156,valid loss: 1.2722595930099487
+testing
+step: 450, Validation Accuracy: 0.5413595413595413,valid loss: 1.1676558155518073
+testing
+step: 500, Validation Accuracy: 0.5823095823095823,valid loss: 1.0824652825083052
+Epoch 1/5, Train Loss: 1.4753
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_0
+training epoch1
+testing
+step: 50, Validation Accuracy: 0.6101556101556102,valid loss: 1.0002746721366784
+testing
+step: 100, Validation Accuracy: 0.6175266175266175,valid loss: 0.9840678944216146
+testing
+step: 150, Validation Accuracy: 0.6420966420966421,valid loss: 0.9391486985342843
+testing
+step: 200, Validation Accuracy: 0.633087633087633,valid loss: 0.9261752026421683
+testing
+step: 250, Validation Accuracy: 0.6625716625716626,valid loss: 0.8825170529353155
+testing
+step: 300, Validation Accuracy: 0.6764946764946765,valid loss: 0.8594354758789013
+testing
+step: 350, Validation Accuracy: 0.6625716625716626,valid loss: 0.8664731240117705
+testing
+step: 400, Validation Accuracy: 0.6723996723996724,valid loss: 0.8348629017928978
+testing
+step: 450, Validation Accuracy: 0.6535626535626535,valid loss: 0.9009551111753885
+testing
+step: 500, Validation Accuracy: 0.6912366912366913,valid loss: 0.8031460160945917
+Epoch 2/5, Train Loss: 0.9318
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_1
+training epoch2
+testing
+step: 50, Validation Accuracy: 0.6977886977886978,valid loss: 0.7941109549689602
+testing
+step: 100, Validation Accuracy: 0.6846846846846847,valid loss: 0.8200848336730685
+testing
+step: 150, Validation Accuracy: 0.7043407043407044,valid loss: 0.7984723963520743
+testing
+step: 200, Validation Accuracy: 0.7100737100737101,valid loss: 0.8223677091784292
+testing
+step: 250, Validation Accuracy: 0.7117117117117117,valid loss: 0.7964023974808779
+testing
+step: 300, Validation Accuracy: 0.6814086814086814,valid loss: 0.8383831470817714
+testing
+step: 350, Validation Accuracy: 0.6977886977886978,valid loss: 0.8048826053545073
+testing
+step: 400, Validation Accuracy: 0.7117117117117117,valid loss: 0.7600028611622848
+testing
+step: 450, Validation Accuracy: 0.6805896805896806,valid loss: 0.8382977438824517
+testing
+step: 500, Validation Accuracy: 0.6936936936936937,valid loss: 0.8353123194598532
+Epoch 3/5, Train Loss: 0.6655
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_2
+training epoch3
+testing
+step: 50, Validation Accuracy: 0.6977886977886978,valid loss: 0.8390018007197937
+testing
+step: 100, Validation Accuracy: 0.6986076986076986,valid loss: 0.8530680948457161
+testing
+step: 150, Validation Accuracy: 0.6920556920556921,valid loss: 0.8823818765677415
+testing
+step: 200, Validation Accuracy: 0.6846846846846847,valid loss: 0.8560064714643862
+testing
+step: 250, Validation Accuracy: 0.696969696969697,valid loss: 0.8244044091794398
+testing
+step: 300, Validation Accuracy: 0.678951678951679,valid loss: 0.8568690481123986
+testing
+step: 350, Validation Accuracy: 0.7035217035217035,valid loss: 0.8165396552581292
+testing
+step: 400, Validation Accuracy: 0.6863226863226863,valid loss: 0.8512103236340857
+testing
+step: 450, Validation Accuracy: 0.7018837018837019,valid loss: 0.8297434352435075
+testing
+step: 500, Validation Accuracy: 0.6986076986076986,valid loss: 0.8406978812697646
+Epoch 4/5, Train Loss: 0.5324
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_3
+training epoch4
+testing
+step: 50, Validation Accuracy: 0.6928746928746928,valid loss: 0.8571815256561551
+testing
+step: 100, Validation Accuracy: 0.7100737100737101,valid loss: 0.8320358616191071
+testing
+step: 150, Validation Accuracy: 0.7002457002457002,valid loss: 0.845556789404386
+testing
+step: 200, Validation Accuracy: 0.7141687141687142,valid loss: 0.8045781587625479
+testing
+step: 250, Validation Accuracy: 0.7067977067977068,valid loss: 0.8461221537806771
+testing
+step: 300, Validation Accuracy: 0.6945126945126945,valid loss: 0.8863540131163288
+testing
+step: 350, Validation Accuracy: 0.7141687141687142,valid loss: 0.8610447937404955
+testing
+step: 400, Validation Accuracy: 0.6936936936936937,valid loss: 0.8573974668979645
+testing
+step: 450, Validation Accuracy: 0.7018837018837019,valid loss: 0.8786923780843809
+testing
+step: 500, Validation Accuracy: 0.7027027027027027,valid loss: 0.8967876765248063
+Epoch 5/5, Train Loss: 0.4570
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_4
+[draw data]
+{'50': 0.6928746928746928, '100': 0.7100737100737101, '150': 0.7002457002457002, '200': 0.7141687141687142, '250': 0.7067977067977068, '300': 0.6945126945126945, '350': 0.7141687141687142, '400': 0.6936936936936937, '450': 0.7018837018837019, '500': 0.7027027027027027}
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.decoder.weight', 'lm_head.layer_norm.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'lm_head.bias', 'lm_head.dense.weight']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 533/533 [17:28<00:00,  1.97s/it]
+100% 533/533 [17:29<00:00,  1.97s/it]
+100% 533/533 [17:29<00:00,  1.97s/it]
+100% 533/533 [17:28<00:00,  1.97s/it]
+100% 533/533 [17:29<00:00,  1.97s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 309, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 299, in main
+    # train_step_test(args.model_name,args.epochs,args.train_data,args.dev_data,args.batch_size,args.learning_rate,args.model_path,args.dataloader)
+  File "/users5/znchen/distil/predict_frame.py", line 219, in train_step_test
+    xs=[entry['step'] for entry in plt_step],
+  File "/users5/znchen/distil/predict_frame.py", line 219, in <listcomp>
+    xs=[entry['step'] for entry in plt_step],
+TypeError: 'int' object is not subscriptable

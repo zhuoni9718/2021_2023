@@ -1,0 +1,20 @@
+
+Fine-tuning facebook/bart-large...
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0% 0/7750 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/users5/znchen/distil/ft_frame.py", line 162, in <module>
+    main()
+  File "/users5/znchen/distil/ft_frame.py", line 148, in main
+    finetune_model(args.model_name, args.train_data, args.dev_data, Dataloader_classes[args.dataset_class], args.epochs)
+  File "/users5/znchen/distil/ft_frame.py", line 78, in finetune_model
+    trainer.train()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/trainer.py", line 1631, in train
+    return inner_training_loop(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/trainer.py", line 1898, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/trainer.py", line 2633, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/trainer.py", line 2580, in _prepare_inputs
+    raise ValueError(
+ValueError: The batch received was empty, your model won't be able to train on it. Double-check that your training dataset contains keys expected by the model: inputs,kwargs,label_ids,label.

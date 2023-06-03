@@ -1,0 +1,167 @@
+Fine-tuning t5-large...
+Step: 100, Loss: 0.5229
+Step: 200, Loss: 0.3943
+Step: 300, Loss: 0.2933
+Step: 400, Loss: 0.2277
+Step: 500, Loss: 0.1855
+Step: 600, Loss: 0.1563
+Step: 700, Loss: 0.1351
+Step: 800, Loss: 0.1191
+Step: 900, Loss: 0.1066
+Step: 1000, Loss: 0.0966
+Step: 1100, Loss: 0.0884
+Step: 1200, Loss: 0.0814
+Step: 1300, Loss: 0.0756
+Step: 1400, Loss: 0.0705
+Step: 1500, Loss: 0.0662
+Epoch 1/8, Train Loss: 0.0642
+Epoch 1/8, Validation Loss: 0.0032
+saving to  ./tmp/generate_model/t5large/WOCOT/t5large_0
+Step: 100, Loss: 0.0045
+Step: 200, Loss: 0.0046
+Step: 300, Loss: 0.0046
+Step: 400, Loss: 0.0044
+Step: 500, Loss: 0.0043
+Step: 600, Loss: 0.0043
+Step: 700, Loss: 0.0042
+Step: 800, Loss: 0.0042
+Step: 900, Loss: 0.0042
+Step: 1000, Loss: 0.0041
+Step: 1100, Loss: 0.0041
+Step: 1200, Loss: 0.0041
+Step: 1300, Loss: 0.0040
+Step: 1400, Loss: 0.0040
+Step: 1500, Loss: 0.0040
+Epoch 2/8, Train Loss: 0.0040
+Epoch 2/8, Validation Loss: 0.0026
+saving to  ./tmp/generate_model/t5large/WOCOT/t5large_1
+Step: 100, Loss: 0.0035
+Step: 200, Loss: 0.0034
+Step: 300, Loss: 0.0033
+Step: 400, Loss: 0.0034
+Step: 500, Loss: 0.0034
+Step: 600, Loss: 0.0034
+Step: 700, Loss: 0.0034
+Step: 800, Loss: 0.0034
+Step: 900, Loss: 0.0034
+Step: 1000, Loss: 0.0033
+Step: 1100, Loss: 0.0033
+Step: 1200, Loss: 0.0033
+Step: 1300, Loss: 0.0033
+Step: 1400, Loss: 0.0033
+Step: 1500, Loss: 0.0033
+Epoch 3/8, Train Loss: 0.0032
+Epoch 3/8, Validation Loss: 0.0023
+saving to  ./tmp/generate_model/t5large/WOCOT/t5large_2
+Step: 100, Loss: 0.0028
+Step: 200, Loss: 0.0029
+Step: 300, Loss: 0.0029
+Step: 400, Loss: 0.0029
+Step: 500, Loss: 0.0029
+Step: 600, Loss: 0.0030
+Step: 700, Loss: 0.0029
+Step: 800, Loss: 0.0030
+Step: 900, Loss: 0.0029
+Step: 1000, Loss: 0.0029
+Step: 1100, Loss: 0.0029
+Step: 1200, Loss: 0.0029
+Step: 1300, Loss: 0.0029
+Step: 1400, Loss: 0.0029
+Step: 1500, Loss: 0.0029
+Epoch 4/8, Train Loss: 0.0029
+Epoch 4/8, Validation Loss: 0.0021
+saving to  ./tmp/generate_model/t5large/WOCOT/t5large_3
+Step: 100, Loss: 0.0025
+Step: 200, Loss: 0.0027
+Step: 300, Loss: 0.0027
+Step: 400, Loss: 0.0027
+Step: 500, Loss: 0.0026
+Step: 600, Loss: 0.0026
+Step: 700, Loss: 0.0026
+Step: 800, Loss: 0.0026
+Step: 900, Loss: 0.0026
+Step: 1000, Loss: 0.0026
+Step: 1100, Loss: 0.0026
+Step: 1200, Loss: 0.0026
+Step: 1300, Loss: 0.0026
+Step: 1400, Loss: 0.0026
+Step: 1500, Loss: 0.0026
+Epoch 5/8, Train Loss: 0.0026
+Epoch 5/8, Validation Loss: 0.0019
+saving to  ./tmp/generate_model/t5large/WOCOT/t5large_4
+Step: 100, Loss: 0.0023
+Step: 200, Loss: 0.0024
+Step: 300, Loss: 0.0024
+Step: 400, Loss: 0.0025
+Step: 500, Loss: 0.0025
+Step: 600, Loss: 0.0025
+Step: 700, Loss: 0.0025
+Step: 800, Loss: 0.0025
+Step: 900, Loss: 0.0025
+Step: 1000, Loss: 0.0025
+Step: 1100, Loss: 0.0025
+Step: 1200, Loss: 0.0025
+Step: 1300, Loss: 0.0025
+Step: 1400, Loss: 0.0025
+Step: 1500, Loss: 0.0024
+Epoch 6/8, Train Loss: 0.0024
+Epoch 6/8, Validation Loss: 0.0019
+saving to  ./tmp/generate_model/t5large/WOCOT/t5large_5
+Step: 100, Loss: 0.0022
+Step: 200, Loss: 0.0024
+Step: 300, Loss: 0.0023
+Step: 400, Loss: 0.0023
+Step: 500, Loss: 0.0022
+Step: 600, Loss: 0.0022
+Step: 700, Loss: 0.0022
+Step: 800, Loss: 0.0022
+Step: 900, Loss: 0.0022
+Step: 1000, Loss: 0.0022
+Step: 1100, Loss: 0.0022
+Step: 1200, Loss: 0.0022
+Step: 1300, Loss: 0.0022
+Step: 1400, Loss: 0.0023
+Step: 1500, Loss: 0.0023
+Epoch 7/8, Train Loss: 0.0023
+Epoch 7/8, Validation Loss: 0.0018
+saving to  ./tmp/generate_model/t5large/WOCOT/t5large_6
+Step: 100, Loss: 0.0024
+Step: 200, Loss: 0.0024
+Step: 300, Loss: 0.0023
+Step: 400, Loss: 0.0022
+Step: 500, Loss: 0.0022
+Step: 600, Loss: 0.0022
+Step: 700, Loss: 0.0022
+Step: 800, Loss: 0.0022
+Step: 900, Loss: 0.0022
+Step: 1000, Loss: 0.0021
+Step: 1100, Loss: 0.0021
+Step: 1200, Loss: 0.0021
+Step: 1300, Loss: 0.0021
+Step: 1400, Loss: 0.0021
+Step: 1500, Loss: 0.0021
+Epoch 8/8, Train Loss: 0.0021
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/t5/tokenization_t5_fast.py:155: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-large automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 1549/1549 [20:58<00:00,  1.23it/s]
+100% 233/233 [01:01<00:00,  3.81it/s]
+100% 1549/1549 [21:00<00:00,  1.23it/s]
+100% 233/233 [01:00<00:00,  3.82it/s]
+100% 1549/1549 [21:03<00:00,  1.23it/s]
+100% 233/233 [01:00<00:00,  3.82it/s]
+100% 1549/1549 [21:02<00:00,  1.23it/s]
+100% 233/233 [01:01<00:00,  3.82it/s]
+100% 1549/1549 [20:59<00:00,  1.23it/s]
+100% 233/233 [01:01<00:00,  3.81it/s]
+100% 1549/1549 [21:02<00:00,  1.23it/s]
+100% 233/233 [01:01<00:00,  3.82it/s]
+100% 1549/1549 [21:02<00:00,  1.23it/s]
+100% 233/233 [01:01<00:00,  3.82it/s]
+100% 1549/1549 [21:03<00:00,  1.23it/s]
+100% 233/233 [01:01<00:00,  3.82it/s]

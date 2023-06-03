@@ -1,0 +1,22 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_5,data:R
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+  0%|                                                                                                                                                          | 0/245 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 323, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 317, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 251, in test
+    print('[input context]',tokenizer.decode(input_ids, skip_special_tokens=True))
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/tokenization_utils_base.py", line 3476, in decode
+    return self._decode(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/tokenization_utils.py", line 931, in _decode
+    filtered_tokens = self.convert_ids_to_tokens(token_ids, skip_special_tokens=skip_special_tokens)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/tokenization_utils.py", line 906, in convert_ids_to_tokens
+    index = int(index)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'

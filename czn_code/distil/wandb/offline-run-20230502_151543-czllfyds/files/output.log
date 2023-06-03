@@ -1,0 +1,39 @@
+
+Fine-tuning gpt2-large...
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0% 12/3098 [00:03<15:27,  3.33it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 270, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 257, in main
+    finetune_frame(args.dataset_class,args.train_data, args.dev_data, model_name=args.model_name, batch_size=args.batch_size, num_epochs=args.epochs, learning_rate=args.learning_rate)
+  File "/users5/znchen/distil/gen_model_frame.py", line 94, in finetune_frame
+    for batch in tqdm(train_dataloader, mininterval=30):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1333, in _next_data
+    return self._process_data(data)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1359, in _process_data
+    data.reraise()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/_utils.py", line 543, in reraise
+    raise exception
+RuntimeError: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 61, in fetch
+    return self.collate_fn(data)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 265, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 128, in collate
+    return elem_type({key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map) for key in elem})
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 128, in <dictcomp>
+    return elem_type({key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map) for key in elem})
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 120, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 162, in collate_tensor_fn
+    out = elem.new(storage).resize_(len(batch), *list(elem.size()))
+RuntimeError: Trying to resize storage that is not resizable

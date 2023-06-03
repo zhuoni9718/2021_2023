@@ -1,0 +1,11 @@
+testing roberta-large
+testing with ./tmp/predict/promptk_QCK/roberta-large_4
+  8%|████████████▎                                                                                                                                    | 13/153 [00:04<00:45,  3.10it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 188, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 182, in main
+    test(args.test_data,args.model_name,args.batch_size,args.best_epoch,args.model_path,args.dataloader)
+  File "/users5/znchen/distil/predict_frame.py", line 136, in test
+    val_preds.extend(preds.tolist())
+KeyboardInterrupt

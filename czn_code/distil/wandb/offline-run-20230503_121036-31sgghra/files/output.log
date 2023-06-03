@@ -1,0 +1,39 @@
+testing roberta-large
+testing with ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_1
+  0%|                                                                                                                                        | 0/77 [00:08<?, ?it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 200, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 194, in main
+    test(args.test_data,args.model_name,args.batch_size,args.best_epoch,args.model_path,args.dataloader)
+  File "/users5/znchen/distil/predict_frame.py", line 145, in test
+    outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/modeling_roberta.py", line 1319, in forward
+    outputs = self.roberta(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/modeling_roberta.py", line 852, in forward
+    encoder_outputs = self.encoder(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/modeling_roberta.py", line 527, in forward
+    layer_outputs = layer_module(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/modeling_roberta.py", line 411, in forward
+    self_attention_outputs = self.attention(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/modeling_roberta.py", line 338, in forward
+    self_outputs = self.self(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/modeling_roberta.py", line 217, in forward
+    key_layer = self.transpose_for_scores(self.key(hidden_states))
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 40.00 MiB (GPU 0; 11.90 GiB total capacity; 11.29 GiB already allocated; 9.62 MiB free; 11.30 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

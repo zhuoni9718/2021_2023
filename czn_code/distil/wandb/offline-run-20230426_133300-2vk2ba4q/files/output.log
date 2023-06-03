@@ -1,0 +1,29 @@
+testing roberta-large
+testing with ./tmp/predict/promptk_QKC/roberta-large_3
+Traceback (most recent call last):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/configuration_utils.py", line 628, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/utils/hub.py", line 409, in cached_file
+    resolved_file = hf_hub_download(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    validate_repo_id(arg_value)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 166, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': './tmp/predict/promptk_QKC/roberta-large_3'. Use `repo_type` argument if needed.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 178, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 172, in main
+    test(args.test_data,args.model_name,args.batch_size,args.best_epoch,args.model_path,args.dataloader)
+  File "/users5/znchen/distil/predict_frame.py", line 116, in test
+    model = model_class.from_pretrained(model_path)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/modeling_utils.py", line 2174, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/configuration_utils.py", line 546, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/configuration_utils.py", line 573, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/configuration_utils.py", line 649, in _get_config_dict
+    raise EnvironmentError(
+OSError: Can't load the configuration of './tmp/predict/promptk_QKC/roberta-large_3'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure './tmp/predict/promptk_QKC/roberta-large_3' is the correct path to a directory containing a config.json file

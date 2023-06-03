@@ -1,0 +1,161 @@
+Fine-tuning facebook/bart-large...
+Step: 100, Loss: 3.3940
+Step: 200, Loss: 1.7816
+Step: 300, Loss: 1.2040
+Step: 400, Loss: 0.9157
+Step: 500, Loss: 0.7400
+Step: 600, Loss: 0.6264
+Step: 700, Loss: 0.5407
+Step: 800, Loss: 0.4764
+Step: 900, Loss: 0.4283
+Step: 1000, Loss: 0.3875
+Step: 1100, Loss: 0.3540
+Step: 1200, Loss: 0.3259
+Step: 1300, Loss: 0.3021
+Step: 1400, Loss: 0.2816
+Step: 1500, Loss: 0.2638
+Epoch 1/8, Train Loss: 0.2559
+Epoch 1/8, Validation Loss: 0.0108
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_0
+Step: 100, Loss: 0.0128
+Step: 200, Loss: 0.0165
+Step: 300, Loss: 0.0154
+Step: 400, Loss: 0.0149
+Step: 500, Loss: 0.0144
+Step: 600, Loss: 0.0140
+Step: 700, Loss: 0.0136
+Step: 800, Loss: 0.0133
+Step: 900, Loss: 0.0130
+Step: 1000, Loss: 0.0128
+Step: 1100, Loss: 0.0128
+Step: 1200, Loss: 0.0130
+Step: 1300, Loss: 0.0132
+Step: 1400, Loss: 0.0131
+Step: 1500, Loss: 0.0129
+Epoch 2/8, Train Loss: 0.0128
+Epoch 2/8, Validation Loss: 0.0079
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_1
+Step: 100, Loss: 0.0102
+Step: 200, Loss: 0.0100
+Step: 300, Loss: 0.0096
+Step: 400, Loss: 0.0094
+Step: 500, Loss: 0.0093
+Step: 600, Loss: 0.0093
+Step: 700, Loss: 0.0092
+Step: 800, Loss: 0.0109
+Step: 900, Loss: 0.0120
+Step: 1000, Loss: 0.0124
+Step: 1100, Loss: 0.0124
+Step: 1200, Loss: 0.0130
+Step: 1300, Loss: 0.0130
+Step: 1400, Loss: 0.0132
+Step: 1500, Loss: 0.0147
+Epoch 3/8, Train Loss: 0.0152
+Epoch 3/8, Validation Loss: 0.0383
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_2
+Step: 100, Loss: 0.0299
+Step: 200, Loss: 0.0283
+Step: 300, Loss: 0.0371
+Step: 400, Loss: 0.0392
+Step: 500, Loss: 0.0419
+Step: 600, Loss: 0.0411
+Step: 700, Loss: 0.0405
+Step: 800, Loss: 0.0400
+Step: 900, Loss: 0.0395
+Step: 1000, Loss: 0.0390
+Step: 1100, Loss: 0.0386
+Step: 1200, Loss: 0.0380
+Step: 1300, Loss: 0.0375
+Step: 1400, Loss: 0.0370
+Step: 1500, Loss: 0.0366
+Epoch 4/8, Train Loss: 0.0364
+Epoch 4/8, Validation Loss: 0.2276
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_3
+Step: 100, Loss: 0.0293
+Step: 200, Loss: 0.0296
+Step: 300, Loss: 0.0292
+Step: 400, Loss: 0.0290
+Step: 500, Loss: 0.0287
+Step: 600, Loss: 0.0286
+Step: 700, Loss: 0.0281
+Step: 800, Loss: 0.0281
+Step: 900, Loss: 0.0279
+Step: 1000, Loss: 0.0277
+Step: 1100, Loss: 0.0275
+Step: 1200, Loss: 0.0274
+Step: 1300, Loss: 0.0273
+Step: 1400, Loss: 0.0271
+Step: 1500, Loss: 0.0270
+Epoch 5/8, Train Loss: 0.0269
+Epoch 5/8, Validation Loss: 0.3849
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_4
+Step: 100, Loss: 0.0256
+Step: 200, Loss: 0.0253
+Step: 300, Loss: 0.0251
+Step: 400, Loss: 0.0250
+Step: 500, Loss: 0.0248
+Step: 600, Loss: 0.0247
+Step: 700, Loss: 0.0245
+Step: 800, Loss: 0.0245
+Step: 900, Loss: 0.0244
+Step: 1000, Loss: 0.0244
+Step: 1100, Loss: 0.0243
+Step: 1200, Loss: 0.0243
+Step: 1300, Loss: 0.0242
+Step: 1400, Loss: 0.0242
+Step: 1500, Loss: 0.0241
+Epoch 6/8, Train Loss: 0.0241
+Epoch 6/8, Validation Loss: 0.8486
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_5
+Step: 100, Loss: 0.0233
+Step: 200, Loss: 0.0233
+Step: 300, Loss: 0.0234
+Step: 400, Loss: 0.0234
+Step: 500, Loss: 0.0234
+Step: 600, Loss: 0.0234
+Step: 700, Loss: 0.0233
+Step: 800, Loss: 0.0232
+Step: 900, Loss: 0.0233
+Step: 1000, Loss: 0.0232
+Step: 1100, Loss: 0.0233
+Step: 1200, Loss: 0.0232
+Step: 1300, Loss: 0.0232
+Step: 1400, Loss: 0.0232
+Step: 1500, Loss: 0.0231
+Epoch 7/8, Train Loss: 0.0231
+Epoch 7/8, Validation Loss: 0.5230
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_6
+Step: 100, Loss: 0.0234
+Step: 200, Loss: 0.0231
+Step: 300, Loss: 0.0229
+Step: 400, Loss: 0.0229
+Step: 500, Loss: 0.0229
+Step: 600, Loss: 0.0228
+Step: 700, Loss: 0.0227
+Step: 800, Loss: 0.0227
+Step: 900, Loss: 0.0227
+Step: 1000, Loss: 0.0227
+Step: 1100, Loss: 0.0227
+Step: 1200, Loss: 0.0226
+Step: 1300, Loss: 0.0225
+Step: 1400, Loss: 0.0225
+Step: 1500, Loss: 0.0225
+Epoch 8/8, Train Loss: 0.0225
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 1549/1549 [25:44<00:00,  1.00it/s]
+100% 233/233 [01:17<00:00,  3.02it/s]
+100% 1549/1549 [25:47<00:00,  1.00it/s]
+100% 233/233 [01:16<00:00,  3.03it/s]
+100% 1549/1549 [25:46<00:00,  1.00it/s]
+100% 233/233 [01:16<00:00,  3.03it/s]
+100% 1549/1549 [25:45<00:00,  1.00it/s]
+100% 233/233 [01:16<00:00,  3.06it/s]
+100% 1549/1549 [25:46<00:00,  1.00it/s]
+100% 233/233 [01:16<00:00,  3.06it/s]
+100% 1549/1549 [25:44<00:00,  1.00it/s]
+100% 233/233 [01:16<00:00,  3.05it/s]
+100% 1549/1549 [25:44<00:00,  1.00it/s]
+100% 233/233 [01:16<00:00,  3.06it/s]
+100% 1549/1549 [25:45<00:00,  1.00it/s]
+100% 233/233 [01:16<00:00,  3.06it/s]

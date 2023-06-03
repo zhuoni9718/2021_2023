@@ -1,0 +1,177 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_6,data:R
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 110])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,  5377,
+            16,  1330,     7,     5,  5377,     9,     5,  3645,     6,    61,
+          3649,    14,    24,    16,    59,     5,  2259,     9,     5,  5385,
+            18,   184,     6,    61,    16,   533,     7,    28,    10,   317,
+           147,    51,    32,  4959,    11,    10,  2303,   133,  1973,    22,
+         26407,  4294,   113,    16,     5,   144, 16437,  2031,    25,    24,
+            16,    10,  1537,  2259,    13,    10,  2303,   929,     7,    28,
+          2034,     6,     8,     5,    97,  1735,   109,    45,   146,  1472,
+            11,    42,  5377,   113, 44391,  4294,   113,     8,    22, 23199,
+          8224,   113,    32,   350,   937,     8,   109,    45,   694,   143,
+          2167,   335,    59,   147,     5,  5385,    16,  4959,     4,     2]])
+第0个
+[input]Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Options: A) bank, B) library, C) department store, D) mall, E) new york,
+[output]The sentence suggests that the context is related to the context of the sentence, which suggests that it is about the location of the speaker's home, which is likely to be a place where they are staying in a hotelThe option "bathroom" is the most logical choice as it is a common location for a hotel room to be located, and the other options do not make sense in this context"Bedroom" and "kitchen" are too general and do not provide any specific information about where the speaker is staying.
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 60])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2]])
+第0个
+[input]Question: What do people aim to do at work? Options: A) complete job, B) learn from each other, C) kill animals, D) wear hats, E) talk to each other,
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 60])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2]])
+第0个
+[input]Question: Where would you find magazines along side many other printed works? Options: A) doctor, B) bookstore, C) market, D) train station, E) mortuary,
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 60])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2]])
+第0个
+[input]Question: Where are  you likely to find a hamburger? Options: A) fast food restaurant, B) pizza, C) ground up dead cows, D) mouth, E) cow carcus,
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 60])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2]])
+第0个
+[input]Question: James was looking for a good place to buy farmland.  Where might he look? Options: A) midwest, B) countryside, C) estate, D) farming areas, E) illinois,
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 60])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2]])
+第0个
+[input]Question: What island country is ferret popular? Options: A) own home, B) north carolina, C) great britain, D) hutch, E) outdoors,
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 65])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2]])
+第0个
+[input]Question: In what Spanish speaking North American country can you get a great cup of coffee? Options: A) mildred's coffee shop, B) mexico, C) diner, D) kitchen, E) canteen,
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 60])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2]])
+第0个
+[input]Question: What do animals do when an enemy is approaching? Options: A) feel pleasure, B) procreate, C) pass water, D) listen to each other, E) sing,
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 60])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2]])
+第0个
+[input]Question: Reading newspaper one of many ways to practice your what? Options: A) literacy, B) knowing how to read, C) money, D) buying, E) money bank,
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 60])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2]])
+第0个
+[input]Question: What do people typically do while playing guitar? Options: A) cry, B) hear sounds, C) singing, D) arthritis, E) making music,
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 60])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2]])
+第0个
+[input]Question: What would vinyl be an odd thing to replace? Options: A) pants, B) record albums, C) record store, D) cheese, E) wallpaper,
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+torch.Size([1, 65])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2]])
+第0个
+[input]Question: If you want harmony, what is something you should try to do with the world? Options: A) take time, B) make noise, C) make war, D) make peace, E) make haste,
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 45641,    35,  ...,     1,     1,     1]])
+  1%|█▍                                                                                                                                            | 12/1221 [00:56<1:34:45,  4.70s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 327, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 321, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 257, in test
+    output = model.generate(input_ids, max_length=200, num_return_sequences=1, early_stopping=True)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 1490, in generate
+    return self.beam_search(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 2749, in beam_search
+    outputs = self(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1373, in forward
+    outputs = self.model(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1255, in forward
+    decoder_outputs = self.decoder(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1113, in forward
+    layer_outputs = decoder_layer(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 464, in forward
+    hidden_states = self.fc2(hidden_states)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

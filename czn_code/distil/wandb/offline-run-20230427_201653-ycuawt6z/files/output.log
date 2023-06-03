@@ -1,0 +1,19 @@
+Fine-tuning facebook/bart-large...
+Using 2 GPUs
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                                         | 0/1240 [00:00<?, ?it/s]//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  2%|██▋                                                                                                                                             | 23/1240 [00:30<26:56,  1.33s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 318, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 305, in main
+    finetune_frame(args.dataset_class,args.train_data, args.dev_data, model_name=args.model_name, batch_size=args.batch_size, num_epochs=args.epochs, learning_rate=args.learning_rate)
+  File "/users5/znchen/distil/gen_model_frame.py", line 182, in finetune_frame
+    loss.backward()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

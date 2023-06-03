@@ -1,0 +1,343 @@
+training roberta-large
+dataset:<class 'dataloader.MultipleChoiceDatasetCgk'>
+training epoch0
+1.6177952623367309
+1.6190529346466065
+1.6184512495994567
+1.6179492142796517
+1.6179952569007874
+Epoch 1/30, Train Loss: 1.6174
+Epoch: 1, Validation Accuracy: 0.25634725634725636,valid loss: 1.6076944849707864
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_0
+training epoch1
+1.616192457675934
+1.6126445460319518
+1.6098003168900807
+1.595757242143154
+1.572226527929306
+Epoch 2/30, Train Loss: 1.5631
+Epoch: 2, Validation Accuracy: 0.4954954954954955,valid loss: 1.2633245099674573
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_1
+training epoch2
+1.3341820752620697
+1.310284418463707
+1.2863231114546458
+1.2589468394219876
+1.238949311375618
+Epoch 3/30, Train Loss: 1.2347
+Epoch: 3, Validation Accuracy: 0.6298116298116299,valid loss: 0.9819918421955852
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_2
+training epoch3
+1.1240483343601226
+1.0886296874284744
+1.086259676416715
+1.0784765036404134
+1.0669683753252028
+Epoch 4/30, Train Loss: 1.0625
+Epoch: 4, Validation Accuracy: 0.6748566748566749,valid loss: 0.8658563405662388
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_3
+training epoch4
+0.9626299867033958
+0.9541709731519222
+0.9519993574420611
+0.953904570415616
+0.9455534732341766
+Epoch 5/30, Train Loss: 0.9406
+Epoch: 5, Validation Accuracy: 0.6994266994266994,valid loss: 0.8103040406456241
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_4
+training epoch5
+0.8929112422466278
+0.8806863555312157
+0.8664621908466021
+0.863727462887764
+0.8630676279067994
+Epoch 6/30, Train Loss: 0.8608
+Epoch: 6, Validation Accuracy: 0.7125307125307125,valid loss: 0.7641901787999389
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_5
+training epoch6
+0.7769379532337188
+0.7888949780166149
+0.7797836683193843
+0.7760344742983579
+0.7802910546660423
+Epoch 7/30, Train Loss: 0.7822
+Epoch: 7, Validation Accuracy: 0.7158067158067158,valid loss: 0.7389165546212878
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_6
+training epoch7
+0.7120376303792
+0.703471222370863
+0.7112817657987277
+0.7104816999286413
+0.7137910459637642
+Epoch 8/30, Train Loss: 0.7174
+Epoch: 8, Validation Accuracy: 0.7231777231777232,valid loss: 0.7110312147573992
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_7
+training epoch8
+0.6316056022047997
+0.6480115289986134
+0.6538753912349542
+0.6608341985195875
+0.6672247630953789
+Epoch 9/30, Train Loss: 0.6668
+Epoch: 9, Validation Accuracy: 0.7272727272727273,valid loss: 0.7288148029671087
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_8
+training epoch9
+0.6288144877552986
+0.6163504610955716
+0.627138626674811
+0.6268180168047547
+0.6239138187468052
+Epoch 10/30, Train Loss: 0.6222
+Epoch: 10, Validation Accuracy: 0.7371007371007371,valid loss: 0.7188144912580391
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_9
+training epoch10
+0.5933123122155667
+0.596181709766388
+0.5972680368026098
+0.6023288042843342
+0.5948855175077915
+Epoch 11/30, Train Loss: 0.5931
+Epoch: 11, Validation Accuracy: 0.7387387387387387,valid loss: 0.7343905366860427
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_10
+training epoch11
+0.5378369326144457
+0.5438109434768558
+0.548175966317455
+0.5525621695443987
+0.5502580256462097
+Epoch 12/30, Train Loss: 0.5479
+Epoch: 12, Validation Accuracy: 0.7411957411957412,valid loss: 0.7188840949690187
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_11
+training epoch12
+0.5178976075351238
+0.5302373918145895
+0.5271225144465764
+0.527809625454247
+0.528543236553669
+Epoch 13/30, Train Loss: 0.5272
+Epoch: 13, Validation Accuracy: 0.7493857493857494,valid loss: 0.7312692920495938
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_12
+training epoch13
+0.46585988119244576
+0.4772523497790098
+0.4870011385778586
+0.4861711684241891
+0.48515863616764543
+Epoch 14/30, Train Loss: 0.4855
+Epoch: 14, Validation Accuracy: 0.7510237510237511,valid loss: 0.7438100119689842
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_13
+training epoch14
+0.4805364305526018
+0.4670436606928706
+0.4631241960575183
+0.47074012802913784
+0.46394024582207205
+Epoch 15/30, Train Loss: 0.4613
+Epoch: 15, Validation Accuracy: 0.7502047502047502,valid loss: 0.7719905517705075
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_14
+training epoch15
+0.4636627648025751
+0.4560440031066537
+0.44126590753595035
+0.4313689555600286
+0.4269470653235912
+Epoch 16/30, Train Loss: 0.4298
+Epoch: 16, Validation Accuracy: 0.7534807534807535,valid loss: 0.7849921673149257
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_15
+training epoch16
+0.3940551344305277
+0.4053453493490815
+0.41986180695394676
+0.41107559002935884
+0.41814484851807354
+Epoch 17/30, Train Loss: 0.4154
+Epoch: 17, Validation Accuracy: 0.7493857493857494,valid loss: 0.7984699235334025
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_16
+training epoch17
+0.38986764948815106
+0.4038646529056132
+0.40121243165185055
+0.3939794450532645
+0.3952138641998172
+Epoch 18/30, Train Loss: 0.3933
+Epoch: 18, Validation Accuracy: 0.7485667485667485,valid loss: 0.8169748142555162
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_17
+training epoch18
+0.32991329342126846
+0.35689189329743387
+0.3650498761733373
+0.3699068335071206
+0.37260428772866727
+Epoch 19/30, Train Loss: 0.3693
+Epoch: 19, Validation Accuracy: 0.7510237510237511,valid loss: 0.823907244708631
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_18
+training epoch19
+0.35948614578694105
+0.35389757722616194
+0.3603065811966856
+0.3511147462110966
+0.35372929509729145
+Epoch 20/30, Train Loss: 0.3544
+Epoch: 20, Validation Accuracy: 0.7542997542997543,valid loss: 0.8487636518555802
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_19
+training epoch20
+0.32755195543169974
+0.3382995008211583
+0.3375014654112359
+0.3365656249551103
+0.34075349060818555
+Epoch 21/30, Train Loss: 0.3415
+Epoch: 21, Validation Accuracy: 0.7502047502047502,valid loss: 0.8602680551347794
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_20
+training epoch21
+0.34576642360538246
+0.3252399623580277
+0.32887236852198837
+0.3280424951761961
+0.3278916168957949
+Epoch 22/30, Train Loss: 0.3271
+Epoch: 22, Validation Accuracy: 0.7534807534807535,valid loss: 0.8784216021175508
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_21
+training epoch22
+0.32623098576441406
+0.31866631150245667
+0.3244933387140433
+0.3140879321563989
+0.31407008466497066
+Epoch 23/30, Train Loss: 0.3136
+Epoch: 23, Validation Accuracy: 0.7469287469287469,valid loss: 0.896401741287925
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_22
+training epoch23
+0.3168531775847077
+0.30348986578173937
+0.2960256919823587
+0.2924758108798414
+0.3019199905693531
+Epoch 24/30, Train Loss: 0.3024
+Epoch: 24, Validation Accuracy: 0.7493857493857494,valid loss: 0.9011120875547458
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_23
+training epoch24
+0.3075036605447531
+0.311586455591023
+0.31267384072144827
+0.3042958120722324
+0.30223363230004907
+Epoch 25/30, Train Loss: 0.3013
+Epoch: 25, Validation Accuracy: 0.7485667485667485,valid loss: 0.9112112311186729
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_24
+training epoch25
+0.3189071191102266
+0.31087548898532985
+0.30461387866487105
+0.2947157838195562
+0.29556251683831214
+Epoch 26/30, Train Loss: 0.2937
+Epoch: 26, Validation Accuracy: 0.7510237510237511,valid loss: 0.9381329790725337
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_25
+training epoch26
+0.2782946327328682
+0.27626666191965343
+0.2849775170410673
+0.2859729703422636
+0.28905805574730037
+Epoch 27/30, Train Loss: 0.2879
+Epoch: 27, Validation Accuracy: 0.7526617526617526,valid loss: 0.9341427528045394
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_26
+training epoch27
+0.27954945029690864
+0.2790949797537178
+0.2853603006340563
+0.27639846327714623
+0.2855001530945301
+Epoch 28/30, Train Loss: 0.2862
+Epoch: 28, Validation Accuracy: 0.7518427518427518,valid loss: 0.9297606552189047
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_27
+training epoch28
+0.2952406549081206
+0.291750722322613
+0.28300047369052966
+0.2826085564657114
+0.27633905070088804
+Epoch 29/30, Train Loss: 0.2779
+Epoch: 29, Validation Accuracy: 0.7534807534807535,valid loss: 0.9352564543679163
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_28
+training epoch29
+0.2635936653986573
+0.2701033741794527
+0.2715997928753495
+0.2650707949139178
+0.2610089487992227
+Epoch 30/30, Train Loss: 0.2630
+Epoch: 30, Validation Accuracy: 0.7526617526617526,valid loss: 0.9376821627284025
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_29
+testing roberta-large
+testing with ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_1
+test Accuracy: 0.7141687141687142
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.decoder.weight', 'lm_head.bias', 'lm_head.layer_norm.weight', 'lm_head.dense.bias']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 533/533 [12:07<00:00,  1.37s/it]
+100% 77/77 [00:35<00:00,  2.15it/s]
+100% 533/533 [12:09<00:00,  1.37s/it]
+100% 77/77 [00:35<00:00,  2.16it/s]
+100% 533/533 [12:08<00:00,  1.37s/it]
+100% 77/77 [00:35<00:00,  2.15it/s]
+100% 533/533 [12:08<00:00,  1.37s/it]
+100% 77/77 [00:35<00:00,  2.16it/s]
+100% 533/533 [12:08<00:00,  1.37s/it]
+100% 77/77 [00:35<00:00,  2.17it/s]
+100% 533/533 [12:07<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.16it/s]
+100% 533/533 [12:07<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.20it/s]
+100% 533/533 [12:06<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.17it/s]
+100% 533/533 [12:07<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.17it/s]
+100% 533/533 [12:07<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.17it/s]
+100% 533/533 [12:06<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.19it/s]
+100% 533/533 [12:03<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.19it/s]
+100% 533/533 [12:05<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.17it/s]
+100% 533/533 [12:05<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.18it/s]
+100% 533/533 [12:08<00:00,  1.37s/it]
+100% 77/77 [00:35<00:00,  2.17it/s]
+100% 533/533 [12:07<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.17it/s]
+100% 533/533 [12:06<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.18it/s]
+100% 533/533 [12:07<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.17it/s]
+100% 533/533 [12:06<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.18it/s]
+100% 533/533 [12:08<00:00,  1.37s/it]
+100% 77/77 [00:35<00:00,  2.18it/s]
+100% 533/533 [12:05<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.19it/s]
+100% 533/533 [12:05<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.18it/s]
+100% 533/533 [12:06<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.18it/s]
+100% 533/533 [12:07<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.18it/s]
+100% 533/533 [12:04<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.17it/s]
+100% 533/533 [12:06<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.18it/s]
+100% 533/533 [12:09<00:00,  1.37s/it]
+100% 77/77 [00:35<00:00,  2.16it/s]
+100% 533/533 [12:07<00:00,  1.37s/it]
+100% 77/77 [00:35<00:00,  2.17it/s]
+100% 533/533 [12:08<00:00,  1.37s/it]
+100% 77/77 [00:35<00:00,  2.17it/s]
+100% 533/533 [12:06<00:00,  1.36s/it]
+100% 77/77 [00:35<00:00,  2.18it/s]
+100% 77/77 [00:35<00:00,  2.19it/s]

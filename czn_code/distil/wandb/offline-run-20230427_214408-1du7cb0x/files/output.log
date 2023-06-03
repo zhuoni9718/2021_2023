@@ -1,0 +1,1146 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_6,data:R
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 110])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,  5377,
+            16,  1330,     7,     5,  5377,     9,     5,  3645,     6,    61,
+          3649,    14,    24,    16,    59,     5,  2259,     9,     5,  5385,
+            18,   184,     6,    61,    16,   533,     7,    28,    10,   317,
+           147,    51,    32,  4959,    11,    10,  2303,   133,  1973,    22,
+         26407,  4294,   113,    16,     5,   144, 16437,  2031,    25,    24,
+            16,    10,  1537,  2259,    13,    10,  2303,   929,     7,    28,
+          2034,     6,     8,     5,    97,  1735,   109,    45,   146,  1472,
+            11,    42,  5377,   113, 44391,  4294,   113,     8,    22, 23199,
+          8224,   113,    32,   350, 17606,     8,   109,    45,   694,   143,
+          2167,   335,    59,   147,     5,  5385,    16,  4959,     4,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Options: A) bank, B) library, C) department store, D) mall, E) new york,
+Rationale:
+[output]The sentence suggests that the context is related to the context of the sentence, which suggests that it is about the location of the speaker's home, which is likely to be a place where they are staying in a hotelThe option "bathroom" is the most logical choice as it is a common location for a hotel room to be located, and the other options do not make sense in this context"Bedroom" and "kitchen" are too vague and do not provide any specific information about where the speaker is staying.
+第1个
+[input]Generate rationale for the question and choices.  Question: What do people aim to do at work? Options: A) complete job, B) learn from each other, C) kill animals, D) wear hats, E) talk to each other,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第2个
+[input]Generate rationale for the question and choices.  Question: Where would you find magazines along side many other printed works? Options: A) doctor, B) bookstore, C) market, D) train station, E) mortuary,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第3个
+[input]Generate rationale for the question and choices.  Question: Where are  you likely to find a hamburger? Options: A) fast food restaurant, B) pizza, C) ground up dead cows, D) mouth, E) cow carcus,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 72])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  9742,     6,
+           442,   106,    10,  1406,  2031,    13,    82,   546,    13,  1769,
+           689,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: James was looking for a good place to buy farmland.  Where might he look? Options: A) midwest, B) countryside, C) estate, D) farming areas, E) illinois,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and convenience, making them a popular choice for people looking for fast food
+第1个
+[input]Generate rationale for the question and choices.  Question: What island country is ferret popular? Options: A) own home, B) north carolina, C) great britain, D) hutch, E) outdoors,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第2个
+[input]Generate rationale for the question and choices.  Question: In what Spanish speaking North American country can you get a great cup of coffee? Options: A) mildred's coffee shop, B) mexico, C) diner, D) kitchen, E) canteen,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第3个
+[input]Generate rationale for the question and choices.  Question: What do animals do when an enemy is approaching? Options: A) feel pleasure, B) procreate, C) pass water, D) listen to each other, E) sing,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 65])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: Reading newspaper one of many ways to practice your what? Options: A) literacy, B) knowing how to read, C) money, D) buying, E) money bank,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第1个
+[input]Generate rationale for the question and choices.  Question: What do people typically do while playing guitar? Options: A) cry, B) hear sounds, C) singing, D) arthritis, E) making music,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第2个
+[input]Generate rationale for the question and choices.  Question: What would vinyl be an odd thing to replace? Options: A) pants, B) record albums, C) record store, D) cheese, E) wallpaper,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第3个
+[input]Generate rationale for the question and choices.  Question: If you want harmony, what is something you should try to do with the world? Options: A) take time, B) make noise, C) make war, D) make peace, E) make haste,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 65])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: Where does a heifer's master live? Options: A) farm house, B) barnyard, C) stockyard, D) slaughter house, E) eat cake,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第1个
+[input]Generate rationale for the question and choices.  Question: Aside from water and nourishment what does your dog need? Options: A) bone, B) charm, C) petted, D) lots of attention, E) walked,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第2个
+[input]Generate rationale for the question and choices.  Question: Janet was watching the film because she liked what? Options: A) erection, B) laughter, C) being entertained, D) fear, E) bordem,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第3个
+[input]Generate rationale for the question and choices.  Question: What are you waiting alongside with when you're in a reception area? Options: A) motel, B) chair, C) hospital, D) people, E) hotels,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 65])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: When drinking booze what can you do to stay busy? Options: A) reach tentative agreement, B) stay in bed, C) stop bicycle, D) examine thing, E) suicide,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第1个
+[input]Generate rationale for the question and choices.  Question: A fencing thrust with a sharp sword towards a person would result in what? Options: A) injury, B) small cuts, C) fever, D) competition, E) puncture wound,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第2个
+[input]Generate rationale for the question and choices.  Question: Unlike a spider and his many sight seers, people only have what? Options: A) tongues, B) names, C) brains, D) feelings, E) two eyes,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第3个
+[input]Generate rationale for the question and choices.  Question: Where do adults use glue sticks? Options: A) classroom, B) desk drawer, C) at school, D) office, E) kitchen drawer,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 83])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,  5377,
+            16,  1330,     7,     5,  5377,     9,     5,  3645,     6,    61,
+          3649,    14,    24,    16,    59,     5,  2259,     9,     5,  5385,
+            18,   184,     6,    61,    16,   533,     7,    28,    10,   317,
+           147,    51,    32,  4959,    11,    10,  2303,   133,  1973,    22,
+         26407,  4294,   113,    16,     5,   144, 16437,  2031,    25,    24,
+            16,    10,  1537,  2259,    13,    10,  2303,   929,     7,    28,
+          2034,     6,     8,    24,    16,    67,    10,  1537,  1905,     9,
+           171,  7336,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: What could go on top of wood? Options: A) lumberyard, B) synagogue, C) floor, D) carpet, E) hardware store,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第1个
+[input]Generate rationale for the question and choices.  Question: The artist was sitting quietly pondering, then suddenly he began to paint when what struck him? Options: A) sadness, B) anxiety, C) inspiration, D) discomfort, E) insights,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第2个
+[input]Generate rationale for the question and choices.  Question: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what? Options: A) indestructible, B) durable, C) undestroyable, D) indestructible, E) unbreakable,
+Rationale:
+[output]The sentence suggests that the context is related to the context of the sentence, which suggests that it is about the location of the speaker's home, which is likely to be a place where they are staying in a hotelThe option "bathroom" is the most logical choice as it is a common location for a hotel room to be located, and it is also a common feature of many hotels
+第3个
+[input]Generate rationale for the question and choices.  Question: Where could you find a toilet that only friends can use? Options: A) rest area, B) school, C) stadium, D) apartment, E) hospital,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 76])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,  5377,
+            16,  1330,     7,     5,  5377,     9,     5,  3645,     6,    61,
+          3649,    14,    24,    16,    59,     5,  2259,     9,     5,  5385,
+            18,   184,     6,    61,    16,   533,     7,    28,    10,   317,
+           147,    51,    32,  4959,    11,    10,  2303,   133,   144,   533,
+          2259,    13,    42,    74,    28,    10,  2303,     6,    25,  7336,
+            32,   747,  3059,    19,  1976,    10,  3473,     8,  3473,  1737,
+            13,  3958,     7,  1095,    11,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: What is someone who isn't clever, bright, or competent called? Options: A) clumsy, B) ineffectual, C) dull, D) clumsy, E) stupid,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第1个
+[input]Generate rationale for the question and choices.  Question: When wildlife reproduce we often refer to what comes out as what? Options: A) raise children, B) have children, C) photo copy, D) offspring, E) accidently got pregnant somehow,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第2个
+[input]Generate rationale for the question and choices.  Question: The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what? Options: A) forrest, B) barn, C) public office, D) out of doors, E) freezer,
+Rationale:
+[output]The sentence suggests that the context is related to the context of the sentence, which suggests that it is about the location of the speaker's home, which is likely to be a place where they are staying in a hotelThe most likely location for this would be a hotel, as hotels are often associated with providing a comfortable and comfortable environment for guests to stay in
+第3个
+[input]Generate rationale for the question and choices.  Question: Blue read material outside of his comfort zone because he wanted to gain what? Options: A) new perspective, B) entertained, C) understanding, D) hunger, E) tired eyes,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 74])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  9742,     6,
+           442,   106,    10,  1406,  2031,    13,    82,   546,     7,  6895,
+            10,  2119,  5820,     2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: After he got hired he hoped for success at his what? Options: A) vocation, B) new job, C) michigan, D) working hard, E) manual,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第1个
+[input]Generate rationale for the question and choices.  Question: Committing perjury is a serious what? Options: A) indictment, B) crime, C) violence, D) lie, E) go to jail,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第2个
+[input]Generate rationale for the question and choices.  Question: If you are prone to postpone work what will you have to do in order to finish on time? Options: A) eat, B) hasten, C) antedate, D) bring forward, E) advance,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第3个
+[input]Generate rationale for the question and choices.  Question: James wanted to find an old underground map from the 50s.  Where might he look for one? Options: A) library, B) subway station, C) county engineer's office, D) super market, E) home,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and convenience, making them a popular choice for people looking to grab a quick meal
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 71])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,  5377,
+            16,  1330,     7,     5,  5377,     9,     5,  3645,     6,    61,
+            16,     5,   864,     9,   147,     5,   621,    16,   546,    13,
+            10,   317,     7,  3529,    10, 31599, 25278,   133,  1973,    22,
+          7110,  8616,   927,   113,    16,     5,   144, 16437,  2031,     6,
+            25,    24,    16,    10,  1537,   317,     7,   465, 31599,  7150,
+           268,    23,    10,  1769,   689,  2391,     2,     1,     1,     1,
+             1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,  5377,
+             9,     5,  3645,    16,  1330,     7,     5,   304,     9,     5,
+          2136,    22,    29, 18311,  3057,  1400,   113,    25,    10, 17796,
+         41433,    13,    10,  7798,  3057,  1400,     6,    61,    16,    10,
+          1537,  2259,    13,  7798,  3057,  2326, 16713, 12829,    32,   684,
+            13,  2183,    10,  1810,  3143,     9,  7798,  3057,     6,   217,
+          5296,     6, 19819,     6,     8, 10131,     6,   217,  1612,  2104,
+             2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: Sean was in a rush to get home, but the light turned yellow and he was forced to do what? Options: A) take time, B) dawdle, C) go slowly, D) ocean, E) slow down,
+Rationale:
+[output]The sentence suggests that the context is related to the context of the sentence, which is the question of where the person is looking for a place to eat a hamburgerThe option "restaurant" is the most logical choice, as it is a common place to find hamburgers at a fast food restaurant
+第1个
+[input]Generate rationale for the question and choices.  Question: Where would a person be doing when having to wait their turn? Options: A) have patience, B) get in line, C) sing, D) stand in line, E) turn left,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第2个
+[input]Generate rationale for the question and choices.  Question: She was always helping at the senior center, it brought her what? Options: A) satisfaction, B) heart, C) feel better, D) pay, E) happiness,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第3个
+[input]Generate rationale for the question and choices.  Question: The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the what? Options: A) keep cloesd, B) train, C) ignition switch, D) drawer, E) firearm,
+Rationale:
+[output]The sentence suggests that the context of the sentence is related to the use of the word "sporting goods store" as a synonym for a sporting goods store, which is a common location for sporting goods storesSupermarkets are known for selling a wide variety of sporting goods, including clothing, footwear, and accessories, including sports equipment
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 65])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: Who is a police officer likely to work for? Options: A) beat, B) direct traffic, C) city, D) street, E) president,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第1个
+[input]Generate rationale for the question and choices.  Question: If you have leftover cake, where would you put it? Options: A) quandry, B) refrigerator, C) oven, D) night stand, E) bakery,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第2个
+[input]Generate rationale for the question and choices.  Question: A human wants to submerge himself in water, what should he use? Options: A) whirlpool bath, B) coffee cup, C) cup, D) soft drink, E) puddle,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第3个
+[input]Generate rationale for the question and choices.  Question: Where is a doormat likely to be in front of? Options: A) facade, B) front door, C) doorway, D) entrance porch, E) hallway,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 90])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,   239,   850,     8,   239,
+          1318,     6,   442,   106,    10,  1406,  2031,    13,    82,   546,
+            13,  1769,   689,   133,    97,  5717,   109,    45,    33,   143,
+           699,  2748,     7,     5,  5377,     9,     5,  3645,     4,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32, 10266,   303,    11,  4879,   911,   215,    25,  1947,
+             6,  6815,     6,     8,  3826,   911,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: Bob the lizard lives in a warm place with lots of water.  Where does he probably live? Options: A) rock, B) tropical rainforest, C) jazz club, D) new mexico, E) rocky places,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their high prices and high quality, making them a popular choice for people looking for fast foodThe other choices do not have any clear connection to the context of the sentence.
+第1个
+[input]Generate rationale for the question and choices.  Question: August needed  money because he was afraid that he'd be kicked out of his house.  What did he need money to do? Options: A) control people, B) pay bills, C) hurt people, D) buy food, E) get things,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are commonly found in urban areas such as cities, towns, and rural areas
+第2个
+[input]Generate rationale for the question and choices.  Question: He needed more information to fix it, so he consulted the what? Options: A) chickens, B) google, C) newspaper, D) online, E) manual,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第3个
+[input]Generate rationale for the question and choices.  Question: Where can you put a picture frame when it's not hung vertically? Options: A) art show, B) wall, C) newspaper, D) car, E) table,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 74])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  9742,     6,
+           442,   106,    10,  1406,  2031,    13,    82,   546,     7,  6895,
+            10,  2119,  5820,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32, 10266,   303,    11,  4879,   911,   215,    25,  1947,
+             6,  6815,     6,     8,  3826,   911,     2,     1,     1,     1,
+             1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad? Options: A) lose money, B) fun, C) have no money, D) broken law, E) relaxation,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and convenience, making them a popular choice for people looking to grab a quick meal
+第1个
+[input]Generate rationale for the question and choices.  Question: What is the result of applying for  job? Options: A) anxiety and fear, B) increased workload, C) praise, D) less sleep, E) being employed,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第2个
+[input]Generate rationale for the question and choices.  Question: What must someone do before they shop? Options: A) get money, B) have money, C) bring cash, D) go to market, E) bring cash,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第3个
+[input]Generate rationale for the question and choices.  Question: Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work? Options: A) music store, B) obesity, C) symphony orchestra, D) ochestra, E) violin case,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are commonly found in urban areas such as cities, towns, and rural areas
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 86])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,  5377,
+            16,  1330,     7,     5,  5377,     9,     5,  3645,     6,    61,
+          3649,    14,    24,    16,    59,     5,  2259,     9,     5,  5385,
+            18,   184,     6,    61,    16,   533,     7,    28,    10,   317,
+           147,    51,    32,  4959,    11,    10,  2303,   133,  1973,    22,
+         26407,  4294,   113,    16,     5,   144, 16437,  2031,    25,    24,
+            16,    10,  1537,  2259,    13,    10,  2303,   929,     7,    28,
+          2034,     6,    25,    24,  1639,  4144,     8,    10,  3473,  1737,
+            13,  3958,     7,  1095,    11,     2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: What is a place that usually does not have an elevator and that sometimes has a telephone book? Options: A) at hotel, B) kitchen, C) library, D) telephone booth, E) house,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第1个
+[input]Generate rationale for the question and choices.  Question: Who is likely to be excited about a crab? Options: A) fish market, B) pet shop, C) fishmongers, D) intertidal zone, E) obesity,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第2个
+[input]Generate rationale for the question and choices.  Question: Where can a human find clothes that aren't pants? Options: A) pants shop, B) on planet earth, C) dress shop, D) school, E) train wreck,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第3个
+[input]Generate rationale for the question and choices.  Question: If I was getting drunk, and people couldn't understand me, what might I be having? Options: A) a seizure, B) slurred speech, C) death, D) forgetfulness, E) pass out,
+Rationale:
+[output]The sentence suggests that the context is related to the context of the sentence, which suggests that it is about the location of the speaker's home, which is likely to be a place where they are staying in a hotelThe option "bathroom" is the most logical choice as it is a common location for a hotel room to be located, as it provides privacy and a comfortable environment for guests to stay in
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 67])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,  5377,
+            16,  1330,     7,     5,  5377,     9,     5,  3645,     6,    61,
+            16,     5,   864,     9,   147,     5,   621,    16,   546,    13,
+            10,   317,     7,  3529,    10, 31599, 25278,   133,  1973,    22,
+          7110,  8616,   927,   113,    16,     5,   144, 16437,  2031,     6,
+            25,    24,    16,    10,  1537,   317,     7,   465, 31599,  7150,
+           268,    23,    10,  1769,   689,  2391,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: When a person is beginning work, what are they building? Options: A) time, B) accomplishing, C) working, D) momentum, E) tiredness,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第1个
+[input]Generate rationale for the question and choices.  Question: A child wants to play, what would they likely want? Options: A) fall down, B) breathe, C) play tag, D) be dismembered by a chainsaw, E) become adult,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第2个
+[input]Generate rationale for the question and choices.  Question: Talking to the same person about the same thing over and over again is something someone can what? Options: A) social life, B) friendship, C) eye contact, D) get tired of, E) learn lessons from,
+Rationale:
+[output]The sentence suggests that the context is related to the context of the sentence, which is the question of where the person is looking for a place to eat a hamburgerThe option "restaurant" is the most logical choice, as it is a common place to find hamburgers at a fast food restaurant
+第3个
+[input]Generate rationale for the question and choices.  Question: The teacher doesn't tolerate noise during a test in their what? Options: A) movie theatre, B) bowling alley, C) factory, D) store, E) classroom,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 65])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: The freeway had no traffic and few buildings, where is it? Options: A) california, B) countryside, C) big town, D) florida, E) america,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第1个
+[input]Generate rationale for the question and choices.  Question: Where would you go if you wanted to have fun with a few people? Options: A) watching television, B) good, C) cinema, D) friend's house, E) fairgrounds,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第2个
+[input]Generate rationale for the question and choices.  Question: If there is a place that is hot and arid, what could it be? Options: A) bland, B) lifeless, C) sandy, D) neutral, E) freezing,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第3个
+[input]Generate rationale for the question and choices.  Question: What is likely to satisfy someone's curiosity? Options: A) hear news, B) read book, C) see favorite show, D) comedy show, E) go somewhere,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 65])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: If you are in a bar in a glove shaped state where are you? Options: A) in my pocket, B) michigan, C) new york city, D) restaurant, E) public house,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第1个
+[input]Generate rationale for the question and choices.  Question: Where would a computer user be using their own computer? Options: A) hell, B) school, C) indoors, D) internet cafe, E) house,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第2个
+[input]Generate rationale for the question and choices.  Question: Crabs live in what sort of environment? Options: A) maritime, B) bodies of water, C) saltwater, D) galapagos, E) fish market,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第3个
+[input]Generate rationale for the question and choices.  Question: Where can you find a snake in tall grass? Options: A) tree, B) in a jar, C) pet shops, D) feild, E) tropical forest,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 65])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: What is a place that has a bench nestled in trees? Options: A) state park, B) bus stop, C) bus depot, D) statue, E) train station,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第1个
+[input]Generate rationale for the question and choices.  Question: Where is a human likely to go as a result of being hungry? Options: A) eat in restaurant, B) make bread, C) have lunch, D) cook dinner, E) friends house,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第2个
+[input]Generate rationale for the question and choices.  Question: He was beginning to regret taking the fight when he saw how what his opponent was? Options: A) fun, B) joy, C) satisfaction, D) confident, E) pride,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第3个
+[input]Generate rationale for the question and choices.  Question: Where would you find a single shower curtain being used? Options: A) bathtub, B) washing area, C) hotel, D) shower stall, E) department store,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 67])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32, 10266,   303,    11,  4879,   911,   215,    25,  1947,
+             6,  6815,     6,     8,  3826,   911,     2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: Where is a good idea but not required to have a fire extinguisher? Options: A) school bus, B) boat, C) house, D) hospital, E) school,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第1个
+[input]Generate rationale for the question and choices.  Question: What continent has the most castles? Options: A) fairy tale, B) edinburgh, C) germany, D) europe, E) antarctica,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第2个
+[input]Generate rationale for the question and choices.  Question: If you have to read a book that is very dry and long you may become what? Options: A) have time, B) boring, C) learn new, D) enjoyable, E) bored,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第3个
+[input]Generate rationale for the question and choices.  Question: Sally used a clipboard to hold her papers while she read off names at the beginning of the day.  Where might she work? Options: A) desk, B) windows 95, C) office supply store, D) see work, E) school,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are commonly found in urban areas such as cities, towns, and rural areas
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 110])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,  5377,
+            16,  1330,     7,     5,  5377,     9,     5,  3645,     6,    61,
+          3649,    14,    24,    16,    59,     5,  2259,     9,     5,  5385,
+            18,   184,     6,    61,    16,   533,     7,    28,    10,   317,
+           147,    51,    32,  4959,    11,    10,  2303,   133,  1973,    22,
+         26407,  4294,   113,    16,     5,   144, 16437,  2031,    25,    24,
+            16,    10,  1537,  2259,    13,    10,  2303,   929,     7,    28,
+          2034,     6,     8,     5,    97,  1735,   109,    45,   146,  1472,
+            11,    42,  5377,   113, 44391,  4294,   113,     8,    22, 23199,
+          8224,   113,    32,   350, 17606,     8,   109,    45,   694,   143,
+          2167,   335,    59,   147,     5,  5385,    16,  4959,     4,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,  5377,
+             9,     5,  3645,    16,  1330,     7,     5,   304,     9,     5,
+          2136,    22,    29, 18311,  3057,  1400,   113,    25,    10, 17796,
+         41433,    13,    10,  7798,  3057,  1400,     6,    61,    16,    10,
+          1537,  2259,    13,  7798,  3057,  2326, 16713, 12829,    32,   684,
+            13,  2183,    10,  1810,  3143,     9,  7798,  3057,     6,   217,
+          5296,     6, 19819,     6,     8, 10131,     6,   217,  1612,  2104,
+             2,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,  5377,
+            16,  1330,     7,     5,  5377,     9,     5,  3645,     6,    61,
+          3649,    14,    24,    16,    59,     5,  2259,     9,     5,  5385,
+            18,   184,     6,    61,    16,   533,     7,    28,    10,   317,
+           147,    51,    32,  4959,    11,    10,  2303,   133,  1973,    22,
+         26407,  4294,   113,    16,     5,   144, 16437,  2031,    25,    24,
+            16,    10,  1537,  2259,    13,    10,  2303,   929,     7,    28,
+          2034,     6,    25,    24,  1639,  4144,     8,    10,  3473,  1737,
+            13,  3958,     7,  1095,    11,     2,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: The kids didn't clean up after they had done what? Options: A) learn things, B) play games, C) disneyland, D) play with toys, E) talking,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第1个
+[input]Generate rationale for the question and choices.  Question: Despite the name a pawn can be quite versatile, all the parts are important in a what? Options: A) chess game, B) scheme, C) chess set, D) checkers, E) north carolina,
+Rationale:
+[output]The sentence suggests that the context is related to the context of the sentence, which suggests that it is about the location of the speaker's home, which is likely to be a place where they are staying in a hotelThe option "bathroom" is the most logical choice as it is a common location for a hotel room to be located, and the other options do not make sense in this context"Bedroom" and "kitchen" are too vague and do not provide any specific information about where the speaker is staying.
+第2个
+[input]Generate rationale for the question and choices.  Question: What would not be true about a basketball if it had a hole in it but it did not lose its general shape? Options: A) punctured, B) popular in america, C) full of air, D) gone, E) round,
+Rationale:
+[output]The sentence suggests that the context of the sentence is related to the use of the word "sporting goods store" as a synonym for a sporting goods store, which is a common location for sporting goods storesSupermarkets are known for selling a wide variety of sporting goods, including clothing, footwear, and accessories, including sports equipment
+第3个
+[input]Generate rationale for the question and choices.  Question: If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause? Options: A) irritability, B) depression, C) getting out of bed, D) happiness, E) discomfort,
+Rationale:
+[output]The sentence suggests that the context is related to the context of the sentence, which suggests that it is about the location of the speaker's home, which is likely to be a place where they are staying in a hotelThe option "bathroom" is the most logical choice as it is a common location for a hotel room to be located, as it provides privacy and a comfortable environment for guests to stay in
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 67])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32, 10266,   303,    11,  4879,   911,   215,    25,  1947,
+             6,  6815,     6,     8,  3826,   911,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: Where does a wild bird usually live? Options: A) cage, B) sky, C) countryside, D) desert, E) windowsill,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第1个
+[input]Generate rationale for the question and choices.  Question: Where would you expect to find white mice? Options: A) bell cat, B) bush, C) attic, D) countryside, E) laboratory,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第2个
+[input]Generate rationale for the question and choices.  Question: John felt that his actions were fate.   Harry said that he could have always made a different what? Options: A) free will, B) choice, C) will, D) alcohol, E) freedom,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are commonly found in urban areas such as cities, towns, and rural areas
+第3个
+[input]Generate rationale for the question and choices.  Question: What could committing murder prevent someone from doing? Options: A) go to jail, B) cry, C) find god, D) guilty conscience, E) problems,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 67])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32, 10266,   303,    11,  4879,   911,   215,    25,  1947,
+             6,  6815,     6,     8,  3826,   911,     2],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49, 21254,     8,  7265,     2,
+             1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61,    16,  3700,   303,    11,    10,  1769,   689,  2391,
+         31921,  8616,  3277,    32,   684,    13,  1839,    10,  1810,  3143,
+             9,  1769,   689,  1735,     6,   217, 31599,  7150,   268,     6,
+            61,    32,   747,   684,    13,    49,  1460,     7, 15332,    10,
+         32659,    13,  1769,   689,     2,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: George didn't have a car, but he still had his two feet.   His socks were smelly and his soles were blistered, but that didn't matter.  He could still do what? Options: A) michigan, B) walk, C) stay still, D) stink, E) hands,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are commonly found in urban areas such as cities, towns, and rural areas
+第1个
+[input]Generate rationale for the question and choices.  Question: A crane uses many a steel cable when working a what? Options: A) abaft, B) ship, C) winch, D) construction site, E) building,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+第2个
+[input]Generate rationale for the question and choices.  Question: What is the main purpose of farmers? Options: A) raise cattle, B) grow corn, C) farm land, D) drive tractors, E) supply food,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their affordability and availability
+第3个
+[input]Generate rationale for the question and choices.  Question: Where can I put this penny to save for later? Options: A) piggy bank, B) wallet, C) toy, D) ground, E) pocket,
+Rationale:
+[output]The sentence suggests that the person is looking for a place to eat a hamburger, which is typically found in a fast food restaurantRestaurants are known for offering a wide variety of fast food options, including hamburgers, which are often known for their ability to satisfy a craving for fast food
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+  7%|█████████▊                                                                                                                                     | 21/306 [04:47<1:05:00, 13.68s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 326, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 320, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 256, in test
+    output = model.generate(input_ids, max_length=200, num_return_sequences=1, early_stopping=True)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 1490, in generate
+    return self.beam_search(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 2749, in beam_search
+    outputs = self(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1373, in forward
+    outputs = self.model(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1255, in forward
+    decoder_outputs = self.decoder(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 1113, in forward
+    layer_outputs = decoder_layer(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 464, in forward
+    hidden_states = self.fc2(hidden_states)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

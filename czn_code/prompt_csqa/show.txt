@@ -1,0 +1,446 @@
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? (i) bank (ii) library (iii) department store (iv) mall (vi) new york
+Answer:
+The term "routine" means that one or more steps are repeated in order to perform a task.  In this example there will be several routine steps, which can include
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+What do people aim to do at work? (i) complete job (ii) learn from each other (iii) kill animals (iv) wear hats (vi) talk to each other
+Answer:
+1.  2.  3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+Where would you find magazines along side many other printed works? (i) doctor (ii) bookstore (iii) market (iv) train station (vi) mortuary
+Answer: (a) doctor's office (b) book store (c) hospital (d) market (e) railcar station (f) railroad car
+The correct answer is, of course!  <|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+Where are  you likely to find a hamburger? (i) fast food restaurant (ii) pizza (iii) ground up dead cows (iv) mouth (vi) cow carcus
+Answer:  
+Question 2: What are the best things about having a baby? (i) being with your husband/wife and children (ii) being able to walk in the snow without getting frostbite (iii)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+James was looking for a good place to buy farmland.  Where might he look? (i) midwest (ii) countryside (iii) estate (iv) farming areas (vi) illinois
+Answer: (a), (b). <|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+What island country is ferret popular? (i) own home (ii) north carolina (iii) great britain (iv) hutch (vi) outdoors
+Answer: The islands of Ferries are very popular ferrets in their home countries, but in North America they are not common.
+How do you know if a ferret has become tame? A ferret that is no longer being wild is
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+In what Spanish speaking North American country can you get a great cup of coffee? (i) mildred's coffee shop (ii) mexico (iii) diner (iv) kitchen (vi) canteen
+Answer: i. Mildred's coffee shop
+1.) What is your favorite thing about Mexico?  (a) the people (b) the food (c) the weather 2.) What is
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+What do animals do when an enemy is approaching? (i) feel pleasure (ii) procreate (iii) pass water (iv) listen to each other (vi) sing
+Answer: Animals do not have a sense of "pleasure" and will not be interested in passing water, listening or singing with their mates. 
+How many people are there on earth? (a) 3.5 billion (b
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+Reading newspaper one of many ways to practice your what? (i) literacy (ii) knowing how to read (iii) money (iv) buying (vi) money bank
+Answer: a. reading (b. money, c. knowledge of how to buy) b. knowing how to read (c. learning how to read and c. learning about the use of money by people around you)
+Question 3 -
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+What do people typically do while playing guitar? (i) cry (ii) hear sounds (iii) singing (iv) arthritis (vi) making music
+Answer:  
+The most common thing people tend to do when playing is play, but this can vary from person to person and even from song to song. It's not necessarily a problem in itself, just an indication of how different you are as a player
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+What would vinyl be an odd thing to replace? (i) pants (ii) record albums (iii) record store (iv) cheese (vi) wallpaper
+Answer:  Vinyl is an odd thing to replace, but it can be a lot better than what we have now! The main issue with vinyl is that most of the music you buy is recorded in digital format and then transferred into CDs and played on
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+If you want harmony, what is something you should try to do with the world? (i) take time (ii) make noise (iii) make war (iv) make peace (vi) make haste
+Answer: Take Time<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+Where does a heifer's master live? (i) farm house (ii) barnyard (iii) stockyard (iv) slaughter house (vi) eat cake
+Answer: Heifers are raised on pasture, but they are usually slaughtered in the barn and eaten at home. If you want to buy a heifer that is being sold as a dairy animal and not as an egg-laying hen, then
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+Aside from water and nourishment what does your dog need? (i) bone (ii) charm (iii) petted (iv) lots of attention (vi) walked
+Answer: Bone and Charm are both needed. Your dog will have to be a good boy/girl if he doesn't eat enough. The best way to feed him is to use treats, as long as you keep the treats in his mouth all
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+Janet was watching the film because she liked what? (i) erection (ii) laughter (iii) being entertained (iv) fear (vi) bordem
+Answer:  'I don't know.'<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+What are you waiting alongside with when you're in a reception area? (i) motel (ii) chair (iii) hospital (iv) people (vi) hotels
+Answer: i) people (b) motel (a) motel (d) chair (v) hotel
+Answer: b) motel (c) chair (e) hotel Answer: i) people (h) motel (f) chair (g
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+
+
+
+Select the correct answer among the options provided for the following question. 
+A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? i. bank ii. library iii. department store iv. mall vi. new york
+Answer: A revolving door is used to keep track of people going in one direction and out another. It can be used by employees of different companies to monitor work schedules, or by customers who wish to know the exact time
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+What do people aim to do at work? i. complete job ii. learn from each other iii. kill animals iv. wear hats vi. talk to each other
+Answer:
+Question: What is a person's favorite color?
+Color 1 Color 2 Answer:
+Question: How many years have you worked in this company? i. 3-4 ii. 5-6 iii. 7-8 iv. 9
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+Where would you find magazines along side many other printed works? i. doctor ii. bookstore iii. market iv. train station vi. mortuary
+Answer: I have not read any magazines on the shelves, so I do not know which one is right. If you can provide me with some reference material that shows how magazines are usually found along side a large collection of books or pamphlets in an area, I would appreciate
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+Where are  you likely to find a hamburger? i. fast food restaurant ii. pizza iii. ground up dead cows iv. mouth vi. cow carcus
+Answer: i. Fast Food restaurants
+The next question is one that many people have never even heard of, but which has been studied extensively by scientists. The question asks if you prefer a hamburger or a hot dog. You must choose correctly to get
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question. 
+James was looking for a good place to buy farmland.  Where might he look? i. midwest ii. countryside iii. estate iv. farming areas vi. illinois
+Answer: iv
+
+
+
+
+###
+
+
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Options: i. bank ii. library iii. department store iv. mall vi. new york
+Answer: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Answer:<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+What do people aim to do at work? Options: i. complete job ii. learn from each other iii. kill animals iv. wear hats vi. talk to each other
+Answer: People aim to get jobs and earn money so they can buy stuff for their families, such as food or clothes that will help them survive. They also want to build relationships with colleagues who are able to provide them with useful advice and skills.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+Where would you find magazines along side many other printed works? Options: i. doctor ii. bookstore iii. market iv. train station vi. mortuary
+Answer:  Doctor and Market are the best, but I also think the market has a better reputation. I'd say that the bookstores are fine if you don't mind paying a little more than the doctor for the same amount of reading time. You could also
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+Where are  you likely to find a hamburger? Options: i. fast food restaurant ii. pizza iii. ground up dead cows iv. mouth vi. cow carcus
+Answer: i. fast food restaurant i. pizzeria iv. burger v. ground-up dead cows<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+James was looking for a good place to buy farmland.  Where might he look? Options: i. midwest ii. countryside iii. estate iv. farming areas vi. illinois
+Answer:  i. Midwestern
+What did you want for Christmas, but couldn't have? What do you think of this picture? Answer:  I love this picture! It's like a cross between the two best pictures
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+What island country is ferret popular? Options: i. own home ii. north carolina iii. great britain iv. hutch vi. outdoors
+Answer:
+This question requires a little bit of explanation, so if you're looking to get some help with this one, feel free!
+1) How many people in the US have a pet cat/dog/rat? 2) What percentage of the total
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+In what Spanish speaking North American country can you get a great cup of coffee? Options: i. mildred's coffee shop ii. mexico iii. diner iv. kitchen vi. canteen
+Answer: i. mildred's coffee shop
+i. mexico ii. diner iv. kitchen vi. canteen
+The answer is not available, because your country does not have an answer.<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+What do animals do when an enemy is approaching? Options: i. feel pleasure ii. procreate iii. pass water iv. listen to each other vi. sing
+Answer: Animals don't have any sense of smell, hearing or vision. They only know that they are there and are trying to avoid the danger they might find themselves in. The best way to protect yourself from being attacked is to stay away from the danger you
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+Reading newspaper one of many ways to practice your what? Options: i. literacy ii. knowing how to read iii. money iv. buying vi. money bank
+Answer:
+I have no idea why you are asking that. I was just curious if it would help. If you're not sure about a word or phrase, try using the Search Tool ( ) and select the appropriate option from a list of related questions. You
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+What do people typically do while playing guitar? Options: i. cry ii. hear sounds iii. singing iv. arthritis vi. making music
+Answer: The answer is usually a combination of these responses, but you can also select one response and leave the other blank.<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+What would vinyl be an odd thing to replace? Options: i. pants ii. record albums iii. record store iv. cheese vi. wallpaper
+Answer: A record is a medium-sized item of recorded music (usually from a collection) that can be played with the stylus on a phonograph player, or on an album. Vinyl is usually available in two different varieties; regular (black and white) and colored (
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+If you want harmony, what is something you should try to do with the world? Options: i. take time ii. make noise iii. make war iv. make peace vi. make haste
+Answer: i. take time<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+Where does a heifer's master live? Options: i. farm house ii. barnyard iii. stockyard iv. slaughter house vi. eat cake
+Answer: Farm House
+The farm house has an extra door on the left side that you can unlock by going through the front of the home and pressing. You need to be close enough when it unlocks so that the door opens, and it will stay open until you exit
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+Aside from water and nourishment what does your dog need? Options: i. bone ii. charm iii. petted iv. lots of attention vi. walked
+Answer: i. bone
+Your dog needs food, water, and a good place to stay. What do you suggest to him? Options:  i. chew-able food ii. toys v. toy-like things (e.g., stuffed animals
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+Janet was watching the film because she liked what? Options: i. erection ii. laughter iii. being entertained iv. fear vi. bordem
+Answer: i. erection Janet's response: i. erection Janet's reaction to her own reaction (a) was not very positive. Janet thought of a possible reason why this might be, but it was hard to imagine how it could have occurred. (b) was
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+What are you waiting alongside with when you're in a reception area? Options: i. motel ii. chair iii. hospital iv. people vi. hotels
+Answer: A person is waiting beside me while I'm at a restaurant, hotel or any place where there's an open table and chairs available to use for a group of people.<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+When drinking booze what can you do to stay busy? Options: i. reach tentative agreement ii. stay in bed iii. stop bicycle iv. examine thing vi. suicide
+Answer: a. reach tentative agreement
+Beware of the following people who have made it their mission in life not only to make you miserable, but also to get your money!
+1) The person with the most time on his/her hands and
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+A fencing thrust with a sharp sword towards a person would result in what? Options: i. injury ii. small cuts iii. fever iv. competition vi. puncture wound
+Answer: A fencing thrust with a sharp sword towards a person would result in what? The person would suffer no serious injuries or any other significant effects. This means that this is not an acceptable form of combat, even though it can be used in self
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+Unlike a spider and his many sight seers, people only have what? Options: i. tongues ii. names iii. brains iv. feelings vi. two eyes
+Answer: tongue.<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+Where do adults use glue sticks? Options: i. classroom ii. desk drawer iii. at school iv. office vi. kitchen drawer
+Answer: Adults use glue sticks to make things that are easy to carry, such as glue-based paint or nail polish remover. They also use glue sticks to repair items that have been damaged by accidents and to cover up their mistakes in everyday life. This type of glue stick is used
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+What could go on top of wood? Options: i. lumberyard ii. synagogue iii. floor iv. carpet vi. hardware store
+Answer: wood floor
+You may also like:<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+The artist was sitting quietly pondering, then suddenly he began to paint when what struck him? Options: i. sadness ii. anxiety iii. inspiration iv. discomfort vi. insights
+Answer: i. sorrow<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+Though the thin film seemed fragile, for it's intended purpose it was actually nearly what? Options: i. indestructible ii. durable iii. undestroyable iv. indestructible vi. unbreakable
+Answer: The thin film is an extremely tough and resilient metal alloy with a very high melting point of about 1000°C (1850°F). This metal is so strong that when exposed to
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+Where could you find a toilet that only friends can use? Options: i. rest area ii. school iii. stadium iv. apartment vi. hospital
+Answer:  The answer is  i. Rest Area<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+What is someone who isn't clever, bright, or competent called? Options: i. clumsy ii. ineffectual iii. dull iv. clumsy vi. stupid
+Answer:  The person with no intelligence at all
+Question:  How many people do you know that are born without arms?
+Options: 0-4 5-8 9-12 13+ Answer: 4 (2)
+Question: 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+When wildlife reproduce we often refer to what comes out as what? Options: i. raise children ii. have children iii. photo copy iv. offspring vi. accidently got pregnant somehow
+Answer: I think it's a combination of these two, but you could also say that it's both. You could call either parent the father and the mother the child or you could even say that it's neither parent at all. The
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what? Options: i. forrest ii. barn iii. public office iv. out of doors vi. freezer
+Answer: 1st place in the What to do with Weasels quiz (10/11)<|endoftext|>
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+Blue read material outside of his comfort zone because he wanted to gain what? Options: i. new perspective ii. entertained iii. understanding iv. hunger vi. tired eyes
+Answer: I am not a very active reader, so this is more of an intellectual challenge and learning process than it is anything else.
+I was in my first year as an English teacher at a school near Toronto, when we started having students who would
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+After he got hired he hoped for success at his what? Options: i. vocation ii. new job iii. michigan iv. working hard vi. manual
+Answer: i. vocation.
+When asked "what does your dad do?" he responded by saying "he works in a factory".  He also said, "my parents are good people." When asked, "what kind of a person is he
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select the correct answer among the options provided for the following question.
+Committing perjury is a serious what? Options: i. indictment ii. crime iii. violence iv. lie vi. go to jail
+Answer: I am guilty, but not criminally responsible
+The next option will show you if you are in trouble with your family or friends or if you are a risk to others. If you answer "I do not know", that means that you are innocent and have done nothing wrong,
+\ 
+
+
+
+
+question 0
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? i.bank ii.library iii.department store iv.mall v.new york
+Answer:
+This is one of the most common questions we receive and the answer to this one can be found on the back of our "The Most Common Mistakes" poster. In order to solve this puzzle,
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+What do people aim to do at work? i.complete job ii.learn from each other iii.kill animals iv.wear hats v.talk to each other
+Answer: I would not recommend doing anything else than working in order to make a living. The only thing that is possible after this is going out and meeting new friends, but then you will have no idea what kind of person you really are!<|endoftext|>
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+Where would you find magazines along side many other printed works? i.doctor ii.bookstore iii.market iv.train station v.mortuary
+Answer: I found some of my old books in an old bookshop. It had been closed for a number of years but there was still lots of old books in there that were not on display. Some people also collect old magazines. They often sell them online as well (
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+Where are  you likely to find a hamburger? i.fast food restaurant ii.pizza iii.ground up dead cows iv.mouth v.cow carcus
+Answer: I'm most likely to see it at an ____ fast food place. I also tend not to like pizza and would rather have a burger.<|endoftext|>
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+James was looking for a good place to buy farmland.  Where might he look? i.midwest ii.countryside iii.estate iv.farming areas v.illinois
+Answer:  i.midwest<|endoftext|>
+ 
+question 1
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+What island country is ferret popular? i.own home ii.north carolina iii.great britain iv.hutch v.outdoors
+Answer:
+A) Iceland
+B) Norway
+C) Sweden<|endoftext|>
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+In what Spanish speaking North American country can you get a great cup of coffee? i.mildred's coffee shop ii.mexico iii.diner iv.kitchen v.canteen
+Answer:  Spain<|endoftext|>
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+What do animals do when an enemy is approaching? i.feel pleasure ii.procreate iii.pass water iv.listen to each other v.sing
+Answer: Animals use their bodies in a variety of ways to defend themselves against threats. Some creatures use their body as a weapon, while others are more passive and rely on sound or smell.<|endoftext|>
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+Reading newspaper one of many ways to practice your what? i.literacy ii.knowing how to read iii.money iv.buying v.money bank
+Answer: Reading newspaper is one of many methods for practicing your what? literacy, which is a skill that is essential for reading and writing in English. It also includes how to know how to read. You can use this test as an opportunity to study for tests
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+What do people typically do while playing guitar? i.cry ii.hear sounds iii.singing iv.arthritis v.making music
+Answer: I like to play with my girlfriend or boyfriend, but I also like to learn about other instruments. What is your favorite instrument to play? i.guitars ii.basses iii.piano iv.drum v.flute vi.clarinet
+ 
+question 2
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+What would vinyl be an odd thing to replace? i.pants ii.record albums iii.record store iv.cheese v.wallpaper
+Answer: vinyl would never be replaced by anything else, it's the perfect material and will always remain that way.<|endoftext|>
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+If you want harmony, what is something you should try to do with the world? i.take time ii.make noise iii.make war iv.make peace v.make haste
+Answer: I take time. You need to make time. You can only make it if you have a purpose. And that's all.<|endoftext|>
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+Where does a heifer's master live? i.farm house ii.barnyard iii.stockyard iv.slaughter house v.eat cake
+Answer: a) farmhouse b) barnyard c) stockyard d) shed or enclosure e) shed, enclosure or pasture f) fence or wall h) house, barnyard and other enclosed areas<|endoftext|>
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+Aside from water and nourishment what does your dog need? i.bone ii.charm iii.petted iv.lots of attention v.walked
+Answer: a.water
+Briefly summarize the benefits of being with a dog, both in terms of health and longevity. 1) Health - Being around dogs has been shown to increase overall quality of life 2)Longevity - Dogs are good at keeping
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+Janet was watching the film because she liked what? i.erection ii.laughter iii.being entertained iv.fear v.bordem
+Answer: I'm not sure about all of those things, but there is no doubt that Janet enjoyed it.<|endoftext|>
+ 
+question 3
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+What are you waiting alongside with when you're in a reception area? i.motel ii.chair iii.hospital iv.people v.hotels
+Answer: Hotel
+You have to get your hotel room number and name right from their website! You should be able to do it without too much trouble, but don't go on until you know where all of your hotel numbers and names are located. This is a common
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+When drinking booze what can you do to stay busy? i.reach tentative agreement ii.stay in bed iii.stop bicycle iv.examine thing v.suicide
+Answer: i.reach tentative agreement<|endoftext|>
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+A fencing thrust with a sharp sword towards a person would result in what? i.injury ii.small cuts iii.fever iv.competition v.puncture wound
+Answer: 1 - Injury, 2 - Small cuts, 3 - Fever. (The second choice is incorrect.)<|endoftext|>
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+Unlike a spider and his many sight seers, people only have what? i.tongues ii.names iii.brains iv.feelings v.two eyes
+Answer: 1) The word'spider' is a common noun in English and is often used as a synonym of a spider or its larvae. 2) In most cases it means a small insect that lives on insects. 3) There are
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+Where do adults use glue sticks? i.classroom ii.desk drawer iii.at school iv.office v.kitchen drawer
+Answer: The adult uses glue sticks to help hold items together during cleaning, but not to keep things from falling apart when they're done (unless you have a toddler).
+How do parents put their baby into a sling or sling-like device and how long does it take to get
+ 
+question 4
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+What could go on top of wood? i.lumberyard ii.synagogue iii.floor iv.carpet v.hardware store
+Answer: i.lumberyard
+Question 1 is a bit tricky and it would take more than just reading through this list to get an accurate guess, but there are some interesting answers here. What would be most appropriate in a church, synagogue or any other place of worship
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+The artist was sitting quietly pondering, then suddenly he began to paint when what struck him? i.sadness ii.anxiety iii.inspiration iv.discomfort v.insights
+Answer: sadness
+What is your favorite movie or book and why? The Lord of the Rings: The Return of the King  (2001) The Hunger Games (2012) Harry Potter (2007) The Matrix Trilogy (
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+Though the thin film seemed fragile, for it's intended purpose it was actually nearly what? i.indestructible ii.durable iii.undestroyable iv.indestructible v.unbreakable
+Answer: It was an advanced technology that was not meant to be taken into battle against a single enemy but rather to be used in conjunction with a large group of soldiers who were all trained and equipped specifically
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+Where could you find a toilet that only friends can use? i.rest area ii.school iii.stadium iv.apartment v.hospital
+Answer:
+The answer is in the form of an address. The best place to ask about a specific location is on the website of the city or country in which the toilet is located (e.g. London's Google Map) or if it's not possible to get
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+What is someone who isn't clever, bright, or competent called? i.clumsy ii.ineffectual iii.dull iv.clumsy v.stupid
+Answer: clumsy, stupid, incompetent. Answer: clumsy, stupid, incompetent. What's the name of the most popular game in which players try to get as many pieces off a board as possible before it's too late (the "board game
+ 
+question 5
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+When wildlife reproduce we often refer to what comes out as what? i.raise children ii.have children iii.photo copy iv.offspring v.accidently got pregnant somehow
+Answer: i.raise children
+The correct response is a combination of these responses, but you should choose which you feel best matches your feelings about the subject at hand. You may also wish to include additional information about how the animal would like to
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what? i.forrest ii.barn iii.public office iv.out of doors v.freezer
+Answer: 1) I am going to keep my chickens indoors because they are too loud and noisy and that is not good for me. 2) I will have to get rid of my old furniture and put up new furniture
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+Blue read material outside of his comfort zone because he wanted to gain what? i.new perspective ii.entertained iii.understanding iv.hunger v.tired eyes
+Answer: A. The Blue Book
+B. The Blue Book
+C. The Blue Book<|endoftext|>
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+After he got hired he hoped for success at his what? i.vocation ii.new job iii.michigan iv.working hard v.manual
+Answer: I have been employed in the industry of the railroad since 1887, and have worked there during a period of more than thirty-five years. In that time I have made some good friends and gained some knowledge, but never succeeded so far as being
+ 
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Select one correct answer among the options provided for the following question.
+Committing perjury is a serious what? i.indictment ii.crime iii.violence iv.lie v.go to jail
+Answer: i. Indictments (i.e., false testimony) are generally punishable by up to five years imprisonment, and up to 10 years if the person has an established history of criminal activity or other significant offenses, such as murder. The statute does not provide for mandatory minimums
+
+
+
+{"answerKey": "A", "id": "075e483d21c29a511267ef62bedc0461", "question": {"question_concept": "punishing", "choices": [{"label": "A", "text": "ignore"}, {"label": "B", "text": "enforce"}, {"label": "C", "text": "authoritarian"}, {"label": "D", "text": "yell at"}, {"label": "E", "text": "avoid"}], "stem": "The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?"}, "statements": [{"label": true, "statement": "The sanctions against the school were a punishing blow, and they seemed to ignore the efforts the school had made to change."}, {"label": false, "statement": "The sanctions against the school were a punishing blow, and they seemed to enforce the efforts the school had made to change."}, {"label": false, "statement": "The sanctions against the school were a punishing blow, and they seemed to authoritarian the efforts the school had made to change."}, {"label": false, "statement": "The sanctions against the school were a punishing blow, and they seemed to yell at the efforts the school had made to change."}, {"label": false, "statement": "The sanctions against the school were a punishing blow, and they seemed to avoid the efforts the school had made to change."}]}
+{"answerKey": "B", "id": "61fe6e879ff18686d7552425a36344c8", "question": {"question_concept": "people", "choices": [{"label": "A", "text": "race track"}, {"label": "B", "text": "populated areas"}, {"label": "C", "text": "the desert"}, {"label": "D", "text": "apartment"}, {"label": "E", "text": "roadblock"}], "stem": "Sammy wanted to go to where the people were.  Where might he go?"}, "statements": [{"label": false, "statement": "Sammy wanted to go to where the people were.  race track might he go."}, {"label": true, "statement": "Sammy wanted to go to where the people were.  populated areas might he go."}, {"label": false, "statement": "Sammy wanted to go to where the people were.  the desert might he go."}, {"label": false, "statement": "Sammy wanted to go to where the people were.  apartment might he go."}, {"label": false, "statement": "Sammy wanted to go to where the people were.  roadblock might he go."}]}
+{"answerKey": "C", "id": "23505889b94e880c3e89cff4ba119860", "question": {"question_concept": "fox", "choices": [{"label": "A", "text": "pretty flowers."}, {"label": "B", "text": "hen house"}, {"label": "C", "text": "natural habitat"}, {"label": "D", "text": "storybook"}, {"label": "E", "text": "dense forest"}], "stem": "The fox walked from the city into the forest, what was it looking for?"}, "statements": [{"label": false, "statement": "The fox walked from the city into the forest, pretty flowers was it looking for."}, {"label": false, "statement": "The fox walked from the city into the forest, hen house was it looking for."}, {"label": true, "statement": "The fox walked from the city into the forest, natural habitat was it looking for."}, {"label": false, "statement": "The fox walked from the city into the forest, storybook was it looking for."}, {"label": false, "statement": "The fox walked from the city into the forest, dense forest was it looking for."}]}
+{"answerKey": "D", "id": "e8a8b3a2061aa0e6d7c6b522e9612824", "question": {"question_concept": "cable", "choices": [{"label": "A", "text": "radio shack"}, {"label": "B", "text": "substation"}, {"label": "C", "text": "cabinet"}, {"label": "D", "text": "television"}, {"label": "E", "text": "desk"}], "stem": "What home entertainment equipment requires cable?"}, "statements": [{"label": false, "statement": "Radio shack home entertainment equipment requires cable."}, {"label": false, "statement": "Substation home entertainment equipment requires cable."}, {"label": false, "statement": "Cabinet home entertainment equipment requires cable."}, {"label": true, "statement": "Television home entertainment equipment requires cable."}, {"label": false, "statement": "Desk home entertainment equipment requires cable."}]}
+{"answerKey": "E", "id": "09555c056f3cf0b7e0b84d8df4be1db7", "question": {"question_concept": "drawstring bag", "choices": [{"label": "A", "text": "garbage can"}, {"label": "B", "text": "military"}, {"label": "C", "text": "jewelry store"}, {"label": "D", "text": "safe"}, {"label": "E", "text": "airport"}], "stem": "The only baggage the woman checked was a drawstring bag, where was she heading with it?"}, "statements": [{"label": false, "statement": "The only baggage the woman checked was a drawstring bag, garbage can was she heading with it."}, {"label": false, "statement": "The only baggage the woman checked was a drawstring bag, military was she heading with it."}, {"label": false, "statement": "The only baggage the woman checked was a drawstring bag, jewelry store was she heading with it."}, {"label": false, "statement": "The only baggage the woman checked was a drawstring bag, safe was she heading with it."}, {"label": true, "statement": "The only baggage the woman checked was a drawstring bag, airport was she heading with it."}]}
+
+
+Question1:The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?
+Options:A.ignore B.enforce C.authoritarian D.yell at E.avoid
+Answer:A.ignore
+Question2:Sammy wanted to go to where the people were.  Where might he go?
+Options: A.race track B.populated areas C.the desert D.apartment E.roadblock
+Answer: B.populated areas
+Question3:The fox walked from the city into the forest, what was it looking for?
+Options: A.pretty flowers B.hen house C.natural habitat D.storybook E.desk
+Answer: C.natural habitat
+Question4:What home entertainment equipment requires cable?
+Options: A.radio shack B.substation C.cabinet D.television E.dense forest
+Answer: D.television
+Question5:The only baggage the woman checked was a drawstring bag, where was she heading with it?
+Options: A.garbage can B.military C.jewelry store D.safe E.airport
+Answer: E.airport
+Question6:
+Options:
+Answer:

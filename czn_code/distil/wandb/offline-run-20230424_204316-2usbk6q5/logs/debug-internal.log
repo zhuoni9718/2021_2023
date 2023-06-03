@@ -1,0 +1,12 @@
+2023-04-24 20:43:17,298 INFO    MainThread:84054 [internal.py:wandb_internal():90] W&B internal server running at pid: 84054, started at: 2023-04-24 20:43:17.297464
+2023-04-24 20:43:17,301 DEBUG   HandlerThread:84054 [handler.py:handle_request():141] handle_request: run_start
+2023-04-24 20:43:17,303 INFO    WriterThread:84054 [datastore.py:open_for_write():75] open: /users5/znchen/distil/wandb/offline-run-20230424_204316-2usbk6q5/run-2usbk6q5.wandb
+2023-04-24 20:43:22,294 DEBUG   HandlerThread:84054 [meta.py:__init__():35] meta init
+2023-04-24 20:43:22,295 DEBUG   HandlerThread:84054 [meta.py:__init__():49] meta init done
+2023-04-24 20:43:22,295 DEBUG   HandlerThread:84054 [meta.py:probe():209] probe
+2023-04-24 20:43:22,302 DEBUG   HandlerThread:84054 [git.py:repo():29] git repository is invalid
+2023-04-24 20:43:22,302 DEBUG   HandlerThread:84054 [meta.py:_save_pip():53] save pip
+2023-04-24 20:43:22,305 DEBUG   HandlerThread:84054 [meta.py:_save_pip():67] save pip done
+2023-04-24 20:43:22,305 DEBUG   HandlerThread:84054 [meta.py:_save_conda():74] save conda
+2023-04-24 20:43:29,273 DEBUG   HandlerThread:84054 [meta.py:_save_conda():84] save conda done
+2023-04-24 20:43:29,273 DEBUG   HandlerThread:84054 [meta.py:probe():247] probe done

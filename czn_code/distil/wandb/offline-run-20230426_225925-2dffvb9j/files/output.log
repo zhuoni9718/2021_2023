@@ -1,0 +1,54 @@
+Fine-tuning facebook/bart-large...
+Using 2 GPUs
+Epoch 1/10, Train Loss: 0.7642
+Epoch 1/10, Validation Loss: 0.2326
+saving to  ./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_0
+Epoch 2/10, Train Loss: 0.5118
+Epoch 2/10, Validation Loss: 8.3299
+saving to  ./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_1
+Epoch 3/10, Train Loss: 0.4741
+Epoch 3/10, Validation Loss: 9.2629
+saving to  ./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_2
+Epoch 4/10, Train Loss: 0.4673
+Epoch 4/10, Validation Loss: 9.4841
+saving to  ./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_3
+Epoch 5/10, Train Loss: 0.4632
+Epoch 5/10, Validation Loss: 10.3188
+saving to  ./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_4
+Epoch 6/10, Train Loss: 0.4611
+Epoch 6/10, Validation Loss: 10.0482
+saving to  ./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_5
+Epoch 7/10, Train Loss: 0.4589
+Epoch 7/10, Validation Loss: 10.7278
+saving to  ./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_6
+Epoch 8/10, Train Loss: 0.4576
+Epoch 8/10, Validation Loss: 10.0557
+saving to  ./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_7
+Epoch 9/10, Train Loss: 0.4557
+Epoch 9/10, Validation Loss: 12.4021
+saving to  ./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_8
+Epoch 10/10, Train Loss: 0.4542
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0% 0/1549 [00:00<?, ?it/s]//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+100% 1549/1549 [22:10<00:00,  1.16it/s]
+100% 233/233 [01:16<00:00,  3.04it/s]
+100% 1549/1549 [26:34<00:00,  1.03s/it]
+100% 233/233 [01:12<00:00,  3.20it/s]
+100% 1549/1549 [26:35<00:00,  1.03s/it]
+100% 233/233 [01:12<00:00,  3.19it/s]
+100% 1549/1549 [26:26<00:00,  1.02s/it]
+100% 233/233 [01:12<00:00,  3.20it/s]
+100% 1549/1549 [26:32<00:00,  1.03s/it]
+100% 233/233 [01:13<00:00,  3.19it/s]
+100% 1549/1549 [26:48<00:00,  1.04s/it]
+100% 233/233 [01:12<00:00,  3.19it/s]
+100% 1549/1549 [26:30<00:00,  1.03s/it]
+100% 233/233 [01:12<00:00,  3.20it/s]
+100% 1549/1549 [26:41<00:00,  1.03s/it]
+100% 233/233 [01:13<00:00,  3.18it/s]
+100% 1549/1549 [26:35<00:00,  1.03s/it]
+100% 233/233 [01:12<00:00,  3.20it/s]
+100% 1549/1549 [26:24<00:00,  1.02s/it]
+100% 233/233 [01:12<00:00,  3.21it/s]

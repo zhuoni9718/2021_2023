@@ -1,0 +1,23 @@
+testing roberta-large
+testing with ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_1
+  0%|                                                                                                                                                | 0/77 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 200, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 194, in main
+    test(args.test_data,args.model_name,args.batch_size,args.best_epoch,args.model_path,args.dataloader)
+  File "/users5/znchen/distil/predict_frame.py", line 140, in test
+    for batch in tqdm(test_loader):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/users5/znchen/distil/dataloader.py", line 148, in __getitem__
+    question = question_data['data']["question"]["stem"]
+TypeError: string indices must be integers

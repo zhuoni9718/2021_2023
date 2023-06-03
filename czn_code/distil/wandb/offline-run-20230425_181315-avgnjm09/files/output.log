@@ -1,0 +1,16 @@
+
+testing roberta-large
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.layer_norm.bias', 'lm_head.decoder.weight', 'lm_head.layer_norm.weight', 'lm_head.bias', 'lm_head.dense.bias', 'lm_head.dense.weight']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 39/39 [00:34<00:00,  1.11it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 153, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 147, in main
+    test(args.test_data,args.model_name,args.batch_size)
+  File "/users5/znchen/distil/predict_frame.py", line 116, in test
+    test_accuracy = accuracy_score(test_labels, test_preds)
+NameError: name 'test_preds' is not defined

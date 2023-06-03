@@ -1,0 +1,4 @@
+testing roberta-large
+testing with ./tmp/predict/promptk_QCK_rationale/roberta-large_7
+test Accuracy: 0.7305487305487306
+100% 77/77 [00:34<00:00,  2.21it/s]

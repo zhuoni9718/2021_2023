@@ -1,0 +1,251 @@
+training roberta-large
+dataset:<class 'dataloader.MultipleChoiceDataset'>
+training epoch0
+testing
+step: 25, Validation Accuracy: 0.20147420147420148,valid loss: 1.6190138931398268
+testing
+step: 50, Validation Accuracy: 0.20065520065520065,valid loss: 1.616083303055206
+testing
+step: 75, Validation Accuracy: 0.18755118755118755,valid loss: 1.6190981787520569
+testing
+step: 100, Validation Accuracy: 0.1891891891891892,valid loss: 1.6162034366037938
+testing
+step: 125, Validation Accuracy: 0.180999180999181,valid loss: 1.6182551863905672
+testing
+step: 150, Validation Accuracy: 0.19901719901719903,valid loss: 1.6144275231794878
+testing
+step: 175, Validation Accuracy: 0.19246519246519248,valid loss: 1.6168579327595698
+testing
+step: 200, Validation Accuracy: 0.22194922194922195,valid loss: 1.60853348304699
+testing
+step: 225, Validation Accuracy: 0.21212121212121213,valid loss: 1.6108624253954207
+testing
+step: 250, Validation Accuracy: 0.20966420966420968,valid loss: 1.6165467438759742
+testing
+step: 275, Validation Accuracy: 0.2285012285012285,valid loss: 1.603974749515583
+testing
+step: 300, Validation Accuracy: 0.27764127764127766,valid loss: 1.594427868917391
+testing
+step: 325, Validation Accuracy: 0.3202293202293202,valid loss: 1.5317032476524255
+testing
+step: 350, Validation Accuracy: 0.37674037674037675,valid loss: 1.4471247830948273
+testing
+step: 375, Validation Accuracy: 0.43734643734643736,valid loss: 1.4145891650930627
+testing
+step: 400, Validation Accuracy: 0.44963144963144963,valid loss: 1.3247145925249373
+testing
+step: 425, Validation Accuracy: 0.506961506961507,valid loss: 1.261328734360732
+testing
+step: 450, Validation Accuracy: 0.5241605241605242,valid loss: 1.2034263874029185
+testing
+step: 475, Validation Accuracy: 0.47174447174447176,valid loss: 1.2596633465259106
+testing
+step: 500, Validation Accuracy: 0.5601965601965602,valid loss: 1.0886053543586236
+testing
+step: 525, Validation Accuracy: 0.5765765765765766,valid loss: 1.064313535566454
+Epoch 1/5, Train Loss: 1.4851
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_0
+training epoch1
+testing
+step: 25, Validation Accuracy: 0.583947583947584,valid loss: 1.0182926136177857
+testing
+step: 50, Validation Accuracy: 0.6044226044226044,valid loss: 0.996174577768747
+testing
+step: 75, Validation Accuracy: 0.6060606060606061,valid loss: 1.0107109384103254
+testing
+step: 100, Validation Accuracy: 0.6068796068796068,valid loss: 0.972802829045754
+testing
+step: 125, Validation Accuracy: 0.6478296478296478,valid loss: 0.9290624543443903
+testing
+step: 150, Validation Accuracy: 0.6355446355446356,valid loss: 0.9338900613320338
+testing
+step: 175, Validation Accuracy: 0.6461916461916462,valid loss: 0.9277257025241852
+testing
+step: 200, Validation Accuracy: 0.6568386568386568,valid loss: 0.8941889838738875
+testing
+step: 225, Validation Accuracy: 0.6511056511056511,valid loss: 0.8758623545820062
+testing
+step: 250, Validation Accuracy: 0.665028665028665,valid loss: 0.8820028763699841
+testing
+step: 275, Validation Accuracy: 0.6560196560196561,valid loss: 0.8719565094291389
+testing
+step: 300, Validation Accuracy: 0.6781326781326781,valid loss: 0.8392212417992678
+testing
+step: 325, Validation Accuracy: 0.6666666666666666,valid loss: 0.8652141957313984
+testing
+step: 350, Validation Accuracy: 0.6633906633906634,valid loss: 0.8449335144711779
+testing
+step: 375, Validation Accuracy: 0.6723996723996724,valid loss: 0.8412961166400414
+testing
+step: 400, Validation Accuracy: 0.6699426699426699,valid loss: 0.8320834059993942
+testing
+step: 425, Validation Accuracy: 0.6846846846846847,valid loss: 0.8256038953731586
+testing
+step: 450, Validation Accuracy: 0.6592956592956593,valid loss: 0.8385470927535713
+testing
+step: 475, Validation Accuracy: 0.7035217035217035,valid loss: 0.7915324487469413
+testing
+step: 500, Validation Accuracy: 0.6748566748566749,valid loss: 0.8419070096759053
+testing
+step: 525, Validation Accuracy: 0.6912366912366913,valid loss: 0.806447134776549
+Epoch 2/5, Train Loss: 0.9495
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_1
+training epoch2
+testing
+step: 25, Validation Accuracy: 0.6822276822276823,valid loss: 0.7954855449013896
+testing
+step: 50, Validation Accuracy: 0.6732186732186732,valid loss: 0.8319577954032205
+testing
+step: 75, Validation Accuracy: 0.6732186732186732,valid loss: 0.8318289886047314
+testing
+step: 100, Validation Accuracy: 0.6936936936936937,valid loss: 0.8298697042000758
+testing
+step: 125, Validation Accuracy: 0.6855036855036855,valid loss: 0.8111907874608969
+testing
+step: 150, Validation Accuracy: 0.6863226863226863,valid loss: 0.7863401182286152
+testing
+step: 175, Validation Accuracy: 0.6814086814086814,valid loss: 0.8223683247705559
+testing
+step: 200, Validation Accuracy: 0.7002457002457002,valid loss: 0.8069805402260322
+testing
+step: 225, Validation Accuracy: 0.6797706797706797,valid loss: 0.8147532661239822
+testing
+step: 250, Validation Accuracy: 0.6871416871416871,valid loss: 0.7853812753380119
+testing
+step: 275, Validation Accuracy: 0.7010647010647011,valid loss: 0.7649134579416993
+testing
+step: 300, Validation Accuracy: 0.6797706797706797,valid loss: 0.8128737451194169
+testing
+step: 325, Validation Accuracy: 0.687960687960688,valid loss: 0.8282365034539978
+testing
+step: 350, Validation Accuracy: 0.6912366912366913,valid loss: 0.7800299985842272
+testing
+step: 375, Validation Accuracy: 0.6871416871416871,valid loss: 0.8096412025488816
+testing
+step: 400, Validation Accuracy: 0.7035217035217035,valid loss: 0.8002585789987019
+testing
+step: 425, Validation Accuracy: 0.6994266994266994,valid loss: 0.7685058720700153
+testing
+step: 450, Validation Accuracy: 0.7010647010647011,valid loss: 0.7867166577995598
+testing
+step: 475, Validation Accuracy: 0.687960687960688,valid loss: 0.8049716461788524
+testing
+step: 500, Validation Accuracy: 0.7010647010647011,valid loss: 0.8084189129340185
+testing
+step: 525, Validation Accuracy: 0.696969696969697,valid loss: 0.8010759880016376
+Epoch 3/5, Train Loss: 0.7049
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_2
+training epoch3
+testing
+step: 25, Validation Accuracy: 0.7002457002457002,valid loss: 0.7920822791464917
+testing
+step: 50, Validation Accuracy: 0.6920556920556921,valid loss: 0.7894326715500324
+testing
+step: 75, Validation Accuracy: 0.6920556920556921,valid loss: 0.8331904860285969
+testing
+step: 100, Validation Accuracy: 0.6986076986076986,valid loss: 0.8155458933347232
+testing
+step: 125, Validation Accuracy: 0.696969696969697,valid loss: 0.8128852043058965
+testing
+step: 150, Validation Accuracy: 0.7010647010647011,valid loss: 0.8009223438702621
+testing
+step: 175, Validation Accuracy: 0.7043407043407044,valid loss: 0.788540089672262
+testing
+step: 200, Validation Accuracy: 0.6863226863226863,valid loss: 0.8224477756333042
+testing
+step: 225, Validation Accuracy: 0.7092547092547092,valid loss: 0.7646210828384796
+testing
+step: 250, Validation Accuracy: 0.6912366912366913,valid loss: 0.8273930325136556
+testing
+step: 275, Validation Accuracy: 0.6797706797706797,valid loss: 0.8740089589899237
+testing
+step: 300, Validation Accuracy: 0.6846846846846847,valid loss: 0.8479210350227047
+testing
+step: 325, Validation Accuracy: 0.6936936936936937,valid loss: 0.831836358003028
+testing
+step: 350, Validation Accuracy: 0.6920556920556921,valid loss: 0.8284351012923501
+testing
+step: 375, Validation Accuracy: 0.7027027027027027,valid loss: 0.7902906278704668
+testing
+step: 400, Validation Accuracy: 0.7158067158067158,valid loss: 0.7815866354223969
+testing
+step: 425, Validation Accuracy: 0.6977886977886978,valid loss: 0.8214529795306069
+testing
+step: 450, Validation Accuracy: 0.7027027027027027,valid loss: 0.8048201992914275
+testing
+step: 475, Validation Accuracy: 0.7076167076167076,valid loss: 0.7905525599981283
+testing
+step: 500, Validation Accuracy: 0.7051597051597052,valid loss: 0.7924457184680096
+testing
+step: 525, Validation Accuracy: 0.7117117117117117,valid loss: 0.7820104646992374
+Epoch 4/5, Train Loss: 0.5591
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_3
+training epoch4
+testing
+step: 25, Validation Accuracy: 0.6986076986076986,valid loss: 0.8120109914959251
+testing
+step: 50, Validation Accuracy: 0.7158067158067158,valid loss: 0.8044086853405098
+testing
+step: 75, Validation Accuracy: 0.7125307125307125,valid loss: 0.8412867052988573
+testing
+step: 100, Validation Accuracy: 0.7092547092547092,valid loss: 0.8241950195137556
+testing
+step: 125, Validation Accuracy: 0.7043407043407044,valid loss: 0.8650463883365903
+testing
+step: 150, Validation Accuracy: 0.6928746928746928,valid loss: 0.8782595554729561
+testing
+step: 175, Validation Accuracy: 0.7182637182637183,valid loss: 0.8579564129377341
+testing
+step: 200, Validation Accuracy: 0.7084357084357085,valid loss: 0.8451328784614415
+testing
+step: 225, Validation Accuracy: 0.7059787059787059,valid loss: 0.864042080067969
+testing
+step: 250, Validation Accuracy: 0.7010647010647011,valid loss: 0.855336419367171
+testing
+step: 275, Validation Accuracy: 0.6895986895986896,valid loss: 0.8653573117085865
+testing
+step: 300, Validation Accuracy: 0.7027027027027027,valid loss: 0.8072342936481748
+testing
+step: 325, Validation Accuracy: 0.7108927108927109,valid loss: 0.8269502148032188
+testing
+step: 350, Validation Accuracy: 0.7092547092547092,valid loss: 0.8420869932546244
+testing
+step: 375, Validation Accuracy: 0.6797706797706797,valid loss: 0.8311611911306134
+testing
+step: 400, Validation Accuracy: 0.7199017199017199,valid loss: 0.7950562176766334
+testing
+step: 425, Validation Accuracy: 0.6945126945126945,valid loss: 0.8233293914175653
+testing
+step: 450, Validation Accuracy: 0.7027027027027027,valid loss: 0.8167299407643157
+testing
+step: 475, Validation Accuracy: 0.7051597051597052,valid loss: 0.8181739324679622
+testing
+step: 500, Validation Accuracy: 0.7076167076167076,valid loss: 0.8509792913864185
+testing
+step: 525, Validation Accuracy: 0.6945126945126945,valid loss: 0.8231784461380599
+Epoch 5/5, Train Loss: 0.4763
+save to ./tmp/predict/promptk_QCK_rationale/t5rationaletrainroberta-large_4
+[draw data]
+{'25': 0.6986076986076986, '50': 0.7158067158067158, '75': 0.7125307125307125, '100': 0.7092547092547092, '125': 0.7043407043407044, '150': 0.6928746928746928, '175': 0.7182637182637183, '200': 0.7084357084357085, '225': 0.7059787059787059, '250': 0.7010647010647011, '275': 0.6895986895986896, '300': 0.7027027027027027, '325': 0.7108927108927109, '350': 0.7092547092547092, '375': 0.6797706797706797, '400': 0.7199017199017199, '425': 0.6945126945126945, '450': 0.7027027027027027, '475': 0.7051597051597052, '500': 0.7076167076167076, '525': 0.6945126945126945}
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.bias', 'lm_head.dense.bias', 'lm_head.layer_norm.weight', 'lm_head.layer_norm.bias', 'lm_head.decoder.weight', 'lm_head.dense.weight']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 533/533 [24:04<00:00,  2.71s/it]
+100% 533/533 [24:02<00:00,  2.71s/it]
+100% 533/533 [24:01<00:00,  2.70s/it]
+100% 533/533 [24:01<00:00,  2.70s/it]
+100% 533/533 [24:01<00:00,  2.70s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 309, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 299, in main
+    train_step_test(args.model_name,args.epochs,args.train_data,args.dev_data,args.batch_size,args.learning_rate,args.model_path,args.dataloader)
+  File "/users5/znchen/distil/predict_frame.py", line 219, in train_step_test
+    xs=[entry['step'] for entry in plt_step],
+  File "/users5/znchen/distil/predict_frame.py", line 219, in <listcomp>
+    xs=[entry['step'] for entry in plt_step],
+TypeError: 'int' object is not subscriptable

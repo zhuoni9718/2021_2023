@@ -1,0 +1,18 @@
+Epoch 1/10, Train Loss: 0.2275
+Epoch 1/10, Validation Loss: 0.0314
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/t5/tokenization_t5.py:163: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 1549/1549 [07:49<00:00,  3.30it/s]
+100% 233/233 [00:21<00:00, 10.86it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/ft_t5.py", line 231, in <module>
+    finetune_t5_with_wandb(dataLoader_key,train_dir,val_dir , model_name, batch_size, num_epochs, learning_rate=learning_rate)
+  File "/users5/znchen/distil/ft_t5.py", line 90, in finetune_t5_with_wandb
+    model_path = model_path_dict[dataLoader_key]+"t5_finetuned_"+str(epoch)
+KeyError: 'WOCOT-base'

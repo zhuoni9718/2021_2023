@@ -1,0 +1,32 @@
+{
+    "os": "Linux-3.10.0-1160.15.2.el7.x86_64-x86_64-with-glibc2.23",
+    "python": "3.10.4",
+    "heartbeatAt": "2023-04-23T13:00:08.850108",
+    "startedAt": "2023-04-23T13:00:05.445153",
+    "docker": null,
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_count": 2,
+    "cpu_count": 40,
+    "cuda": null,
+    "args": [
+        "--model_name",
+        "facebook/bart-large",
+        "--dataset_class",
+        "RA",
+        "--train_data",
+        "/users5/znchen/distil/input/csqa/right.train.gpt.jsonl",
+        "--dev_data",
+        "/users5/znchen/distil/input/csqa/right.valid.gpt.jsonl",
+        "--test_data",
+        "/users5/znchen/distil/input/csqa/test.gpt.jsonl",
+        "--epochs",
+        "3",
+        "--test"
+    ],
+    "state": "running",
+    "program": "/users5/znchen/distil/ft_frame.py",
+    "codePath": "ft_frame.py",
+    "host": "gpu18",
+    "username": "znchen",
+    "executable": "//users5/znchen/anaconda3/envs/q2k/bin/python"
+}

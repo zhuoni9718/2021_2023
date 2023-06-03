@@ -1,0 +1,29 @@
+{
+    "os": "Linux-3.10.0-1160.15.2.el7.x86_64-x86_64-with-glibc2.23",
+    "python": "3.10.4",
+    "heartbeatAt": "2023-04-28T12:46:16.339819",
+    "startedAt": "2023-04-28T12:46:06.680156",
+    "docker": null,
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_count": 1,
+    "cpu_count": 40,
+    "cuda": null,
+    "args": [
+        "--model_name",
+        "roberta-large",
+        "--dataset_class",
+        "WOCOT",
+        "--train_data",
+        "./input/csqa/right.train.gpt.jsonl",
+        "--dev_data",
+        "/users5/znchen/distil/input/csqa/right.valid.gpt.jsonl",
+        "--test_data",
+        "/users5/znchen/distil/res/facebookbartlarge/R0.res.test.jsonl"
+    ],
+    "state": "running",
+    "program": "/users5/znchen/distil/predict_frame.py",
+    "codePath": "predict_frame.py",
+    "host": "gpu18",
+    "username": "znchen",
+    "executable": "//users5/znchen/anaconda3/envs/q2k/bin/python"
+}

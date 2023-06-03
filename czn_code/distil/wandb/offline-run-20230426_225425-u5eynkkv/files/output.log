@@ -1,0 +1,36 @@
+Fine-tuning facebook/bart-large...
+Using 2 GPUs
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0% 0/775 [00:00<?, ?it/s]//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  0% 1/775 [00:06<1:28:19,  6.85s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 308, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 294, in main
+    finetune_frame(args.dataset_class,args.train_data, args.dev_data, model_name=args.model_name, batch_size=args.batch_size, num_epochs=args.epochs, learning_rate=args.learning_rate)
+  File "/users5/znchen/distil/gen_model_frame.py", line 169, in finetune_frame
+    outputs = model(**batch)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 172, in forward
+    return self.gather(outputs, self.output_device)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 184, in gather
+    return gather(outputs, output_device, dim=self.dim)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/scatter_gather.py", line 86, in gather
+    res = gather_map(outputs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/scatter_gather.py", line 77, in gather_map
+    return type(out)((k, gather_map([d[k] for d in outputs]))
+  File "<string>", line 12, in __init__
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/utils/generic.py", line 245, in __post_init__
+    for idx, element in enumerate(iterator):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/scatter_gather.py", line 77, in <genexpr>
+    return type(out)((k, gather_map([d[k] for d in outputs]))
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/scatter_gather.py", line 71, in gather_map
+    return Gather.apply(target_device, dim, *outputs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/_functions.py", line 75, in forward
+    return comm.gather(inputs, ctx.dim, ctx.target_device)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/comm.py", line 235, in gather
+    return torch._C._gather(tensors, dim, destination)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.54 GiB (GPU 0; 39.43 GiB total capacity; 37.21 GiB already allocated; 698.25 MiB free; 37.43 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

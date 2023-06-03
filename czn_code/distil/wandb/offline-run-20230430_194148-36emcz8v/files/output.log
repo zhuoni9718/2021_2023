@@ -1,0 +1,85 @@
+training roberta-large
+dataset:<class 'dataloader.MultipleChoiceDataset'>
+training epoch0
+1.615439623594284
+1.615811385512352
+1.5298376748959224
+Epoch 1/8, Train Loss: 1.4167
+Epoch: 1, Validation Accuracy: 0.7491926803013994,valid loss: 0.7359810029551134
+save to ./tmp/predict/promptk_QCK_rationale/roberta-large_0
+training epoch1
+0.798128228187561
+0.791784974783659
+0.766255985001723
+Epoch 2/8, Train Loss: 0.7545
+Epoch: 2, Validation Accuracy: 0.7922497308934338,valid loss: 0.530442926780147
+save to ./tmp/predict/promptk_QCK_rationale/roberta-large_1
+training epoch2
+0.39587597385048867
+0.4094173984229565
+0.41508753176778557
+Epoch 3/8, Train Loss: 0.4169
+Epoch: 3, Validation Accuracy: 0.8051668460710442,valid loss: 0.5502806184714724
+save to ./tmp/predict/promptk_QCK_rationale/roberta-large_2
+training epoch3
+0.23997384808957578
+0.23506595501676203
+0.22932330063233772
+Epoch 4/8, Train Loss: 0.2322
+Epoch: 4, Validation Accuracy: 0.7965554359526372,valid loss: 0.73474056497379
+save to ./tmp/predict/promptk_QCK_rationale/roberta-large_3
+training epoch4
+0.11344998327549546
+0.12280709208513145
+0.12716446610167623
+Epoch 5/8, Train Loss: 0.1308
+Epoch: 5, Validation Accuracy: 0.798708288482239,valid loss: 0.7947442199622131
+save to ./tmp/predict/promptk_QCK_rationale/roberta-large_4
+training epoch5
+0.0857891883677803
+0.09125708187173587
+0.0875992162215213
+Epoch 6/8, Train Loss: 0.0842
+Epoch: 6, Validation Accuracy: 0.7911733046286329,valid loss: 0.9717510994832683
+save to ./tmp/predict/promptk_QCK_rationale/roberta-large_5
+training epoch6
+0.06011879557321663
+0.058383683178435605
+0.05511625221418702
+Epoch 7/8, Train Loss: 0.0541
+Epoch: 7, Validation Accuracy: 0.8019375672766416,valid loss: 0.9479073954240984
+save to ./tmp/predict/promptk_QCK_rationale/roberta-large_6
+training epoch7
+0.029724222811619256
+0.04337242304790379
+0.039535963054750024
+Epoch 8/8, Train Loss: 0.0404
+Epoch: 8, Validation Accuracy: 0.7976318622174381,valid loss: 0.9948257304159762
+save to ./tmp/predict/promptk_QCK_rationale/roberta-large_7
+testing roberta-large
+testing with ./tmp/predict/promptk_QCK_rationale/roberta-large_7
+test Accuracy: 0.7305487305487306
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.decoder.weight', 'lm_head.layer_norm.bias', 'lm_head.dense.weight', 'lm_head.bias', 'lm_head.layer_norm.weight', 'lm_head.dense.bias']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 388/388 [08:24<00:00,  1.30s/it]
+100% 59/59 [00:24<00:00,  2.41it/s]
+100% 388/388 [08:25<00:00,  1.30s/it]
+100% 59/59 [00:24<00:00,  2.41it/s]
+100% 388/388 [08:25<00:00,  1.30s/it]
+100% 59/59 [00:24<00:00,  2.41it/s]
+100% 388/388 [08:25<00:00,  1.30s/it]
+100% 59/59 [00:24<00:00,  2.40it/s]
+100% 388/388 [08:25<00:00,  1.30s/it]
+100% 59/59 [00:24<00:00,  2.41it/s]
+100% 388/388 [08:24<00:00,  1.30s/it]
+100% 59/59 [00:24<00:00,  2.41it/s]
+100% 388/388 [08:25<00:00,  1.30s/it]
+100% 59/59 [00:24<00:00,  2.41it/s]
+100% 388/388 [08:25<00:00,  1.30s/it]
+100% 59/59 [00:24<00:00,  2.41it/s]
+100% 77/77 [00:32<00:00,  2.39it/s]

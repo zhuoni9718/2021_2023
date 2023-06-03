@@ -1,0 +1,98 @@
+training roberta-large
+dataset:<class 'dataloader.MultipleChoiceDatasetForPromptK'>
+training epoch0
+Epoch 1/10, Train Loss: 1.2332
+Epoch: 1, Validation Accuracy: 0.7125307125307125,valid loss: 0.7636034295156404
+save to ./tmp/predict/promptk_QCK/roberta-large_0
+training epoch1
+Epoch 2/10, Train Loss: 0.7650
+Epoch: 2, Validation Accuracy: 0.7362817362817363,valid loss: 0.6945930454251054
+save to ./tmp/predict/promptk_QCK/roberta-large_1
+training epoch2
+Epoch 3/10, Train Loss: 0.4876
+Epoch: 3, Validation Accuracy: 0.7297297297297297,valid loss: 0.7313023066365874
+save to ./tmp/predict/promptk_QCK/roberta-large_2
+training epoch3
+Epoch 4/10, Train Loss: 0.3184
+Epoch: 4, Validation Accuracy: 0.7289107289107289,valid loss: 0.9967787644112265
+save to ./tmp/predict/promptk_QCK/roberta-large_3
+training epoch4
+Epoch 5/10, Train Loss: 0.2093
+Epoch: 5, Validation Accuracy: 0.7338247338247338,valid loss: 1.1176720570240701
+save to ./tmp/predict/promptk_QCK/roberta-large_4
+training epoch5
+Epoch 6/10, Train Loss: 0.1374
+Epoch: 6, Validation Accuracy: 0.7231777231777232,valid loss: 1.3862664295094353
+save to ./tmp/predict/promptk_QCK/roberta-large_5
+training epoch6
+Epoch 7/10, Train Loss: 0.1018
+Epoch: 7, Validation Accuracy: 0.714987714987715,valid loss: 1.4673080289518678
+save to ./tmp/predict/promptk_QCK/roberta-large_6
+training epoch7
+Epoch 8/10, Train Loss: 0.0752
+Epoch: 8, Validation Accuracy: 0.7248157248157249,valid loss: 1.656026984577055
+save to ./tmp/predict/promptk_QCK/roberta-large_7
+training epoch8
+Epoch 9/10, Train Loss: 0.0643
+Epoch: 9, Validation Accuracy: 0.7248157248157249,valid loss: 1.6618014504383136
+save to ./tmp/predict/promptk_QCK/roberta-large_8
+training epoch9
+Epoch 10/10, Train Loss: 0.0470
+Epoch: 10, Validation Accuracy: 0.7264537264537264,valid loss: 1.7223851943944957
+save to ./tmp/predict/promptk_QCK/roberta-large_9
+testing roberta-large
+testing with ./tmp/predict/promptk_QCK/roberta-large4
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.layer_norm.bias', 'lm_head.dense.weight', 'lm_head.bias', 'lm_head.dense.bias', 'lm_head.layer_norm.weight', 'lm_head.decoder.weight']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 533/533 [12:16<00:00,  1.38s/it]
+100% 77/77 [00:34<00:00,  2.26it/s]
+100% 533/533 [12:15<00:00,  1.38s/it]
+100% 77/77 [00:34<00:00,  2.26it/s]
+100% 533/533 [12:17<00:00,  1.38s/it]
+100% 77/77 [00:33<00:00,  2.31it/s]
+100% 533/533 [12:08<00:00,  1.37s/it]
+100% 77/77 [00:32<00:00,  2.36it/s]
+100% 533/533 [12:07<00:00,  1.37s/it]
+100% 77/77 [00:32<00:00,  2.36it/s]
+100% 533/533 [12:07<00:00,  1.36s/it]
+100% 77/77 [00:32<00:00,  2.36it/s]
+100% 533/533 [12:08<00:00,  1.37s/it]
+100% 77/77 [00:32<00:00,  2.35it/s]
+100% 533/533 [12:07<00:00,  1.36s/it]
+100% 77/77 [00:32<00:00,  2.36it/s]
+100% 533/533 [12:07<00:00,  1.37s/it]
+100% 77/77 [00:32<00:00,  2.35it/s]
+100% 533/533 [12:07<00:00,  1.37s/it]
+100% 77/77 [00:32<00:00,  2.36it/s]
+Traceback (most recent call last):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/configuration_utils.py", line 628, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/utils/hub.py", line 409, in cached_file
+    resolved_file = hf_hub_download(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    validate_repo_id(arg_value)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 166, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': './tmp/predict/promptk_QCK/roberta-large4'. Use `repo_type` argument if needed.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 176, in <module>
+    os.environ["WANDB_MODE"] = "offline"
+  File "/users5/znchen/distil/predict_frame.py", line 170, in main
+    print(f"testing {args.model_name}")
+  File "/users5/znchen/distil/predict_frame.py", line 114, in test
+    print(f'testing with {model_path}')
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/modeling_utils.py", line 2174, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/configuration_utils.py", line 546, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/configuration_utils.py", line 573, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/configuration_utils.py", line 649, in _get_config_dict
+    raise EnvironmentError(
+OSError: Can't load the configuration of './tmp/predict/promptk_QCK/roberta-large4'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure './tmp/predict/promptk_QCK/roberta-large4' is the correct path to a directory containing a config.json file

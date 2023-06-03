@@ -1,0 +1,14 @@
+
+Fine-tuning facebook/bart-large...
+Traceback (most recent call last):
+  File "/users5/znchen/distil/ft_frame.py", line 155, in <module>
+    main()
+  File "/users5/znchen/distil/ft_frame.py", line 141, in main
+    finetune_model(args.model_name, args.train_data, args.dev_data, Dataloader_classes[args.dataset_class], args.epochs)
+  File "/users5/znchen/distil/ft_frame.py", line 44, in finetune_model
+    devdataset = dataset_class(dev_data, tokenizer)
+  File "/users5/znchen/distil/dataloader.py", line 76, in __init__
+    with jsonlines.open(data_file) as f:
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/jsonlines/jsonlines.py", line 623, in open
+    fp = builtins.open(file, mode=mode + "t", encoding=encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/users5/znchen/distil/input/csqa/right.val.gpt.jsonl'

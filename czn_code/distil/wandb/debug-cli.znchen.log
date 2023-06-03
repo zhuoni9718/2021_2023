@@ -1,0 +1,90 @@
+2023-04-25 12:33:50 INFO open for scan: /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/run-1duyvsx4.wandb
+2023-04-25 12:33:51 INFO watching files in: /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files
+2023-04-25 12:33:51 INFO run started: 1duyvsx4 with start time 1682391799
+2023-04-25 12:33:51 INFO saving file wandb-metadata.json with policy now
+2023-04-25 12:33:51 INFO saving file wandb-summary.json with policy end
+2023-04-25 12:33:51 INFO handling exit code: 1
+2023-04-25 12:33:51 INFO handling runtime: 2406
+2023-04-25 12:33:51 INFO saving file wandb-summary.json with policy end
+2023-04-25 12:33:51 INFO send defer
+2023-04-25 12:33:51 INFO handle sender defer: 0
+2023-04-25 12:33:51 INFO send defer: 1
+2023-04-25 12:33:51 INFO handle sender defer: 1
+2023-04-25 12:33:51 INFO send defer: 2
+2023-04-25 12:33:51 INFO handle sender defer: 2
+2023-04-25 12:33:51 INFO send defer: 3
+2023-04-25 12:33:51 INFO handle sender defer: 3
+2023-04-25 12:33:51 INFO send defer: 4
+2023-04-25 12:33:51 INFO handle sender defer: 4
+2023-04-25 12:33:51 INFO send defer: 5
+2023-04-25 12:33:51 INFO handle sender defer: 5
+2023-04-25 12:33:51 INFO send defer: 6
+2023-04-25 12:33:51 INFO handle sender defer: 6
+2023-04-25 12:33:51 INFO shutting down directory watcher
+2023-04-25 12:33:52 INFO file/dir modified: /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/config.yaml
+2023-04-25 12:33:52 INFO file/dir modified: /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/wandb-summary.json
+2023-04-25 12:33:52 INFO scan: /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files
+2023-04-25 12:33:52 INFO scan save: /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/config.yaml config.yaml
+2023-04-25 12:33:52 INFO scan save: /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/wandb-metadata.json wandb-metadata.json
+2023-04-25 12:33:52 INFO scan save: /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/conda-environment.yaml conda-environment.yaml
+2023-04-25 12:33:52 INFO scan save: /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/wandb-summary.json wandb-summary.json
+2023-04-25 12:33:52 INFO scan save: /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/output.log output.log
+2023-04-25 12:33:52 INFO scan save: /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/requirements.txt requirements.txt
+2023-04-25 12:33:52 INFO send defer: 7
+2023-04-25 12:33:52 INFO handle sender defer: 7
+2023-04-25 12:33:52 INFO shutting down file pusher
+2023-04-25 12:33:52 INFO shutting down sender
+2023-04-25 12:33:52 INFO shutting down file pusher
+2023-04-25 12:33:52 INFO waiting for file pusher
+2023-04-25 12:33:52 INFO Uploaded file /tmp/tmpc5t_pmrkwandb/i4xyp979-wandb-metadata.json
+2023-04-25 12:33:53 INFO Uploaded file /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/config.yaml
+2023-04-25 12:33:53 INFO Uploaded file /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/wandb-summary.json
+2023-04-25 12:33:53 INFO Uploaded file /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/conda-environment.yaml
+2023-04-25 12:33:53 INFO Uploaded file /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/requirements.txt
+2023-04-25 12:33:53 INFO Uploaded file /users5/znchen/distil/wandb/offline-run-20230425_110319-1duyvsx4/files/output.log
+2023-04-25 12:33:54 INFO send defer: 8
+2023-05-10 10:35:24 INFO open for scan: /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/run-1ht9c3ks.wandb
+2023-05-10 10:35:24 INFO watching files in: /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files
+2023-05-10 10:35:24 INFO run started: 1ht9c3ks with start time 1683204692
+2023-05-10 10:35:24 INFO saving file wandb-metadata.json with policy now
+2023-05-10 10:35:25 INFO saving file wandb-summary.json with policy end
+2023-05-10 10:35:25 INFO handling exit code: 0
+2023-05-10 10:35:25 INFO handling runtime: 15313
+2023-05-10 10:35:25 INFO saving file wandb-summary.json with policy end
+2023-05-10 10:35:25 INFO send defer
+2023-05-10 10:35:25 INFO handle sender defer: 0
+2023-05-10 10:35:25 INFO send defer: 1
+2023-05-10 10:35:25 INFO handle sender defer: 1
+2023-05-10 10:35:25 INFO send defer: 2
+2023-05-10 10:35:25 INFO handle sender defer: 2
+2023-05-10 10:35:25 INFO send defer: 3
+2023-05-10 10:35:25 INFO handle sender defer: 3
+2023-05-10 10:35:25 INFO send defer: 4
+2023-05-10 10:35:25 INFO handle sender defer: 4
+2023-05-10 10:35:25 INFO send defer: 5
+2023-05-10 10:35:25 INFO handle sender defer: 5
+2023-05-10 10:35:25 INFO file/dir modified: /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/wandb-summary.json
+2023-05-10 10:35:26 INFO send defer: 6
+2023-05-10 10:35:26 INFO handle sender defer: 6
+2023-05-10 10:35:26 INFO shutting down directory watcher
+2023-05-10 10:35:26 INFO Uploaded file /tmp/tmphm2cr17_wandb/25xvg41r-wandb-metadata.json
+2023-05-10 10:35:26 INFO file/dir modified: /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/config.yaml
+2023-05-10 10:35:26 INFO scan: /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files
+2023-05-10 10:35:26 INFO scan save: /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/config.yaml config.yaml
+2023-05-10 10:35:26 INFO scan save: /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/wandb-metadata.json wandb-metadata.json
+2023-05-10 10:35:26 INFO scan save: /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/conda-environment.yaml conda-environment.yaml
+2023-05-10 10:35:26 INFO scan save: /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/wandb-summary.json wandb-summary.json
+2023-05-10 10:35:26 INFO scan save: /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/output.log output.log
+2023-05-10 10:35:26 INFO scan save: /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/requirements.txt requirements.txt
+2023-05-10 10:35:26 INFO send defer: 7
+2023-05-10 10:35:26 INFO handle sender defer: 7
+2023-05-10 10:35:26 INFO shutting down file pusher
+2023-05-10 10:35:26 INFO shutting down sender
+2023-05-10 10:35:26 INFO shutting down file pusher
+2023-05-10 10:35:26 INFO waiting for file pusher
+2023-05-10 10:35:27 INFO Uploaded file /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/config.yaml
+2023-05-10 10:35:27 INFO Uploaded file /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/wandb-summary.json
+2023-05-10 10:35:28 INFO Uploaded file /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/output.log
+2023-05-10 10:35:28 INFO Uploaded file /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/conda-environment.yaml
+2023-05-10 10:35:28 INFO Uploaded file /users5/znchen/distil/wandb/offline-run-20230504_205132-1ht9c3ks/files/requirements.txt
+2023-05-10 10:35:28 INFO send defer: 8

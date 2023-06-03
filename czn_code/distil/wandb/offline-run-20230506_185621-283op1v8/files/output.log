@@ -1,0 +1,85 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_3,data:WOCOT
+[input] Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? <s> Options: A) bank, B) library, C) department store, D) mall, E) new york,  <s>
+[target] bank
+[input] Question: What do people aim to do at work? <s> Options: A) complete job, B) learn from each other, C) kill animals, D) wear hats, E) talk to each other,  <s>
+[target] complete job
+[input] Question: Where would you find magazines along side many other printed works? <s> Options: A) doctor, B) bookstore, C) market, D) train station, E) mortuary,  <s>
+[target] bookstore
+第0个
+[input]Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?  Options: A) bank, B) library, C) department store, D) mall, E) new york,
+[output]store<pad><pad>
+第1个
+[input]Question: What do people aim to do at work?  Options: A) complete job, B) learn from each other, C) kill animals, D) wear hats, E) talk to each other,
+[output]kill animals<pad>
+第2个
+[input]Question: Where would you find magazines along side many other printed works?  Options: A) doctor, B) bookstore, C) market, D) train station, E) mortuary,
+[output]store<pad>
+第3个
+[input]Question: Where are  you likely to find a hamburger?  Options: A) fast food restaurant, B) pizza, C) ground up dead cows, D) mouth, E) cow carcus,
+[output]restaurant
+第0个
+[input]Question: James was looking for a good place to buy farmland.  Where might he look?  Options: A) midwest, B) countryside, C) estate, D) farming areas, E) illinois,
+[output]farmland<pad><pad>
+第1个
+[input]Question: What island country is ferret popular?  Options: A) own home, B) north carolina, C) great britain, D) hutch, E) outdoors,
+[output]<pad><pad>
+第2个
+[input]Question: In what Spanish speaking North American country can you get a great cup of coffee?  Options: A) mildred's coffee shop, B) mexico, C) diner, D) kitchen, E) canteen,
+[output]great cup of coffee
+第3个
+[input]Question: What do animals do when an enemy is approaching?  Options: A) feel pleasure, B) procreate, C) pass water, D) listen to each other, E) sing,
+[output]pass water<pad><pad>
+第0个
+[input]Question: Reading newspaper one of many ways to practice your what?  Options: A) literacy, B) knowing how to read, C) money, D) buying, E) money bank,
+[output]money bank
+第1个
+[input]Question: What do people typically do while playing guitar?  Options: A) cry, B) hear sounds, C) singing, D) arthritis, E) making music,
+[output]singing
+第2个
+[input]Question: What would vinyl be an odd thing to replace?  Options: A) pants, B) record albums, C) record store, D) cheese, E) wallpaper,
+[output]record store
+第3个
+[input]Question: If you want harmony, what is something you should try to do with the world?  Options: A) take time, B) make noise, C) make war, D) make peace, E) make haste,
+[output]peace<pad>
+第0个
+[input]Question: Where does a heifer's master live?  Options: A) farm house, B) barnyard, C) stockyard, D) slaughter house, E) eat cake,
+[output]stockyard<pad>
+第1个
+[input]Question: Aside from water and nourishment what does your dog need?  Options: A) bone, B) charm, C) petted, D) lots of attention, E) walked,
+[output]walk
+第2个
+[input]Question: Janet was watching the film because she liked what?  Options: A) erection, B) laughter, C) being entertained, D) fear, E) bordem,
+[output]being entertained<pad>
+第3个
+[input]Question: What are you waiting alongside with when you're in a reception area?  Options: A) motel, B) chair, C) hospital, D) people, E) hotels,
+[output]hotel<pad>
+  0%|                                                                                                                                               | 0/306 [00:00<?, ?it/s]//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py:1288: UserWarning: Using `max_length`'s default (20) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+  1%|█▊                                                                                                                                     | 4/306 [00:33<42:20,  8.41s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 271, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 265, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 193, in test
+    output = model.generate(input_ids,attention_mask = attention_id, min_length=1, num_return_sequences=1, early_stopping=True)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 1268, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 634, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(**encoder_kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 856, in forward
+    layer_outputs = encoder_layer(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 344, in forward
+    hidden_states = self.fc2(hidden_states)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

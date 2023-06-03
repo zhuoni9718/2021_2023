@@ -1,0 +1,160 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_0,data:R
+  0%|                                                                                                                                                          | 0/306 [00:00<?, ?it/s]
+第0个
+[input]Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Options: A) bank, B) library, C) department store, D) mall, E) new york,
+[output]The sentence suggests that the revolving door is a security measure at a location, which implies that it is used for two directions of travelThe word "bank" is commonly used to refer to a bank, and "mall" refers to a shopping center or department store
+第1个
+[input]Question: What do people aim to do at work? Options: A) complete job, B) learn from each other, C) kill animals, D) wear hats, E) talk to each other,
+[output]The sentence suggests that the goal of work is to complete a task, which is a common goal for people who work in a professional setting
+第2个
+[input]Question: Where would you find magazines along side many other printed works? Options: A) doctor, B) bookstore, C) market, D) train station, E) mortuary,
+[output]The sentence suggests that magazines are commonly found in a place where there are many other printed works, such as a bookstore, mortuary, or train station
+第3个
+[input]Question: Where are  you likely to find a hamburger? Options: A) fast food restaurant, B) pizza, C) ground up dead cows, D) mouth, E) cow carcus,
+[output]The sentence suggests that hamburgers are typically served in a fast food restaurant, which is a common location for fast food restaurants
+第0个
+[input]Question: James was looking for a good place to buy farmland.  Where might he look? Options: A) midwest, B) countryside, C) estate, D) farming areas, E) illinois,
+[output]The sentence suggests that James is looking for a good place to buy farmland, which suggests that he is looking in a rural areaThe options "countryside," "estate," and "illinois" do not make sense in this context.
+第1个
+[input]Question: What island country is ferret popular? Options: A) own home, B) north carolina, C) great britain, D) hutch, E) outdoors,
+[output]The sentence suggests that ferrets are popular in the United States, which is a common location for ferretsThe other choices do not fit the context of the sentence.
+第2个
+[input]Question: In what Spanish speaking North American country can you get a great cup of coffee? Options: A) mildred's coffee shop, B) mexico, C) diner, D) kitchen, E) canteen,
+[output]The sentence suggests that the question is asking for a place where one can get a great cup of coffee in a North American countryMildred's coffee shop is a well-known coffee shop in the United States, but it is not a common place to get coffee in Mexico.
+第3个
+[input]Question: What do animals do when an enemy is approaching? Options: A) feel pleasure, B) procreate, C) pass water, D) listen to each other, E) sing,
+[output]The sentence suggests that the animals are aware that an enemy is approaching, which suggests that they are likely to react in some wayThe options "pass water" and "listen to each other" do not fit the context of the sentence.
+第0个
+[input]Question: Reading newspaper one of many ways to practice your what? Options: A) literacy, B) knowing how to read, C) money, D) buying, E) money bank,
+[output]The sentence suggests that reading a newspaper is one of many ways to practice your reading skills, which is a common practice for many people
+第1个
+[input]Question: What do people typically do while playing guitar? Options: A) cry, B) hear sounds, C) singing, D) arthritis, E) making music,
+[output]The sentence suggests that the person is playing a guitar, which is a common activity for people with arthritis or other medical conditions
+第2个
+[input]Question: What would vinyl be an odd thing to replace? Options: A) pants, B) record albums, C) record store, D) cheese, E) wallpaper,
+[output]The sentence suggests that vinyl would be an odd thing to replacePants are a common item that can be replaced with other items, such as wallpaper, cheese, and record albums.
+第3个
+[input]Question: If you want harmony, what is something you should try to do with the world? Options: A) take time, B) make noise, C) make war, D) make peace, E) make haste,
+[output]The sentence suggests that if you want harmony in the world, you should try to do something that will bring it about
+第0个
+[input]Question: Where does a heifer's master live? Options: A) farm house, B) barnyard, C) stockyard, D) slaughter house, E) eat cake,
+[output]The sentence suggests that the heifer's master lives in a farm house, which is a common location for farm animals
+第1个
+[input]Question: Aside from water and nourishment what does your dog need? Options: A) bone, B) charm, C) petted, D) lots of attention, E) walked,
+[output]The sentence suggests that the dog needs a lot of attention and attention, which is a common need for dogsThe word "petted" suggests that dogs need to be petted, while "charm" and "walk" suggest that they need to receive some sort of attention, but they are not necessarily related to the context of the sentence.
+第2个
+[input]Question: Janet was watching the film because she liked what? Options: A) erection, B) laughter, C) being entertained, D) fear, E) bordem,
+[output]The sentence suggests that Janet was watching the film because she liked it, which is a common reason for watching a film
+第3个
+[input]Question: What are you waiting alongside with when you're in a reception area? Options: A) motel, B) chair, C) hospital, D) people, E) hotels,
+[output]The sentence suggests that the person is waiting alongside someone in a reception area, which suggests that they are waiting for something
+第0个
+[input]Question: When drinking booze what can you do to stay busy? Options: A) reach tentative agreement, B) stay in bed, C) stop bicycle, D) examine thing, E) suicide,
+[output]The sentence suggests that drinking alcohol can lead to a state of lethargy, which is a common result of excessive drinkingThe other choices do not make sense in this context, as they are not related to the context of the sentence.
+第1个
+[input]Question: A fencing thrust with a sharp sword towards a person would result in what? Options: A) injury, B) small cuts, C) fever, D) competition, E) puncture wound,
+[output]The sentence suggests that a fencing thrust with a sharp sword towards a person would result in an injury, which is a common consequence of fencing
+第2个
+[input]Question: Unlike a spider and his many sight seers, people only have what? Options: A) tongues, B) names, C) brains, D) feelings, E) two eyes,
+[output]The sentence suggests that people only have one set of eyes, which suggests that they are not able to see the world around themTherefore, they do not have the ability to perceive the world outside their own eyes.
+第3个
+[input]Question: Where do adults use glue sticks? Options: A) classroom, B) desk drawer, C) at school, D) office, E) kitchen drawer,
+[output]The sentence suggests that adults use glue sticks in a variety of places, including classrooms, offices, and kitchen drawers.
+第0个
+[input]Question: What could go on top of wood? Options: A) lumberyard, B) synagogue, C) floor, D) carpet, E) hardware store,
+[output]The sentence suggests that wood could be used for a variety of purposes, including furniture, carpets, and hardware stores.
+第1个
+[input]Question: The artist was sitting quietly pondering, then suddenly he began to paint when what struck him? Options: A) sadness, B) anxiety, C) inspiration, D) discomfort, E) insights,
+[output]The sentence suggests that the artist was sitting quietly pondering, then suddenly he began to paint when something struck himInspiration, discomfort, insights, and sadness are all possible outcomes, but they do not necessarily indicate a specific reason why the artist started to paint.
+第2个
+[input]Question: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what? Options: A) indestructible, B) durable, C) undestroyable, D) indestructible, E) unbreakable,
+[output]The sentence suggests that the thin film was intended for a specific purpose, which implies that it is durable or indestructibleThe word "undestroyable" is the only option that fits the context of the sentence.
+第3个
+[input]Question: Where could you find a toilet that only friends can use? Options: A) rest area, B) school, C) stadium, D) apartment, E) hospital,
+
+  2%|███▎                                                                                                                                              | 7/306 [01:04<45:51,  9.20s/it]
+第0个
+[input]Question: What is someone who isn't clever, bright, or competent called? Options: A) clumsy, B) ineffectual, C) dull, D) clumsy, E) stupid,
+[output]The sentence suggests that the person is not clever, bright, or competentTherefore, the correct answer is "ineffectual," which is the opposite of "clumsy" and "stupid"
+第1个
+[input]Question: When wildlife reproduce we often refer to what comes out as what? Options: A) raise children, B) have children, C) photo copy, D) offspring, E) accidently got pregnant somehow,
+[output]The sentence suggests that the animal is trying to reproduce, which is a common practice in the field of wildlife reproduction. When wildlife reproduce we often refer to what comes out as what? Options: A) raise children, B) have children, C) photo copy, D) offspring, E) accidently got pregnant somehow,
+第2个
+[input]Question: The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what? Options: A) forrest, B) barn, C) public office, D) out of doors, E) freezer,
+[output]The sentence suggests that the weasel was becoming a problem, and the correct answer is "out of doors," which is the most logical choice as it is the only option that fits the context of the sentence.
+第3个
+[input]Question: Blue read material outside of his comfort zone because he wanted to gain what? Options: A) new perspective, B) entertained, C) understanding, D) hunger, E) tired eyes,
+[output]The sentence suggests that Blue read material outside of his comfort zone because he wanted to gain something, which is a common reason for reading outside of one's comfort zone
+第0个
+[input]Question: After he got hired he hoped for success at his what? Options: A) vocation, B) new job, C) michigan, D) working hard, E) manual,
+[output]The sentence suggests that the person hoped for success at their new job, which suggests that they were looking for a job that would help them achieve their goals
+第1个
+[input]Question: Committing perjury is a serious what? Options: A) indictment, B) crime, C) violence, D) lie, E) go to jail,
+[output]The sentence suggests that committing perjury is a serious offense, which implies that the person is likely to be charged with a crime or go to jail
+第2个
+[input]Question: If you are prone to postpone work what will you have to do in order to finish on time? Options: A) eat, B) hasten, C) antedate, D) bring forward, E) advance,
+[output]The sentence suggests that the person is prone to postpone work in order to finish on timeTherefore, the correct answer is to bring forward the completion of the work, which is the most logical answer as it is the only option that fits the context of the sentence"Antedate" and "bring forward" do not make sense in this context.
+第3个
+[input]Question: James wanted to find an old underground map from the 50s.  Where might he look for one? Options: A) library, B) subway station, C) county engineer's office, D) super market, E) home,
+
+  2%|███▎                                                                                                                                              | 7/306 [01:20<45:51,  9.20s/it]
+第0个
+[input]Question: Sean was in a rush to get home, but the light turned yellow and he was forced to do what? Options: A) take time, B) dawdle, C) go slowly, D) ocean, E) slow down,
+[output]The sentence suggests that Sean was in a rush to get home, but the light turned yellow and he was forced to do something elseTherefore, the correct answer would be to slow down and take time, which is the most logical choice as it is the only option that fits the context of the sentence.
+第1个
+[input]Question: Where would a person be doing when having to wait their turn? Options: A) have patience, B) get in line, C) sing, D) stand in line, E) turn left,
+[output]The sentence suggests that the person is waiting in line for their turn, which implies that they are likely to be doing something that requires patience or patienceThe options "have patience" and "stand in line" do not fit the context of the sentence.
+第2个
+[input]Question: She was always helping at the senior center, it brought her what? Options: A) satisfaction, B) heart, C) feel better, D) pay, E) happiness,
+[output]The sentence suggests that the person was always helping at the senior center, which is a common activity for seniors
+第3个
+[input]Question: The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the what? Options: A) keep cloesd, B) train, C) ignition switch, D) drawer, E) firearm,
+[output]The sentence suggests that the thief took his chances and began to work on the steering wheel, which is a common method for car thieves to gain access to a vehicle
+第0个
+[input]Question: Who is a police officer likely to work for? Options: A) beat, B) direct traffic, C) city, D) street, E) president,
+[output]The sentence suggests that the police officer is likely to work for a government organization, which is a common position for police officers
+第1个
+[input]Question: If you have leftover cake, where would you put it? Options: A) quandry, B) refrigerator, C) oven, D) night stand, E) bakery,
+[output]The sentence suggests that the leftover cake would be stored in a place where it can be easily accessed, such as a refrigerator, oven, night stand, bakery, or bakery
+第2个
+[input]Question: A human wants to submerge himself in water, what should he use? Options: A) whirlpool bath, B) coffee cup, C) cup, D) soft drink, E) puddle,
+[output]The sentence suggests that the human wants to submerge himself in water, which is a common activity for humansThe options "whirlpool bath" and "cup" do not fit the context of the sentence.
+第3个
+[input]Question: Where is a doormat likely to be in front of? Options: A) facade, B) front door, C) doorway, D) entrance porch, E) hallway,
+[output]The sentence suggests that the doormat is located in front of a front door, which is a common feature of homes
+第0个
+[input]Question: Bob the lizard lives in a warm place with lots of water.  Where does he probably live? Options: A) rock, B) tropical rainforest, C) jazz club, D) new mexico, E) rocky places,
+[output]The sentence suggests that Bob the lizard lives in a warm place with lots of water, which is a common characteristic of tropical rainforests
+第1个
+[input]Question: August needed  money because he was afraid that he'd be kicked out of his house.  What did he need money to do? Options: A) control people, B) pay bills, C) hurt people, D) buy food, E) get things,
+[output]The sentence suggests that August needed money because he was afraid that he'd be kicked out of his house, which is a common reason for people to leave their homes
+第2个
+[input]Question: He needed more information to fix it, so he consulted the what? Options: A) chickens, B) google, C) newspaper, D) online, E) manual,
+[output]The sentence suggests that the person needed more information to fix the problem, which suggests that they consulted a source of informationThe word "chickens" is commonly used to refer to chickens, which are commonly used in the context of chicken farming
+第3个
+[input]Question: Where can you put a picture frame when it's not hung vertically? Options: A) art show, B) wall, C) newspaper, D) car, E) table,
+[output]The sentence suggests that the picture frame is not being hung vertically, which suggests that it is being placed on a surface that is not a wall or tableThe options "wall" and "car" do not have any clear connection to the context of the sentence.
+第0个
+[input]Question: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad? Options: A) lose money, B) fun, C) have no money, D) broken law, E) relaxation,
+[output]The sentence suggests that James knew that he shouldn't have been buying beer for minors, which implies that he had no intention of paying for itThe option "have no money" is the only option that fits the context of the sentence.
+第1个
+[input]Question: What is the result of applying for  job? Options: A) anxiety and fear, B) increased workload, C) praise, D) less sleep, E) being employed,
+[output]The sentence suggests that applying for a job can lead to a positive outcome, which is the result of being employedThe other choices do not provide any clear connection to the context of the sentence.
+第2个
+[input]Question: What must someone do before they shop? Options: A) get money, B) have money, C) bring cash, D) go to market, E) bring cash,
+[output]The sentence suggests that the person must do something before they shop, which suggests that they need to get money or bring cashThe options "go to market" and "bring cash" do not fit the context of the sentence.
+第3个
+[input]Question: Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work? Options: A) music store, B) obesity, C) symphony orchestra, D) ochestra, E) violin case,
+[output]The sentence suggests that John was the first violinist in the orchestra, which implies that he needed to bring something important to work ever day. What did he need to bring to work? Options: A) music store, B) obesity, C) symphony orchestra, D) ochestra, E) violin case,
+第0个
+[input]Question: What is a place that usually does not have an elevator and that sometimes has a telephone book? Options: A) at hotel, B) kitchen, C) library, D) telephone booth, E) house,
+[output]The sentence suggests that a place that usually does not have an elevator and that sometimes has a telephone book may have a telephone booth, which is a common feature of hotels and other places that have elevatorsThe options "house" and "kitchen" do not fit the context of the sentence.
+第1个
+[input]Question: Who is likely to be excited about a crab? Options: A) fish market, B) pet shop, C) fishmongers, D) intertidal zone, E) obesity,
+[output]The sentence suggests that the person is likely to be excited about a crab, which is a common reason for people to buy them
+第2个
+[input]Question: Where can a human find clothes that aren't pants? Options: A) pants shop, B) on planet earth, C) dress shop, D) school, E) train wreck,
+[output]The sentence suggests that a human is looking for clothes that are not pants, which is a common occurrence on the planet Earth
+第3个
+[input]Question: If I was getting drunk, and people couldn't understand me, what might I be having? Options: A) a seizure, B) slurred speech, C) death, D) forgetfulness, E) pass out,

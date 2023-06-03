@@ -1,0 +1,82 @@
+2023-04-28 16:56:32,103 INFO    MainThread:59698 [wandb_setup.py:_flush():75] Loading settings from //users5/znchen/.config/wandb/settings
+2023-04-28 16:56:32,103 INFO    MainThread:59698 [wandb_setup.py:_flush():75] Loading settings from /users5/znchen/distil/wandb/settings
+2023-04-28 16:56:32,103 INFO    MainThread:59698 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2023-04-28 16:56:32,103 INFO    MainThread:59698 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'gen_model_frame.py', 'program': '/users5/znchen/distil/gen_model_frame.py'}
+2023-04-28 16:56:32,103 INFO    MainThread:59698 [wandb_init.py:_log_setup():437] Logging user logs to /users5/znchen/distil/wandb/run-20230428_165632-27akz1ou/logs/debug.log
+2023-04-28 16:56:32,103 INFO    MainThread:59698 [wandb_init.py:_log_setup():438] Logging internal logs to /users5/znchen/distil/wandb/run-20230428_165632-27akz1ou/logs/debug-internal.log
+2023-04-28 16:56:32,103 INFO    MainThread:59698 [wandb_init.py:init():471] calling init triggers
+2023-04-28 16:56:32,104 INFO    MainThread:59698 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {}
+2023-04-28 16:56:32,104 INFO    MainThread:59698 [wandb_init.py:init():524] starting backend
+2023-04-28 16:56:32,104 INFO    MainThread:59698 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-04-28 16:56:32,112 INFO    MainThread:59698 [backend.py:ensure_launched():217] starting backend process...
+2023-04-28 16:56:32,117 INFO    MainThread:59698 [backend.py:ensure_launched():222] started backend process with pid: 59800
+2023-04-28 16:56:32,117 INFO    MainThread:59698 [wandb_init.py:init():533] backend started and connected
+2023-04-28 16:56:32,119 INFO    MainThread:59698 [wandb_init.py:init():597] updated telemetry
+2023-04-28 16:56:32,121 INFO    MainThread:59698 [wandb_init.py:init():628] communicating run to backend with 30 second timeout
+2023-04-28 16:57:02,122 INFO    MainThread:59698 [interface_shared.py:_communicate_run():326] couldn't get run from backend
+2023-04-28 16:57:02,123 ERROR   MainThread:59698 [wandb_init.py:init():633] backend process timed out
+2023-04-28 16:57:02,123 ERROR   MainThread:59698 [wandb_init.py:init():644] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2023-04-28 16:57:20,219 ERROR   Thread-1 (wrapped_target):59698 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f996aa28eb0>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f996aa28eb0>: Failed to establish a new connection: [Errno 113] No route to host'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f996aa28eb0>: Failed to establish a new connection: [Errno 113] No route to host'))

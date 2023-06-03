@@ -1,0 +1,22 @@
+2023-04-24 15:21:49,510 INFO    MainThread:67732 [wandb_setup.py:_flush():75] Loading settings from //users5/znchen/.config/wandb/settings
+2023-04-24 15:21:49,510 INFO    MainThread:67732 [wandb_setup.py:_flush():75] Loading settings from /users5/znchen/distil/wandb/settings
+2023-04-24 15:21:49,510 INFO    MainThread:67732 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'offline'}
+2023-04-24 15:21:49,511 INFO    MainThread:67732 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'ft_frame.py', 'program': '/users5/znchen/distil/ft_frame.py'}
+2023-04-24 15:21:49,511 INFO    MainThread:67732 [wandb_init.py:_log_setup():437] Logging user logs to /users5/znchen/distil/wandb/offline-run-20230424_152149-3vq6r9sc/logs/debug.log
+2023-04-24 15:21:49,511 INFO    MainThread:67732 [wandb_init.py:_log_setup():438] Logging internal logs to /users5/znchen/distil/wandb/offline-run-20230424_152149-3vq6r9sc/logs/debug-internal.log
+2023-04-24 15:21:49,511 INFO    MainThread:67732 [wandb_init.py:init():471] calling init triggers
+2023-04-24 15:21:49,512 INFO    MainThread:67732 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {}
+2023-04-24 15:21:49,512 INFO    MainThread:67732 [wandb_init.py:init():519] wandb.init() called when a run is still active
+2023-04-24 15:46:50,379 INFO    MainThread:67732 [wandb_run.py:_atexit_cleanup():1866] got exitcode: 1
+2023-04-24 15:46:50,381 INFO    MainThread:67732 [wandb_run.py:_restore():1838] restore
+2023-04-24 15:46:53,166 INFO    MainThread:67732 [wandb_run.py:_on_finish():1995] got exit ret: 
+2023-04-24 15:46:53,273 INFO    MainThread:67732 [wandb_run.py:_on_finish():1995] got exit ret: 
+2023-04-24 15:46:53,375 INFO    MainThread:67732 [wandb_run.py:_on_finish():1995] got exit ret: done: true
+exit_result {
+}
+local_info {
+}
+
+2023-04-24 15:46:54,496 INFO    MainThread:67732 [wandb_run.py:_footer_history_summary_info():3102] rendering history
+2023-04-24 15:46:54,497 INFO    MainThread:67732 [wandb_run.py:_footer_history_summary_info():3134] rendering summary

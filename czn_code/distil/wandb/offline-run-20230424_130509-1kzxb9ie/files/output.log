@@ -1,0 +1,26 @@
+Fine-tuning facebook/bart-large...
+<class 'dataloader.DistlCSQADataset'>
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                                 | 0/7750 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/users5/znchen/distil/ft_frame.py", line 164, in <module>
+    main()
+  File "/users5/znchen/distil/ft_frame.py", line 150, in main
+    finetune_model(args.model_name, args.train_data, args.dev_data, Dataloader_classes[args.dataset_class], args.epochs)
+  File "/users5/znchen/distil/ft_frame.py", line 80, in finetune_model
+    trainer.train()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/trainer.py", line 1631, in train
+    return inner_training_loop(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/trainer.py", line 1869, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/users5/znchen/distil/dataloader.py", line 51, in __getitem__
+    "input_ids": input_ids["input_ids"],
+IndexError: too many indices for tensor of dimension 1

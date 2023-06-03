@@ -1,0 +1,165 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_5,data:R
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([5, 113])
+[output] tensor([[    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   864,
+            16,  1996,    13,    10,  2136,    14,    16, 10266,   341,     7,
+          6190,   402,    14,    64,    28,   341,    25,    10, 33760,     6,
+            61,  3649,    14,    24,    16,    10, 33760,    14,    16,   747,
+           341,    11,    10,  9843, 32689,  2617,  2777,     2,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   864,
+            16,  1996,    13,    10,  1219,   596,   951,    74,    45,   236,
+             7,   213,     7,   334,     6,    61, 19659,    14,    51,   109,
+            45,    33,    10,  4724,     7,  2725,   334,   133, 11054,    22,
+          2977,     7,   334,   113, 19659,    14,     5,  1948,    16,    10,
+          1219,    45,     7,   213,     6,    61,    16,    10,  1537,  1219,
+            13,   171,    82,     7,  1877,  5190,   334,   133,    97,  1948,
+          5717,   109,    45,   146,  1472,    11,     5,  5377,     9,     5,
+          3645,     4,     2,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61, 19659,    14,    51,    32,   533,     7,   213,     7,
+            10,   317,    14, 17859,    11, 31599,  7150,   268,   133,   144,
+           533,  1973,    16,    10,  1769,   689,  2391,     6,    61,    16,
+            10,   317,   684,    13,    63,   239,    12,  8634,  1769,   689,
+          1735,     8,   747,  1523,    10,  1810,  3143,     9,  1769,   689,
+          4329,     2,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   864,
+            16,  1996,    13,    10,  1219,   596,   951,    74,    45,   236,
+             7,   213,     7,   334,     6,    61, 19659,    14,    51,   109,
+            45,    33,    10,  4724,     7,  2725,   334, 32730,     6,     5,
+          4577,  1948,    16,   533,     7,    28,  1330,     7,     5,  4724,
+             7,  1877,   164,     7,   334,   133,    97,  5717,   109,    45,
+           146,  1472,    11,     5,  5377,     9,     5,  3645,     4,     2,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1],
+        [    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+            16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+             6,    61, 19659,    14,    51,    32,   533,     7,   213,     7,
+            10,   317,    14, 17859,    11, 31599,  7150,   268,   133,  1735,
+            22,  7110,  8616,   927,   113,     8,    22, 43637,   594,   113,
+            32,  3752,     7,    28,  2127,   147,    65,    74,  3700,   213,
+            13,    10, 31599,  7150,   254,     6,    25,    51,    32,    45,
+          3700,  3059,    19,  4441,   689,   113, 41416,  1506,   113,    16,
+             5,   144,  3901,  2031,    25,    24,    16,    10,  1537,  1385,
+           341,     7,  6190,    10,   317,   147,    65,    64,   213,     7,
+          3529,   689,     6,    61,    16,   747,  3059,    19,    10,  1769,
+           689,  2391,     2]])
+[outid] tensor([    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   864,
+           16,  1996,    13,    10,  2136,    14,    16, 10266,   341,     7,
+         6190,   402,    14,    64,    28,   341,    25,    10, 33760,     6,
+           61,  3649,    14,    24,    16,    10, 33760,    14,    16,   747,
+          341,    11,    10,  9843, 32689,  2617,  2777,     2,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1])
+[out] The sentence suggests that the question is asking for a word that is commonly used to describe something that can be used as a verb, which suggests that it is a verb that is often used in a colloquial language
+[outid] tensor([    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   864,
+           16,  1996,    13,    10,  1219,   596,   951,    74,    45,   236,
+            7,   213,     7,   334,     6,    61, 19659,    14,    51,   109,
+           45,    33,    10,  4724,     7,  2725,   334,   133, 11054,    22,
+         2977,     7,   334,   113, 19659,    14,     5,  1948,    16,    10,
+         1219,    45,     7,   213,     6,    61,    16,    10,  1537,  1219,
+           13,   171,    82,     7,  1877,  5190,   334,   133,    97,  1948,
+         5717,   109,    45,   146,  1472,    11,     5,  5377,     9,     5,
+         3645,     4,     2,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1])
+[out] The sentence suggests that the question is asking for a reason why someone would not want to go to school, which implies that they do not have a desire to attend schoolThe phrase "go to school" implies that the answer is a reason not to go, which is a common reason for many people to avoid attending schoolThe other answer choices do not make sense in the context of the sentence.
+[outid] tensor([    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+           16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+            6,    61, 19659,    14,    51,    32,   533,     7,   213,     7,
+           10,   317,    14, 17859,    11, 31599,  7150,   268,   133,   144,
+          533,  1973,    16,    10,  1769,   689,  2391,     6,    61,    16,
+           10,   317,   684,    13,    63,   239,    12,  8634,  1769,   689,
+         1735,     8,   747,  1523,    10,  1810,  3143,     9,  1769,   689,
+         4329,     2,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1])
+[out] The sentence suggests that the person is looking for a place to eat a hamburger, which implies that they are likely to go to a place that specializes in hamburgersThe most likely option is a fast food restaurant, which is a place known for its high-quality fast food options and often offers a wide variety of fast food restaurants
+[outid] tensor([    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   864,
+           16,  1996,    13,    10,  1219,   596,   951,    74,    45,   236,
+            7,   213,     7,   334,     6,    61, 19659,    14,    51,   109,
+           45,    33,    10,  4724,     7,  2725,   334, 32730,     6,     5,
+         4577,  1948,    16,   533,     7,    28,  1330,     7,     5,  4724,
+            7,  1877,   164,     7,   334,   133,    97,  5717,   109,    45,
+          146,  1472,    11,     5,  5377,     9,     5,  3645,     4,     2,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+            1,     1,     1])
+[out] The sentence suggests that the question is asking for a reason why someone would not want to go to school, which implies that they do not have a desire to attend schoolTherefore, the correct answer is likely to be related to the desire to avoid going to schoolThe other choices do not make sense in the context of the sentence.
+[outid] tensor([    2,     0,     0,     0,   133,  3645,  3649,    14,     5,   621,
+           16,   546,    13,    10,   317,     7,  3529,    10, 31599, 25278,
+            6,    61, 19659,    14,    51,    32,   533,     7,   213,     7,
+           10,   317,    14, 17859,    11, 31599,  7150,   268,   133,  1735,
+           22,  7110,  8616,   927,   113,     8,    22, 43637,   594,   113,
+           32,  3752,     7,    28,  2127,   147,    65,    74,  3700,   213,
+           13,    10, 31599,  7150,   254,     6,    25,    51,    32,    45,
+         3700,  3059,    19,  4441,   689,   113, 41416,  1506,   113,    16,
+            5,   144,  3901,  2031,    25,    24,    16,    10,  1537,  1385,
+          341,     7,  6190,    10,   317,   147,    65,    64,   213,     7,
+         3529,   689,     6,    61,    16,   747,  3059,    19,    10,  1769,
+          689,  2391,     2])
+[out] The sentence suggests that the person is looking for a place to eat a hamburger, which implies that they are likely to go to a place that specializes in hamburgersThe options "restaurant" and "buffet" are unlikely to be places where one would typically go for a hamburger, as they are not typically associated with eating food"Hungry" is the most appropriate choice as it is a common term used to describe a place where one can go to eat food, which is often associated with a fast food restaurant
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+  0%|▌                                                                                                                                               | 1/245 [00:33<2:17:29, 33.81s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 321, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 315, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 251, in test
+    output = model.generate(input_ids, max_length=200, num_return_sequences=1, early_stopping=True)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 1268, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 634, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(**encoder_kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 856, in forward
+    layer_outputs = encoder_layer(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 342, in forward
+    hidden_states = self.activation_fn(self.fc1(hidden_states))
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

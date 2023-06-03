@@ -1,0 +1,18 @@
+2023-04-23 19:28:38,822 INFO    MainThread:115970 [internal.py:wandb_internal():90] W&B internal server running at pid: 115970, started at: 2023-04-23 19:28:38.810729
+2023-04-23 19:28:38,850 DEBUG   HandlerThread:115970 [handler.py:handle_request():141] handle_request: run_start
+2023-04-23 19:28:38,850 INFO    WriterThread:115970 [datastore.py:open_for_write():75] open: /users5/znchen/distil/wandb/offline-run-20230423_192836-1qakcgi4/run-1qakcgi4.wandb
+2023-04-23 19:28:44,161 DEBUG   HandlerThread:115970 [meta.py:__init__():35] meta init
+2023-04-23 19:28:44,161 DEBUG   HandlerThread:115970 [meta.py:__init__():49] meta init done
+2023-04-23 19:28:44,161 DEBUG   HandlerThread:115970 [meta.py:probe():209] probe
+2023-04-23 19:28:44,174 DEBUG   HandlerThread:115970 [git.py:repo():29] git repository is invalid
+2023-04-23 19:28:44,175 DEBUG   HandlerThread:115970 [meta.py:_save_pip():53] save pip
+2023-04-23 19:28:44,177 DEBUG   HandlerThread:115970 [meta.py:_save_pip():67] save pip done
+2023-04-23 19:28:44,177 DEBUG   HandlerThread:115970 [meta.py:_save_conda():74] save conda
+2023-04-23 19:28:56,137 DEBUG   HandlerThread:115970 [meta.py:_save_conda():84] save conda done
+2023-04-23 19:28:56,138 DEBUG   HandlerThread:115970 [meta.py:probe():247] probe done
+2023-04-23 19:52:59,973 DEBUG   HandlerThread:115970 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-23 19:54:04,185 DEBUG   HandlerThread:115970 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-23 20:17:24,213 DEBUG   HandlerThread:115970 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-23 20:18:28,570 DEBUG   HandlerThread:115970 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-23 20:41:48,412 DEBUG   HandlerThread:115970 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-23 20:42:52,700 DEBUG   HandlerThread:115970 [handler.py:handle_request():141] handle_request: partial_history

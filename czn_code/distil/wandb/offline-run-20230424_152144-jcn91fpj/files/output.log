@@ -1,0 +1,18 @@
+Fine-tuning facebook/bart-large...
+Using 2 GPUs
+Epoch 1/10, Train Loss: 1.4689
+Epoch 1/10, Validation Loss: 0.0693
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0% 0/1549 [00:00<?, ?it/s]//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+100% 1549/1549 [23:15<00:00,  1.11it/s]
+100% 233/233 [01:18<00:00,  2.98it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/ft_frame.py", line 292, in <module>
+    if __name__ == "__main__":
+  File "/users5/znchen/distil/ft_frame.py", line 278, in main
+    wandbname = datetime.datetime.now().strftime(r'%Y%m%d%H%M%S')
+  File "/users5/znchen/distil/ft_frame.py", line 193, in finetune_frame
+    model_name_context = moden_name.replace('-','')
+NameError: name 'moden_name' is not defined

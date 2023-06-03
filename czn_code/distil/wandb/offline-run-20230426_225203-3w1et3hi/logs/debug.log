@@ -1,0 +1,42 @@
+2023-04-26 22:52:03,097 INFO    MainThread:25514 [wandb_setup.py:_flush():75] Loading settings from //users5/znchen/.config/wandb/settings
+2023-04-26 22:52:03,098 INFO    MainThread:25514 [wandb_setup.py:_flush():75] Loading settings from /users5/znchen/distil/wandb/settings
+2023-04-26 22:52:03,098 INFO    MainThread:25514 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'offline'}
+2023-04-26 22:52:03,098 INFO    MainThread:25514 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'gen_model_frame.py', 'program': '/users5/znchen/distil/gen_model_frame.py'}
+2023-04-26 22:52:03,098 INFO    MainThread:25514 [wandb_init.py:_log_setup():437] Logging user logs to /users5/znchen/distil/wandb/offline-run-20230426_225203-3w1et3hi/logs/debug.log
+2023-04-26 22:52:03,098 INFO    MainThread:25514 [wandb_init.py:_log_setup():438] Logging internal logs to /users5/znchen/distil/wandb/offline-run-20230426_225203-3w1et3hi/logs/debug-internal.log
+2023-04-26 22:52:03,098 INFO    MainThread:25514 [wandb_init.py:init():471] calling init triggers
+2023-04-26 22:52:03,098 INFO    MainThread:25514 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {}
+2023-04-26 22:52:03,098 INFO    MainThread:25514 [wandb_init.py:init():524] starting backend
+2023-04-26 22:52:03,098 INFO    MainThread:25514 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-04-26 22:52:03,104 INFO    MainThread:25514 [backend.py:ensure_launched():217] starting backend process...
+2023-04-26 22:52:03,109 INFO    MainThread:25514 [backend.py:ensure_launched():222] started backend process with pid: 25600
+2023-04-26 22:52:03,109 INFO    MainThread:25514 [wandb_init.py:init():533] backend started and connected
+2023-04-26 22:52:03,110 INFO    MainThread:25514 [wandb_init.py:init():597] updated telemetry
+2023-04-26 22:52:03,111 INFO    MainThread:25514 [wandb_init.py:init():659] starting run threads in backend
+2023-04-26 22:52:08,120 INFO    MainThread:25514 [wandb_run.py:_console_start():1897] atexit reg
+2023-04-26 22:52:08,122 INFO    MainThread:25514 [wandb_run.py:_redirect():1770] redirect: SettingsConsole.REDIRECT
+2023-04-26 22:52:08,122 INFO    MainThread:25514 [wandb_run.py:_redirect():1775] Redirecting console.
+2023-04-26 22:52:08,125 INFO    MainThread:25514 [wandb_run.py:_redirect():1831] Redirects installed.
+2023-04-26 22:52:08,125 INFO    MainThread:25514 [wandb_init.py:init():684] run started, returning control to user process
+2023-04-26 22:52:08,152 INFO    MainThread:25514 [wandb_setup.py:_flush():75] Loading settings from //users5/znchen/.config/wandb/settings
+2023-04-26 22:52:08,152 INFO    MainThread:25514 [wandb_setup.py:_flush():75] Loading settings from /users5/znchen/distil/wandb/settings
+2023-04-26 22:52:08,152 INFO    MainThread:25514 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'offline'}
+2023-04-26 22:52:08,152 INFO    MainThread:25514 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'gen_model_frame.py', 'program': '/users5/znchen/distil/gen_model_frame.py'}
+2023-04-26 22:52:08,152 INFO    MainThread:25514 [wandb_init.py:_log_setup():437] Logging user logs to /users5/znchen/distil/wandb/offline-run-20230426_225208-xfo86xqo/logs/debug.log
+2023-04-26 22:52:08,153 INFO    MainThread:25514 [wandb_init.py:_log_setup():438] Logging internal logs to /users5/znchen/distil/wandb/offline-run-20230426_225208-xfo86xqo/logs/debug-internal.log
+2023-04-26 22:52:08,153 INFO    MainThread:25514 [wandb_init.py:init():471] calling init triggers
+2023-04-26 22:52:08,153 INFO    MainThread:25514 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {}
+2023-04-26 22:52:08,153 INFO    MainThread:25514 [wandb_init.py:init():519] wandb.init() called when a run is still active
+2023-04-26 22:52:59,479 INFO    MainThread:25514 [wandb_run.py:_atexit_cleanup():1866] got exitcode: 255
+2023-04-26 22:52:59,484 INFO    MainThread:25514 [wandb_run.py:_restore():1838] restore
+2023-04-26 22:53:15,675 INFO    MainThread:25514 [wandb_run.py:_on_finish():1995] got exit ret: 
+2023-04-26 22:53:15,778 INFO    MainThread:25514 [wandb_run.py:_on_finish():1995] got exit ret: done: true
+exit_result {
+}
+local_info {
+}
+
+2023-04-26 22:53:17,082 INFO    MainThread:25514 [wandb_run.py:_footer_history_summary_info():3102] rendering history
+2023-04-26 22:53:17,092 INFO    MainThread:25514 [wandb_run.py:_footer_history_summary_info():3134] rendering summary

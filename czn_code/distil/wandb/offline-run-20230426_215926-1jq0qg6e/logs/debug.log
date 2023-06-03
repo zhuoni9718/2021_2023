@@ -1,0 +1,21 @@
+2023-04-26 21:59:26,227 INFO    MainThread:11983 [wandb_setup.py:_flush():75] Loading settings from //users5/znchen/.config/wandb/settings
+2023-04-26 21:59:26,227 INFO    MainThread:11983 [wandb_setup.py:_flush():75] Loading settings from /users5/znchen/distil/wandb/settings
+2023-04-26 21:59:26,228 INFO    MainThread:11983 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'offline'}
+2023-04-26 21:59:26,228 INFO    MainThread:11983 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'ft_frame.py', 'program': '/users5/znchen/distil/ft_frame.py'}
+2023-04-26 21:59:26,228 INFO    MainThread:11983 [wandb_init.py:_log_setup():437] Logging user logs to /users5/znchen/distil/wandb/offline-run-20230426_215926-1jq0qg6e/logs/debug.log
+2023-04-26 21:59:26,228 INFO    MainThread:11983 [wandb_init.py:_log_setup():438] Logging internal logs to /users5/znchen/distil/wandb/offline-run-20230426_215926-1jq0qg6e/logs/debug-internal.log
+2023-04-26 21:59:26,228 INFO    MainThread:11983 [wandb_init.py:init():471] calling init triggers
+2023-04-26 21:59:26,228 INFO    MainThread:11983 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {}
+2023-04-26 21:59:26,228 INFO    MainThread:11983 [wandb_init.py:init():519] wandb.init() called when a run is still active
+2023-04-26 21:59:39,338 INFO    MainThread:11983 [wandb_run.py:_atexit_cleanup():1866] got exitcode: 0
+2023-04-26 21:59:39,340 INFO    MainThread:11983 [wandb_run.py:_restore():1838] restore
+2023-04-26 21:59:43,785 INFO    MainThread:11983 [wandb_run.py:_on_finish():1995] got exit ret: 
+2023-04-26 21:59:43,888 INFO    MainThread:11983 [wandb_run.py:_on_finish():1995] got exit ret: done: true
+exit_result {
+}
+local_info {
+}
+
+2023-04-26 21:59:45,163 INFO    MainThread:11983 [wandb_run.py:_footer_history_summary_info():3102] rendering history
+2023-04-26 21:59:45,163 INFO    MainThread:11983 [wandb_run.py:_footer_history_summary_info():3134] rendering summary

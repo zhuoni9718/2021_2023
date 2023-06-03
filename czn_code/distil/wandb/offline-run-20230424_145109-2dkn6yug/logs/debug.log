@@ -1,0 +1,21 @@
+2023-04-24 14:51:09,346 INFO    MainThread:31361 [wandb_setup.py:_flush():75] Loading settings from //users5/znchen/.config/wandb/settings
+2023-04-24 14:51:09,346 INFO    MainThread:31361 [wandb_setup.py:_flush():75] Loading settings from /users5/znchen/distil/wandb/settings
+2023-04-24 14:51:09,346 INFO    MainThread:31361 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'offline'}
+2023-04-24 14:51:09,346 INFO    MainThread:31361 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'ft_frame.py', 'program': '/users5/znchen/distil/ft_frame.py'}
+2023-04-24 14:51:09,347 INFO    MainThread:31361 [wandb_init.py:_log_setup():437] Logging user logs to /users5/znchen/distil/wandb/offline-run-20230424_145109-2dkn6yug/logs/debug.log
+2023-04-24 14:51:09,347 INFO    MainThread:31361 [wandb_init.py:_log_setup():438] Logging internal logs to /users5/znchen/distil/wandb/offline-run-20230424_145109-2dkn6yug/logs/debug-internal.log
+2023-04-24 14:51:09,347 INFO    MainThread:31361 [wandb_init.py:init():471] calling init triggers
+2023-04-24 14:51:09,347 INFO    MainThread:31361 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {}
+2023-04-24 14:51:09,348 INFO    MainThread:31361 [wandb_init.py:init():519] wandb.init() called when a run is still active
+2023-04-24 14:51:25,212 INFO    MainThread:31361 [wandb_run.py:_atexit_cleanup():1866] got exitcode: 255
+2023-04-24 14:51:25,230 INFO    MainThread:31361 [wandb_run.py:_restore():1838] restore
+2023-04-24 14:51:34,887 INFO    MainThread:31361 [wandb_run.py:_on_finish():1995] got exit ret: 
+2023-04-24 14:51:34,990 INFO    MainThread:31361 [wandb_run.py:_on_finish():1995] got exit ret: done: true
+exit_result {
+}
+local_info {
+}
+
+2023-04-24 14:51:36,123 INFO    MainThread:31361 [wandb_run.py:_footer_history_summary_info():3102] rendering history
+2023-04-24 14:51:36,124 INFO    MainThread:31361 [wandb_run.py:_footer_history_summary_info():3134] rendering summary

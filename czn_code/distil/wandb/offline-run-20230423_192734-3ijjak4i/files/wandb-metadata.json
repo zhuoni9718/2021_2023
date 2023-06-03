@@ -1,0 +1,18 @@
+{
+    "os": "Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.10.4",
+    "heartbeatAt": "2023-04-23T11:27:42.497804",
+    "startedAt": "2023-04-23T11:27:34.978751",
+    "docker": null,
+    "gpu": "NVIDIA A100-PCIE-40GB",
+    "gpu_count": 2,
+    "cpu_count": 48,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/users5/znchen/distil/ft_t5.py",
+    "codePath": "ft_t5.py",
+    "host": "gpu28",
+    "username": "znchen",
+    "executable": "//users5/znchen/anaconda3/envs/q2k/bin/python"
+}

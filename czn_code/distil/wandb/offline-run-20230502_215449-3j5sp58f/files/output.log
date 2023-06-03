@@ -1,0 +1,4 @@
+testing roberta-large
+testing with ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_1
+test Accuracy: 0.7526617526617526
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 77/77 [00:34<00:00,  2.22it/s]

@@ -1,0 +1,47 @@
+Fine-tuning facebook/bart-large...
+Using 2 GPUs
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+{'input_ids': tensor([[    0, 45641,    35,  ...,     1,     1,     1],
+        [    0, 45641,    35,  ...,     1,     1,     1],
+        [    0, 45641,    35,  ...,     1,     1,     1],
+        [    0, 45641,    35,  ...,     1,     1,     1]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0]], device='cuda:0'), 'labels': tensor([[    0,   133,  3645,  ...,     1,     1,     1],
+        [    0,   133,  3645,  ...,     1,     1,     1],
+        [    0,   133,  3645,  ...,     1,     1,     1],
+        [    0, 36260,  6890,  ...,     1,     1,     1]], device='cuda:0')}
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+[attention]tensor([1, 1, 1,  ..., 0, 0, 0])
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                                         | 0/1549 [00:00<?, ?it/s]

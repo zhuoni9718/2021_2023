@@ -1,0 +1,65 @@
+training roberta-large
+dataset:<class 'dataloader.MultipleChoiceDataset'>
+training epoch0
+testing
+step: 25, Validation Accuracy: 0.20556920556920558,valid loss: 1.6184095051381495
+testing
+step: 50, Validation Accuracy: 0.20393120393120392,valid loss: 1.615246277350884
+testing
+step: 75, Validation Accuracy: 0.18181818181818182,valid loss: 1.6183256932667323
+testing
+step: 100, Validation Accuracy: 0.18181818181818182,valid loss: 1.6174022841763187
+testing
+step: 125, Validation Accuracy: 0.18181818181818182,valid loss: 1.6170380843150152
+testing
+step: 150, Validation Accuracy: 0.2022932022932023,valid loss: 1.6138564224367018
+testing
+step: 175, Validation Accuracy: 0.1981981981981982,valid loss: 1.6157631750230665
+testing
+step: 200, Validation Accuracy: 0.23505323505323505,valid loss: 1.6050572751404404
+testing
+step: 225, Validation Accuracy: 0.2497952497952498,valid loss: 1.5966013933156993
+testing
+step: 250, Validation Accuracy: 0.3226863226863227,valid loss: 1.543506012334452
+testing
+step: 275, Validation Accuracy: 0.4381654381654382,valid loss: 1.4069693661355354
+testing
+step: 300, Validation Accuracy: 0.45782145782145783,valid loss: 1.2999763651327654
+testing
+step: 325, Validation Accuracy: 0.49467649467649466,valid loss: 1.2368307043979694
+testing
+step: 350, Validation Accuracy: 0.5004095004095004,valid loss: 1.2526081854646856
+testing
+step: 375, Validation Accuracy: 0.556920556920557,valid loss: 1.132691277311994
+testing
+step: 400, Validation Accuracy: 0.5757575757575758,valid loss: 1.1071621520178658
+testing
+step: 425, Validation Accuracy: 0.5749385749385749,valid loss: 1.0824607146250738
+testing
+step: 450, Validation Accuracy: 0.6036036036036037,valid loss: 1.0114504942646274
+testing
+step: 475, Validation Accuracy: 0.5823095823095823,valid loss: 1.0721875769751412
+testing
+step: 500, Validation Accuracy: 0.6175266175266175,valid loss: 0.9800500505930417
+testing
+step: 525, Validation Accuracy: 0.6281736281736282,valid loss: 0.9478921123913356
+Epoch 1/6, Train Loss: 1.3992
+save to ./tmp/predict/promptk_QCK_rationale/bartrationaletrainroberta-large_0
+[draw data]
+{'25': 0.20556920556920558, '50': 0.20393120393120392, '75': 0.18181818181818182, '100': 0.18181818181818182, '125': 0.18181818181818182, '150': 0.2022932022932023, '175': 0.1981981981981982, '200': 0.23505323505323505, '225': 0.2497952497952498, '250': 0.3226863226863227, '275': 0.4381654381654382, '300': 0.45782145782145783, '325': 0.49467649467649466, '350': 0.5004095004095004, '375': 0.556920556920557, '400': 0.5757575757575758, '425': 0.5749385749385749, '450': 0.6036036036036037, '475': 0.5823095823095823, '500': 0.6175266175266175, '525': 0.6281736281736282}
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.dense.bias', 'lm_head.layer_norm.weight', 'lm_head.layer_norm.bias', 'lm_head.dense.weight', 'lm_head.decoder.weight', 'lm_head.bias']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 533/533 [23:39<00:00,  2.66s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 305, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 295, in main
+    train_step_test(args.model_name,args.epochs,args.train_data,args.dev_data,args.batch_size,args.learning_rate,args.model_path,args.dataloader)
+  File "/users5/znchen/distil/predict_frame.py", line 215, in train_step_test
+    xs=[entry['step'] for entry in wandb.history()],
+AttributeError: module 'wandb' has no attribute 'history'

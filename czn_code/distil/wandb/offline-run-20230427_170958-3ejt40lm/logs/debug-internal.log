@@ -1,0 +1,28 @@
+2023-04-27 17:09:59,827 INFO    MainThread:53651 [internal.py:wandb_internal():90] W&B internal server running at pid: 53651, started at: 2023-04-27 17:09:59.827297
+2023-04-27 17:09:59,829 INFO    WriterThread:53651 [datastore.py:open_for_write():75] open: /users5/znchen/distil/wandb/offline-run-20230427_170958-3ejt40lm/run-3ejt40lm.wandb
+2023-04-27 17:09:59,830 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: run_start
+2023-04-27 17:10:06,652 DEBUG   HandlerThread:53651 [meta.py:__init__():35] meta init
+2023-04-27 17:10:06,653 DEBUG   HandlerThread:53651 [meta.py:__init__():49] meta init done
+2023-04-27 17:10:06,653 DEBUG   HandlerThread:53651 [meta.py:probe():209] probe
+2023-04-27 17:10:06,663 DEBUG   HandlerThread:53651 [git.py:repo():29] git repository is invalid
+2023-04-27 17:10:06,663 DEBUG   HandlerThread:53651 [meta.py:_save_pip():53] save pip
+2023-04-27 17:10:06,666 DEBUG   HandlerThread:53651 [meta.py:_save_pip():67] save pip done
+2023-04-27 17:10:06,667 DEBUG   HandlerThread:53651 [meta.py:_save_conda():74] save conda
+2023-04-27 17:10:13,285 DEBUG   HandlerThread:53651 [meta.py:_save_conda():84] save conda done
+2023-04-27 17:10:13,286 DEBUG   HandlerThread:53651 [meta.py:probe():247] probe done
+2023-04-27 17:33:53,337 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 17:35:12,192 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 18:03:05,149 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 18:04:19,247 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 18:31:35,845 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 18:32:49,838 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 19:00:03,227 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 19:01:17,334 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 19:28:30,693 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 19:29:44,756 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 19:57:01,381 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 19:58:15,431 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 20:25:35,158 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 20:26:49,114 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 20:54:01,606 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history
+2023-04-27 20:55:16,466 DEBUG   HandlerThread:53651 [handler.py:handle_request():141] handle_request: partial_history

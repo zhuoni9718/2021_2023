@@ -1,0 +1,321 @@
+Fine-tuning facebook/bart-large...
+[input] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[target] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[input] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[target] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[input] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[target] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+Step: 100, Loss: 3.2079
+Step: 200, Loss: 1.9556
+Step: 300, Loss: 1.3595
+Step: 400, Loss: 1.0403
+Step: 500, Loss: 0.8432
+Step: 600, Loss: 0.7171
+Step: 700, Loss: 0.6205
+Step: 800, Loss: 0.5488
+Step: 900, Loss: 0.4944
+Step: 1000, Loss: 0.4480
+Step: 1100, Loss: 0.4103
+Step: 1200, Loss: 0.3794
+Step: 1300, Loss: 0.3520
+Step: 1400, Loss: 0.3285
+Step: 1500, Loss: 0.3079
+Epoch 1/10, Train Loss: 0.2988
+[input] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[target] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[input] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[target] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[input] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+[target] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+Epoch 1/10, Validation Loss: 0.0159
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_0
+[input] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[target] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[input] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[target] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[input] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[target] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+Step: 100, Loss: 0.0182
+Step: 200, Loss: 0.0180
+Step: 300, Loss: 0.0175
+Step: 400, Loss: 0.0172
+Step: 500, Loss: 0.0167
+Step: 600, Loss: 0.0164
+Step: 700, Loss: 0.0161
+Step: 800, Loss: 0.0158
+Step: 900, Loss: 0.0155
+Step: 1000, Loss: 0.0152
+Step: 1100, Loss: 0.0149
+Step: 1200, Loss: 0.0150
+Step: 1300, Loss: 0.0148
+Step: 1400, Loss: 0.0147
+Step: 1500, Loss: 0.0145
+Epoch 2/10, Train Loss: 0.0144
+[input] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[target] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[input] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[target] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[input] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+[target] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+Epoch 2/10, Validation Loss: 0.0097
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_1
+[input] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[target] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[input] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[target] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[input] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[target] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+Step: 100, Loss: 0.0110
+Step: 200, Loss: 0.0119
+Step: 300, Loss: 0.0113
+Step: 400, Loss: 0.0110
+Step: 500, Loss: 0.0108
+Step: 600, Loss: 0.0107
+Step: 700, Loss: 0.0106
+Step: 800, Loss: 0.0105
+Step: 900, Loss: 0.0104
+Step: 1000, Loss: 0.0102
+Step: 1100, Loss: 0.0101
+Step: 1200, Loss: 0.0100
+Step: 1300, Loss: 0.0100
+Step: 1400, Loss: 0.0100
+Step: 1500, Loss: 0.0099
+Epoch 3/10, Train Loss: 0.0099
+[input] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[target] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[input] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[target] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[input] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+[target] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+Epoch 3/10, Validation Loss: 0.0072
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_2
+[input] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[target] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[input] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[target] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[input] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[target] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+Step: 100, Loss: 0.0087
+Step: 200, Loss: 0.0085
+Step: 300, Loss: 0.0085
+Step: 400, Loss: 0.0086
+Step: 500, Loss: 0.0087
+Step: 600, Loss: 0.0085
+Step: 700, Loss: 0.0085
+Step: 800, Loss: 0.0085
+Step: 900, Loss: 0.0084
+Step: 1000, Loss: 0.0084
+Step: 1100, Loss: 0.0084
+Step: 1200, Loss: 0.0084
+Step: 1300, Loss: 0.0083
+Step: 1400, Loss: 0.0083
+Step: 1500, Loss: 0.0082
+Epoch 4/10, Train Loss: 0.0082
+[input] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[target] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[input] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[target] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[input] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+[target] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+Epoch 4/10, Validation Loss: 0.0065
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_3
+[input] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[target] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[input] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[target] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[input] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[target] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+Step: 100, Loss: 0.0079
+Step: 200, Loss: 0.0078
+Step: 300, Loss: 0.0077
+Step: 400, Loss: 0.0085
+Step: 500, Loss: 0.0083
+Step: 600, Loss: 0.0082
+Step: 700, Loss: 0.0080
+Step: 800, Loss: 0.0080
+Step: 900, Loss: 0.0081
+Step: 1000, Loss: 0.0080
+Step: 1100, Loss: 0.0079
+Step: 1200, Loss: 0.0078
+Step: 1300, Loss: 0.0077
+Step: 1400, Loss: 0.0077
+Step: 1500, Loss: 0.0077
+Epoch 5/10, Train Loss: 0.0084
+[input] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[target] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[input] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[target] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[input] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+[target] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+Epoch 5/10, Validation Loss: 0.0060
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_4
+[input] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[target] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[input] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[target] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[input] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[target] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+Step: 100, Loss: 0.0066
+Step: 200, Loss: 0.0070
+Step: 300, Loss: 0.0086
+Step: 400, Loss: 0.0126
+Step: 500, Loss: 0.0131
+Step: 600, Loss: 0.0138
+Step: 700, Loss: 0.0140
+Step: 800, Loss: 0.0135
+Step: 900, Loss: 0.0141
+Step: 1000, Loss: 0.0150
+Step: 1100, Loss: 0.0154
+Step: 1200, Loss: 0.0157
+Step: 1300, Loss: 0.0159
+Step: 1400, Loss: 0.0158
+Step: 1500, Loss: 0.0156
+Epoch 6/10, Train Loss: 0.0155
+[input] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[target] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[input] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[target] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[input] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+[target] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+Epoch 6/10, Validation Loss: 0.0124
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_5
+[input] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[target] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[input] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[target] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[input] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[target] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+Step: 100, Loss: 0.0119
+Step: 200, Loss: 0.0114
+Step: 300, Loss: 0.0110
+Step: 400, Loss: 0.0106
+Step: 500, Loss: 0.0102
+Step: 600, Loss: 0.0100
+Step: 700, Loss: 0.0097
+Step: 800, Loss: 0.0095
+Step: 900, Loss: 0.0094
+Step: 1000, Loss: 0.0092
+Step: 1100, Loss: 0.0091
+Step: 1200, Loss: 0.0091
+Step: 1300, Loss: 0.0089
+Step: 1400, Loss: 0.0089
+Step: 1500, Loss: 0.0089
+Epoch 7/10, Train Loss: 0.0088
+[input] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[target] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[input] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[target] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[input] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+[target] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+Epoch 7/10, Validation Loss: 0.0065
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_6
+[input] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[target] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[input] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[target] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[input] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[target] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+Step: 100, Loss: 0.0080
+Step: 200, Loss: 0.0081
+Step: 300, Loss: 0.0079
+Step: 400, Loss: 0.0079
+Step: 500, Loss: 0.0079
+Step: 600, Loss: 0.0078
+Step: 700, Loss: 0.0078
+Step: 800, Loss: 0.0078
+Step: 900, Loss: 0.0077
+Step: 1000, Loss: 0.0077
+Step: 1100, Loss: 0.0077
+Step: 1200, Loss: 0.0083
+Step: 1300, Loss: 0.0082
+Step: 1400, Loss: 0.0081
+Step: 1500, Loss: 0.0080
+Epoch 8/10, Train Loss: 0.0080
+[input] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[target] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[input] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[target] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[input] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+[target] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+Epoch 8/10, Validation Loss: 0.0065
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_7
+[input] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[target] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[input] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[target] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[input] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[target] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+Step: 100, Loss: 0.0067
+Step: 200, Loss: 0.0066
+Step: 300, Loss: 0.0068
+Step: 400, Loss: 0.0068
+Step: 500, Loss: 0.0069
+Step: 600, Loss: 0.0069
+Step: 700, Loss: 0.0069
+Step: 800, Loss: 0.0069
+Step: 900, Loss: 0.0069
+Step: 1000, Loss: 0.0068
+Step: 1100, Loss: 0.0068
+Step: 1200, Loss: 0.0068
+Step: 1300, Loss: 0.0068
+Step: 1400, Loss: 0.0068
+Step: 1500, Loss: 0.0067
+Epoch 9/10, Train Loss: 0.0067
+[input] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[target] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[input] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[target] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[input] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+[target] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+Epoch 9/10, Validation Loss: 0.0059
+saving to  ./tmp/generate_model/facebookbartlarge/WOCOT/facebookbartlarge_8
+[input] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[target] Question: What does a person who is considered good known for? <s> Options: A) compliments, B) green thumb, C) ride horses, D) contribution to society, E) wear outrageous clothing,  <s>
+[input] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[target] Question: A retired person may have to return to work if they what? <s> Options: A) have debt, B) earn money, C) leave work, D) need money, E) key,  <s>
+[input] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+[target] Question: The great general had suffered his first defeat, it now seemed there was truly nobody his opponent couldn't what? <s> Options: A) win at jenga, B) victory, C) lose, D) winning, E) conquer,  <s>
+Step: 100, Loss: 0.0067
+Step: 200, Loss: 0.0066
+Step: 300, Loss: 0.0070
+Step: 400, Loss: 0.0068
+Step: 500, Loss: 0.0067
+Step: 600, Loss: 0.0067
+Step: 700, Loss: 0.0066
+Step: 800, Loss: 0.0066
+Step: 900, Loss: 0.0066
+Step: 1000, Loss: 0.0065
+Step: 1100, Loss: 0.0066
+Step: 1200, Loss: 0.0065
+Step: 1300, Loss: 0.0065
+Step: 1400, Loss: 0.0065
+Step: 1500, Loss: 0.0064
+Epoch 10/10, Train Loss: 0.0064
+[input] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[target] Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change? <s> Options: A) ignore, B) enforce, C) authoritarian, D) yell at, E) avoid,  <s>
+[input] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[target] Question: Sammy wanted to go to where the people were.  Where might he go? <s> Options: A) race track, B) populated areas, C) the desert, D) apartment, E) roadblock,  <s>
+[input] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+[target] Question: Google Maps and other highway and street GPS services have replaced what? <s> Options: A) united states, B) mexico, C) countryside, D) atlas, E) oceans,  <s>
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100% 1549/1549 [25:47<00:00,  1.00it/s]
+100% 233/233 [01:16<00:00,  3.04it/s]
+100% 1549/1549 [25:38<00:00,  1.01it/s]
+100% 233/233 [01:16<00:00,  3.04it/s]
+100% 1549/1549 [25:43<00:00,  1.00it/s]
+100% 233/233 [01:17<00:00,  2.99it/s]
+100% 1549/1549 [25:43<00:00,  1.00it/s]
+100% 233/233 [01:17<00:00,  3.00it/s]
+100% 1549/1549 [25:42<00:00,  1.00it/s]
+100% 233/233 [01:16<00:00,  3.03it/s]
+100% 1549/1549 [25:40<00:00,  1.01it/s]
+100% 233/233 [01:16<00:00,  3.03it/s]
+100% 1549/1549 [25:40<00:00,  1.01it/s]
+100% 233/233 [01:17<00:00,  3.02it/s]
+100% 1549/1549 [25:41<00:00,  1.00it/s]
+100% 233/233 [01:16<00:00,  3.03it/s]
+100% 1549/1549 [25:43<00:00,  1.00it/s]
+100% 233/233 [01:17<00:00,  3.01it/s]
+100% 1549/1549 [25:44<00:00,  1.00it/s]
+100% 233/233 [01:17<00:00,  3.02it/s]

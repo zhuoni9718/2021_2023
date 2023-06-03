@@ -1,0 +1,28 @@
+Fine-tuning facebook/bart-large...
+<class 'dataloader.DistlCSQADataset'>
+Processed item: 4820, input_ids: tensor([    0, 45641,    35,  ...,     1,     1,     1]), labels: tensor([    0, 25401,   281,  ...,     1,     1,     1])
+Processed item: 3824, input_ids: tensor([    0, 45641,    35,  ...,     1,     1,     1]), labels: tensor([    0, 40432,     2,  ...,     1,     1,     1])
+Processed item: 5678, input_ids: tensor([    0, 45641,    35,  ...,     1,     1,     1]), labels: tensor([    0, 11990,  1079,  ...,     1,     1,     1])
+Processed item: 4291, input_ids: tensor([    0, 45641,    35,  ...,     1,     1,     1]), labels: tensor([    0, 13193,  1400,  ...,     1,     1,     1])
+Processed item: 548, input_ids: tensor([    0, 45641,    35,  ...,     1,     1,     1]), labels: tensor([    0, 27310,  1272,  ...,     1,     1,     1])
+Processed item: 1845, input_ids: tensor([    0, 45641,    35,  ...,     1,     1,     1]), labels: tensor([    0, 16266, 37855,  ...,     1,     1,     1])
+Processed item: 2836, input_ids: tensor([    0, 45641,    35,  ...,     1,     1,     1]), labels: tensor([    0, 37251,     2,  ...,     1,     1,     1])
+Processed item: 3714, input_ids: tensor([    0, 45641,    35,  ...,     1,     1,     1]), labels: tensor([    0, 23420,     2,  ...,     1,     1,     1])
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                                 | 0/7750 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/users5/znchen/distil/ft_frame.py", line 164, in <module>
+    main()
+  File "/users5/znchen/distil/ft_frame.py", line 150, in main
+    finetune_model(args.model_name, args.train_data, args.dev_data, Dataloader_classes[args.dataset_class], args.epochs)
+  File "/users5/znchen/distil/ft_frame.py", line 80, in finetune_model
+    trainer.train()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/trainer.py", line 1631, in train
+    return inner_training_loop(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/trainer.py", line 1898, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/trainer.py", line 2633, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/trainer.py", line 2580, in _prepare_inputs
+    raise ValueError(
+ValueError: The batch received was empty, your model won't be able to train on it. Double-check that your training dataset contains keys expected by the model: inputs,kwargs,label_ids,label.

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 129, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 118, in main
+    if args.train():
+TypeError: 'bool' object is not callable

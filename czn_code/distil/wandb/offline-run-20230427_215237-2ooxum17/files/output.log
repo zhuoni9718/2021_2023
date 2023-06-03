@@ -1,0 +1,442 @@
+Testing facebook/bart-large...
+using./tmp/generate_model/facebookbartlarge/R/facebookbartlarge_4,data:R
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 80])
+[output] tensor([[    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,  2157,     9, 17437,     6,
+            61,    16, 10266,  3059,    19,    10,   621,    18,  3722,   194,
+             9,  1508,   113, 37188,  1825,   113,    16,     5,   144,  3901,
+          2031,     6,    25,    24,    16,    10,  1537,  3722,   194,    14,
+            64,    28,  1602,    25,    10,  5074,   621,    18,  6711,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what? Options: A) bank, B) library, C) department store, D) mall, E) new york,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a feeling of sadness, which is commonly associated with a person's emotional state of mind"Sadness" is the most appropriate choice, as it is a common emotional state that can be described as a sad person's mood
+第1个
+[input]Generate rationale for the question and choices.  Question: What do people aim to do at work? Options: A) complete job, B) learn from each other, C) kill animals, D) wear hats, E) talk to each other,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第2个
+[input]Generate rationale for the question and choices.  Question: Where would you find magazines along side many other printed works? Options: A) doctor, B) bookstore, C) market, D) train station, E) mortuary,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第3个
+[input]Generate rationale for the question and choices.  Question: Where are  you likely to find a hamburger? Options: A) fast food restaurant, B) pizza, C) ground up dead cows, D) mouth, E) cow carcus,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 47])
+[output] tensor([[    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: James was looking for a good place to buy farmland.  Where might he look? Options: A) midwest, B) countryside, C) estate, D) farming areas, E) illinois,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第1个
+[input]Generate rationale for the question and choices.  Question: What island country is ferret popular? Options: A) own home, B) north carolina, C) great britain, D) hutch, E) outdoors,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第2个
+[input]Generate rationale for the question and choices.  Question: In what Spanish speaking North American country can you get a great cup of coffee? Options: A) mildred's coffee shop, B) mexico, C) diner, D) kitchen, E) canteen,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第3个
+[input]Generate rationale for the question and choices.  Question: What do animals do when an enemy is approaching? Options: A) feel pleasure, B) procreate, C) pass water, D) listen to each other, E) sing,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 66])
+[output] tensor([[    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  9115,     7,    10,   621,    18,   744,
+             6,    61,    16, 10266,  3059,    19,   744,     2,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,    10,
+          8194,     9,     5,  5377,     9,     5,   864,     6,    61,  3649,
+            14,     5,   864,    16,  5056,     7,    10,  2259,    14,    16,
+          2034,    11,     5, 19564,     6,    61,    16, 10266,  3059,    19,
+             5, 19564,   133,  2136,    22, 12659,  3730,   113,    16,    10,
+          1537,  1385,   341,     7,  6190,  3826,   911,     6,    61,    32,
+          3700,   303,    11,  3826,   911,     2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: Reading newspaper one of many ways to practice your what? Options: A) literacy, B) knowing how to read, C) money, D) buying, E) money bank,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第1个
+[input]Generate rationale for the question and choices.  Question: What do people typically do while playing guitar? Options: A) cry, B) hear sounds, C) singing, D) arthritis, E) making music,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to refer to a person's death, which is commonly associated with death
+第2个
+[input]Generate rationale for the question and choices.  Question: What would vinyl be an odd thing to replace? Options: A) pants, B) record albums, C) record store, D) cheese, E) wallpaper,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第3个
+[input]Generate rationale for the question and choices.  Question: If you want harmony, what is something you should try to do with the world? Options: A) take time, B) make noise, C) make war, D) make peace, E) make haste,
+Rationale:
+[output]The question is asking for a description of the context of the question, which suggests that the question is referring to a location that is located in the countryside, which is commonly associated with the countrysideThe word "countryside" is a common term used to describe rural areas, which are typically found in rural areas
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 47])
+[output] tensor([[    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,  2157,     9, 17437,     6,
+            61,    16, 10266,  3059,    19, 17437,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: Where does a heifer's master live? Options: A) farm house, B) barnyard, C) stockyard, D) slaughter house, E) eat cake,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第1个
+[input]Generate rationale for the question and choices.  Question: Aside from water and nourishment what does your dog need? Options: A) bone, B) charm, C) petted, D) lots of attention, E) walked,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a feeling of sadness, which is commonly associated with sadness
+第2个
+[input]Generate rationale for the question and choices.  Question: Janet was watching the film because she liked what? Options: A) erection, B) laughter, C) being entertained, D) fear, E) bordem,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第3个
+[input]Generate rationale for the question and choices.  Question: What are you waiting alongside with when you're in a reception area? Options: A) motel, B) chair, C) hospital, D) people, E) hotels,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 57])
+[output] tensor([[    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,  2157,     9, 17437,     6,
+            61,    16, 10266,  3059,    19, 17437,     6,    25,    24,    16,
+            10,  1537,  3722,   194,     9,  1508,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: When drinking booze what can you do to stay busy? Options: A) reach tentative agreement, B) stay in bed, C) stop bicycle, D) examine thing, E) suicide,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a feeling of sadness, which is commonly associated with sadness, as it is a common emotional state of mind
+第1个
+[input]Generate rationale for the question and choices.  Question: A fencing thrust with a sharp sword towards a person would result in what? Options: A) injury, B) small cuts, C) fever, D) competition, E) puncture wound,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第2个
+[input]Generate rationale for the question and choices.  Question: Unlike a spider and his many sight seers, people only have what? Options: A) tongues, B) names, C) brains, D) feelings, E) two eyes,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第3个
+[input]Generate rationale for the question and choices.  Question: Where do adults use glue sticks? Options: A) classroom, B) desk drawer, C) at school, D) office, E) kitchen drawer,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 53])
+[output] tensor([[    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,    10,
+          2259,   147,    10,   621,    64,   213,     7,     5,  8080,     6,
+            61,  3649,    14,     5,  1948,    16,   533,     7,    28,    10,
+           317,   147,    65,    64,   304,     5, 29278,     6,    61,    16,
+            10,  1537,  2259,    13,    10,   621,     7,   213,     7,    10,
+          8080,     4,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: What could go on top of wood? Options: A) lumberyard, B) synagogue, C) floor, D) carpet, E) hardware store,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第1个
+[input]Generate rationale for the question and choices.  Question: The artist was sitting quietly pondering, then suddenly he began to paint when what struck him? Options: A) sadness, B) anxiety, C) inspiration, D) discomfort, E) insights,
+Rationale:
+[output]The question is asking for a location where a person can go to the bathroom, which suggests that the answer is likely to be a place where one can use the restroom, which is a common location for a person to go to a bathroom.
+第2个
+[input]Generate rationale for the question and choices.  Question: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what? Options: A) indestructible, B) durable, C) undestroyable, D) indestructible, E) unbreakable,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第3个
+[input]Generate rationale for the question and choices.  Question: Where could you find a toilet that only friends can use? Options: A) rest area, B) school, C) stadium, D) apartment, E) hospital,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 47])
+[output] tensor([[    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: What is someone who isn't clever, bright, or competent called? Options: A) clumsy, B) ineffectual, C) dull, D) clumsy, E) stupid,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第1个
+[input]Generate rationale for the question and choices.  Question: When wildlife reproduce we often refer to what comes out as what? Options: A) raise children, B) have children, C) photo copy, D) offspring, E) accidently got pregnant somehow,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第2个
+[input]Generate rationale for the question and choices.  Question: The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what? Options: A) forrest, B) barn, C) public office, D) out of doors, E) freezer,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第3个
+[input]Generate rationale for the question and choices.  Question: Blue read material outside of his comfort zone because he wanted to gain what? Options: A) new perspective, B) entertained, C) understanding, D) hunger, E) tired eyes,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 47])
+[output] tensor([[    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2]])
+第0个
+[input]Generate rationale for the question and choices.  Question: After he got hired he hoped for success at his what? Options: A) vocation, B) new job, C) michigan, D) working hard, E) manual,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第1个
+[input]Generate rationale for the question and choices.  Question: Committing perjury is a serious what? Options: A) indictment, B) crime, C) violence, D) lie, E) go to jail,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第2个
+[input]Generate rationale for the question and choices.  Question: If you are prone to postpone work what will you have to do in order to finish on time? Options: A) eat, B) hasten, C) antedate, D) bring forward, E) advance,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第3个
+[input]Generate rationale for the question and choices.  Question: James wanted to find an old underground map from the 50s.  Where might he look for one? Options: A) library, B) subway station, C) county engineer's office, D) super market, E) home,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+torch.Size([4, 66])
+[output] tensor([[    2,     0,     0,     0,   133,   864,    16,  1996,    13,    10,
+          8194,     9,     5,  5377,     9,     5,   864,     6,    61,  3649,
+            14,     5,   864,    16,  5056,     7,    10,  2259,    14,    16,
+          2034,    11,     5, 19564,     6,    61,    16, 10266,  3059,    19,
+             5, 19564,   133,  2136,    22, 12659,  3730,   113,    16,    10,
+          1537,  1385,   341,     7,  6190,  3826,   911,     6,    61,    32,
+          3700,   303,    11,  3826,   911,     2],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,    10,
+          2259,   147,    10,   621,    64,   213,     7,     5,  8080,     6,
+            61,  3649,    14,     5,  1948,    16,   533,     7,    28,    10,
+           317,   147,    65,    64,   304,     5, 29278,     6,    61,    16,
+            10,  1537,  2259,    13,    10,   621,     7,   213,     7,    10,
+          8080,     4,     2,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1],
+        [    2,     0,     0,     0,   133,   864,    16,  1996,    13,     5,
+          5377,     9,     5,   864,     6,    61,  3649,    14,     5,   864,
+            16,  5056,     7,     5,   304,     9,     5,  2136,    22,    29,
+           625,  1825,   113,     7,  6190,    10,   621,    18,   744,     6,
+            61,    16, 10266,  3059,    19,   744,     2,     1,     1,     1,
+             1,     1,     1,     1,     1,     1,     1,     1,     1,     1,
+             1,     1,     1,     1,     1,     1]])
+第0个
+[input]Generate rationale for the question and choices.  Question: Sean was in a rush to get home, but the light turned yellow and he was forced to do what? Options: A) take time, B) dawdle, C) go slowly, D) ocean, E) slow down,
+Rationale:
+[output]The question is asking for a description of the context of the question, which suggests that the question is referring to a location that is located in the countryside, which is commonly associated with the countrysideThe word "countryside" is a common term used to describe rural areas, which are typically found in rural areas
+第1个
+[input]Generate rationale for the question and choices.  Question: Where would a person be doing when having to wait their turn? Options: A) have patience, B) get in line, C) sing, D) stand in line, E) turn left,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+第2个
+[input]Generate rationale for the question and choices.  Question: She was always helping at the senior center, it brought her what? Options: A) satisfaction, B) heart, C) feel better, D) pay, E) happiness,
+Rationale:
+[output]The question is asking for a location where a person can go to the bathroom, which suggests that the answer is likely to be a place where one can use the restroom, which is a common location for a person to go to a bathroom.
+第3个
+[input]Generate rationale for the question and choices.  Question: The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the what? Options: A) keep cloesd, B) train, C) ignition switch, D) drawer, E) firearm,
+Rationale:
+[output]The question is asking for the context of the question, which suggests that the question is referring to the use of the word "sadness" to describe a person's death, which is commonly associated with death
+[inputid] tensor([[    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1],
+        [    0, 40025,   877,  ...,     1,     1,     1]])
+  3%|████▎                                                                                                                                             | 9/306 [01:38<53:54, 10.89s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 326, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 320, in main
+    test(args.dataset_class,args.best_epoch,args.test_data,args.batch_size,args.model_name)
+  File "/users5/znchen/distil/gen_model_frame.py", line 256, in test
+    output = model.generate(input_ids, max_length=200, num_return_sequences=1, early_stopping=True)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 1268, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/generation/utils.py", line 634, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(**encoder_kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 856, in forward
+    layer_outputs = encoder_layer(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 331, in forward
+    hidden_states, attn_weights, _ = self.self_attn(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/bart/modeling_bart.py", line 217, in forward
+    key_states = self._shape(self.k_proj(hidden_states), -1, bsz)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

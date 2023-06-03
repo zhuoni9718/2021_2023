@@ -1,0 +1,56 @@
+training roberta-large
+dataset:<class 'dataloader.MultipleChoiceDataset'>
+training epoch0
+step: 2, Validation Accuracy: 0.19492219492219492,valid loss: 1.6185758082897632
+step: 4, Validation Accuracy: 0.17936117936117937,valid loss: 1.6164480819330587
+step: 6, Validation Accuracy: 0.20638820638820637,valid loss: 1.6167987677958104
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.layer_norm.weight', 'lm_head.decoder.weight', 'lm_head.dense.weight', 'lm_head.bias', 'lm_head.layer_norm.bias', 'lm_head.dense.bias']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 77/77 [00:33<00:00,  2.31it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 77/77 [00:33<00:00,  2.29it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 77/77 [00:33<00:00,  2.27it/s]
+ 18%|███████████████████████                                                                                                        | 14/77 [00:06<00:28,  2.23it/s]
+  1%|█▋                                                                                                                           | 7/533 [01:59<2:29:20, 17.04s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 304, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 294, in main
+    train_step_test(args.model_name,args.epochs,args.train_data,args.dev_data,args.batch_size,args.learning_rate,args.model_path,args.dataloader)
+  File "/users5/znchen/distil/predict_frame.py", line 185, in train_step_test
+    outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/modeling_roberta.py", line 1319, in forward
+    outputs = self.roberta(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/modeling_roberta.py", line 852, in forward
+    encoder_outputs = self.encoder(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/modeling_roberta.py", line 527, in forward
+    layer_outputs = layer_module(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/modeling_roberta.py", line 453, in forward
+    layer_output = apply_chunking_to_forward(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/pytorch_utils.py", line 248, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/modeling_roberta.py", line 466, in feed_forward_chunk
+    layer_output = self.output(intermediate_output, attention_output)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/modeling_roberta.py", line 379, in forward
+    hidden_states = self.LayerNorm(hidden_states + input_tensor)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/normalization.py", line 190, in forward
+    return F.layer_norm(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/functional.py", line 2515, in layer_norm
+    return torch.layer_norm(input, normalized_shape, weight, bias, eps, torch.backends.cudnn.enabled)
+KeyboardInterrupt

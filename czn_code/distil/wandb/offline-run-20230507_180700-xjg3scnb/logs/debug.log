@@ -1,0 +1,23 @@
+2023-05-07 18:07:00,204 INFO    MainThread:68810 [wandb_setup.py:_flush():75] Loading settings from //users5/znchen/.config/wandb/settings
+2023-05-07 18:07:00,204 INFO    MainThread:68810 [wandb_setup.py:_flush():75] Loading settings from /users5/znchen/distil/wandb/settings
+2023-05-07 18:07:00,204 INFO    MainThread:68810 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'offline'}
+2023-05-07 18:07:00,204 INFO    MainThread:68810 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'gen_model_frame.py', 'program': '/users5/znchen/distil/gen_model_frame.py'}
+2023-05-07 18:07:00,204 INFO    MainThread:68810 [wandb_init.py:_log_setup():437] Logging user logs to /users5/znchen/distil/wandb/offline-run-20230507_180700-xjg3scnb/logs/debug.log
+2023-05-07 18:07:00,204 INFO    MainThread:68810 [wandb_init.py:_log_setup():438] Logging internal logs to /users5/znchen/distil/wandb/offline-run-20230507_180700-xjg3scnb/logs/debug-internal.log
+2023-05-07 18:07:00,205 INFO    MainThread:68810 [wandb_init.py:init():471] calling init triggers
+2023-05-07 18:07:00,205 INFO    MainThread:68810 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {}
+2023-05-07 18:07:00,205 INFO    MainThread:68810 [wandb_init.py:init():519] wandb.init() called when a run is still active
+2023-05-07 22:38:20,264 INFO    MainThread:68810 [wandb_run.py:_finish():1685] finishing run facebookbartlarge/3pndz1k1
+2023-05-07 22:38:20,265 INFO    MainThread:68810 [wandb_run.py:_atexit_cleanup():1866] got exitcode: 0
+2023-05-07 22:38:20,269 INFO    MainThread:68810 [wandb_run.py:_restore():1838] restore
+2023-05-07 22:38:23,844 INFO    MainThread:68810 [wandb_run.py:_on_finish():1995] got exit ret: 
+2023-05-07 22:38:23,977 INFO    MainThread:68810 [wandb_run.py:_on_finish():1995] got exit ret: 
+2023-05-07 22:38:24,080 INFO    MainThread:68810 [wandb_run.py:_on_finish():1995] got exit ret: done: true
+exit_result {
+}
+local_info {
+}
+
+2023-05-07 22:38:25,334 INFO    MainThread:68810 [wandb_run.py:_footer_history_summary_info():3102] rendering history
+2023-05-07 22:38:25,335 INFO    MainThread:68810 [wandb_run.py:_footer_history_summary_info():3134] rendering summary

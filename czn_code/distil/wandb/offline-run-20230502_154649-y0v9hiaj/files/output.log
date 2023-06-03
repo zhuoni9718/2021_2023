@@ -1,0 +1,44 @@
+Fine-tuning gpt2-large...
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+[length](torch.Size([1024]), torch.Size([1024]), torch.Size([1024]))
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0% 5/3098 [00:07<1:13:52,  1.43s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 270, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 257, in main
+    finetune_frame(args.dataset_class,args.train_data, args.dev_data, model_name=args.model_name, batch_size=args.batch_size, num_epochs=args.epochs, learning_rate=args.learning_rate)
+  File "/users5/znchen/distil/gen_model_frame.py", line 97, in finetune_frame
+    outputs = model(**batch)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/gpt2/modeling_gpt2.py", line 1102, in forward
+    shift_logits = lm_logits[..., :-1, :].contiguous()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 394.00 MiB (GPU 0; 39.59 GiB total capacity; 37.22 GiB already allocated; 66.19 MiB free; 38.23 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

@@ -1,0 +1,67 @@
+2023-05-10 22:33:45,651 INFO    MainThread:72769 [internal.py:wandb_internal():90] W&B internal server running at pid: 72769, started at: 2023-05-10 22:33:45.650738
+2023-05-10 22:33:45,654 INFO    WriterThread:72769 [datastore.py:open_for_write():75] open: /users5/znchen/distil/wandb/run-20230510_223344-248wit4g/run-248wit4g.wandb
+2023-05-10 22:33:45,658 DEBUG   SenderThread:72769 [sender.py:send():232] send: header
+2023-05-10 22:33:45,658 DEBUG   SenderThread:72769 [sender.py:send():232] send: run
+2023-05-10 22:34:14,345 DEBUG   HandlerThread:72769 [handler.py:handle_request():141] handle_request: shutdown
+2023-05-10 22:34:14,347 INFO    HandlerThread:72769 [handler.py:finish():806] shutting down handler
+2023-05-10 22:34:14,665 INFO    WriterThread:72769 [datastore.py:close():279] close: /users5/znchen/distil/wandb/run-20230510_223344-248wit4g/run-248wit4g.wandb
+2023-05-10 22:34:39,872 ERROR   SenderThread:72769 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f97b0015720>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f97b0015720>: Failed to establish a new connection: [Errno 113] No route to host'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f97b0015720>: Failed to establish a new connection: [Errno 113] No route to host'))

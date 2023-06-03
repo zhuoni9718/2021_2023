@@ -1,0 +1,30 @@
+Fine-tuning facebook/bart-large...
+Using 2 GPUs
+Step: 100, Loss: 8.6644
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|                                                                                                                                              | 0/1549 [00:00<?, ?it/s]//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  8%|██████████▍                                                                                                                         | 122/1549 [02:11<25:43,  1.08s/it]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/gen_model_frame.py", line 271, in <module>
+    main()
+  File "/users5/znchen/distil/gen_model_frame.py", line 258, in main
+    finetune_frame(args.dataset_class,args.train_data, args.dev_data, model_name=args.model_name, batch_size=args.batch_size, num_epochs=args.epochs, learning_rate=args.learning_rate)
+  File "/users5/znchen/distil/gen_model_frame.py", line 97, in finetune_frame
+    outputs = model(**batch)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 170, in forward
+    replicas = self.replicate(self.module, self.device_ids[:len(inputs)])
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 175, in replicate
+    return replicate(module, device_ids, not torch.is_grad_enabled())
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/replicate.py", line 91, in replicate
+    param_copies = _broadcast_coalesced_reshape(params, devices, detach)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/replicate.py", line 71, in _broadcast_coalesced_reshape
+    tensor_copies = Broadcast.apply(devices, *tensors)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/_functions.py", line 23, in forward
+    outputs = comm.broadcast_coalesced(inputs, ctx.target_gpus)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/nn/parallel/comm.py", line 58, in broadcast_coalesced
+    return torch._C._broadcast_coalesced(tensors, devices, buffer_size)
+KeyboardInterrupt

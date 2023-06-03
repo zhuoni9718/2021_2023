@@ -1,0 +1,59 @@
+training roberta-large
+training epoch0
+Epoch 1/10, Train Loss: 1.5625
+Epoch: 1, Validation Accuracy: 0.17115177610333693,valid loss: 1.609438053016499
+training epoch1
+Epoch 2/10, Train Loss: 1.6170
+Epoch: 2, Validation Accuracy: 0.20344456404736275,valid loss: 1.6094379220397688
+training epoch2
+Epoch 3/10, Train Loss: 1.6184
+Epoch: 3, Validation Accuracy: 0.17653390742734124,valid loss: 1.6094378887839584
+training epoch3
+Some weights of the model checkpoint at roberta-large were not used when initializing RobertaForMultipleChoice: ['lm_head.bias', 'lm_head.dense.bias', 'lm_head.dense.weight', 'lm_head.decoder.weight', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1549/1549 [10:56<00:00,  2.36it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 233/233 [00:33<00:00,  6.90it/s]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1549/1549 [10:59<00:00,  2.35it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 233/233 [00:32<00:00,  7.09it/s]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1549/1549 [10:57<00:00,  2.35it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 233/233 [00:34<00:00,  6.77it/s]
+ 64%|██████████████████████████████████████████████████████████████████████████████████████                                                 | 988/1549 [06:58<03:57,  2.36it/s]
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 147, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 138, in main
+    train(args.model_name,args.epochs,args.train_data,args.dev_data)
+  File "/users5/znchen/distil/predict_frame.py", line 48, in train
+    for batch in tqdm(train_loader):
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/users5/znchen/distil/dataloader.py", line 144, in __getitem__
+    encoding = self.tokenizer(text, return_tensors="pt", padding="max_length", truncation=True, max_length=128)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/tokenization_utils_base.py", line 2530, in __call__
+    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/tokenization_utils_base.py", line 2636, in _call_one
+    return self.encode_plus(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/tokenization_utils_base.py", line 2709, in encode_plus
+    return self._encode_plus(
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/tokenization_utils.py", line 649, in _encode_plus
+    first_ids = get_input_ids(text)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/tokenization_utils.py", line 616, in get_input_ids
+    tokens = self.tokenize(text, **kwargs)
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/tokenization_utils.py", line 547, in tokenize
+    tokenized_text.extend(self._tokenize(token))
+  File "//users5/znchen/anaconda3/envs/q2k/lib/python3.10/site-packages/transformers-4.27.0.dev0-py3.10.egg/transformers/models/roberta/tokenization_roberta.py", line 295, in _tokenize
+    token = "".join(
+KeyboardInterrupt

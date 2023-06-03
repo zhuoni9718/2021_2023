@@ -1,0 +1,10 @@
+
+training roberta-base
+Traceback (most recent call last):
+  File "/users5/znchen/distil/predict_frame.py", line 129, in <module>
+    main()
+  File "/users5/znchen/distil/predict_frame.py", line 120, in main
+    train(args.model_name,args.epochs,args.train_data,args.dev_data)
+  File "/users5/znchen/distil/predict_frame.py", line 18, in train
+    train_dataset = MultipleChoiceDataset(train_dir, tokenizer)
+UnboundLocalError: local variable 'tokenizer' referenced before assignment
